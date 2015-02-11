@@ -1,1 +1,290 @@
+connect device via usb to computer that has android sdk tools. (ubuntu better on this job)sudo adb shell su 
+mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /system
+cd /system/app
+ls
+rm example.apk
+
+mount -o remount,ro -t yaffs2 /dev/block/mtdblock3 /system
+exit
+
+ggl:
+BeagleBone voice recognition
+electricity
+blue LED
+doubling time exponential function
+
+Ggl pic: #гироскоп
+
+utub: 
+#survive on tight budget
+make whole wheat rye healthy bread at home
+
+Pattern-Oriented Software Architectures: Programming Mobile Services for Android Handheld Systems Course
+
+CS 282: Concurrent Java Network Programming in Android
+
+git repo with various exercises
+https://github.com/dnuffer/dpcode
+
+js site:
+http://www.javascriptkit.com/cutpastejava.shtml
+http://www.dynamicdrive.com/
+http://jstherightway.org/
+https://github.com/rwaldron/idiomatic.js
+https://sivers.org/srs
+http://www.javascriptsource.com/
+
+No template
+TextExpander
+7-Minute Workout
+
+Have a list of productive things you can do when bored, so you don't have to reach for the electron fix and avoid the websites, TV or games that are habit-forming for you.
+
+Spend 80% of your time on the work that moves the needle, and only 20% on the smaller stuff.
+
+https://www.youtube.com/watch?v=Xb9kjoW1Gas
+Hacking With Python #8 - Basic SSH botNet
+
+higher-order function Scala
+tail recursion
+
+m-w.com:
+reckless
+perpetrator
+cue clue difference
+pandemic
+epidemic
+frivolous
+prosaic
+brain-trust
+ale
+lager
+rye
+corollary
+
+Möbius strip math
+
+Smart Answers to Tough Interview Questions
+
+best way to validate large prime number
+
+from zero/nothing to entrepreneur/hero/something
+
+best free business apps
+
+ggl trnslt(en2rss):
+woe
+treadmill
+cue
+epiphany
+serendipity
+new year's resolution
+downward spiral
+metabolism
+pre-frontal cortex
+ripple effect
+coax
+walnut
+hazelnut
+ginger
+destitute
+wolf
+fox
+horse
+camel
+cattle
+sheep
+goat
+prudent
+sedate
+shrewd
+frugal
+stash
+mantra
+minimalism
+simplicity
+focus
+
+utub:
+business japanese
+
+android bkmrk:
+
+
+http://cleareyesight-batesmethod.info/id148.html
+
+http://getbusylivingblog.com/gbl-028-lessons-from-earning-100k-in-profit-in-five-months/
+http://www.therenegadewriter.com/2014/04/06/mini-habits-stephen-guise/
+http://getbusylivingblog.com/
+http://www.success.com/article/tiny-habits
+
+https://class.coursera.org/reactive-001/lecture (Principles of Reactive Programming)
+
+http://www.hackintel.com/2014/10/malware-transmitting-data-by-radio-signals.html
+
+http://blog.biicode.com/software-design-proposal/
+
+rHM26ODThnU  EMP, read comment!
+https://photomath.net/ Android app available early 2015
+Ground Fault Interrupters
+https://www.youtube.com/watch?v=NOCElcMcFik
+
+best sorting algorithm
+http://newtechnobuzzz.blogspot.in/2014/07/why-quicksort-is-better-than-mergesort.html
+
+best material for fuse
+http://opensource.com/life/14/11/talk-kyle-simpson-javascript-expert
+http://www.wired.co.uk/news/archive/2010-02/12/scientists-explore-use-of--in-cancer-treatments
+https://www.linkedin.com/today/post/article/20140626135132-11228988-an-unusual-life-lesson
+http://www.linkedin.com/today/post/article/20140805002649-50578967-how-successful-people-stay-calm
+http://hackaday.com/2014/11/18/harmonic-analyzer-mechanical-fourier-computer/
+
+git config --global http.sslverify false, and you'll be able to use self-signed repos
+
+
+http://en.lichess.org/K7mKVKPg/black
+
+"My System" by Aron Nimzowitsch
+
+Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14
+
+real time call voice changer android
+
+What electronic device needs to be factory calibrated to the earth's magnetosphere?
+
+https://www.youtube.com/watch?v=8FcVwbjMKmY -> AirCrack-ng WPA Crack
+
+/home/r/.config/google-chrome/Default
+/home/r/.config/chromium/Default
+r@шб:~/.config/chromium/Default$ file Top\ Sites
+Top Sites: SQLite 3.x database
+r@шб:~/.config/chromium/Default$ file Visited\ Links 
+Visited Links: data
+r@шб:~/.config/chromium/Default$ file Top\ Sites-journal 
+Top Sites-journal: data
+r@шб:~/.config/chromium/Default$ less Top\ Sites-journal 
+"Top\ Sites-journal" may be a binary file.  See it anyway? 
+
+
+https://github.com/Farata/EnterpriseWebBook
+https://github.com/Farata/EnterpriseWebBook_sources
+
+best front-end framework for enterprise website
+best front-end framework for enterprise web development
+
+best framework and languages for building e commerce website
+
+restful web services
+
+http://nodeframework.com/
+https://github.com/curran/screencasts/tree/gh-pages/introToAngular
+
+
+ggl/utub: full stack website development
+
+会社ウェブサイトの作り
+WEB入門講座　2時間目『ホームページ制作の流れを知ろう
+
+Everything You Need To Know About A DDoS Attack
+
+CentOS guest OSX host virtualbox
+
+dedicated server for enterprise website
+
+deductive vs inductive
+
+Underscore.js asm.js
+functional js
+
+
+var myFunc = myObj.myFunc;  @ http://learnxinyminutes.com/docs/javascript/ 
+node.js express stream npm redis @ using node.js for everything
+
+Professional JavaScript for Web Developers, 3rd Edition - by Nicholas Zakas
+
+100%有機棉服飾
+
+http://www.jackkinsella.ie/2011/12/05/janki-method.html
+
+linux firewall block entire domain
+
+https://github.com/jamesshore/lab13_angularjs
+
+http://boredzo.org/pointers/ (Everything you need to know about pointers in C)
+https://rogerdudler.github.io/git-guide/
+
+http://www.letscodejavascript.com/v3/blog/2015/01/angular_review
+
+i2p
+dark fiber
+freenet
+
+entropy
+dogmail
+deepwebresearch.info THRU Tor
+
+throw exceptions vs return error code
+
+Nikola Tesla Wardenclyffe Tower
+
+productive living
+
+https://www.youtube.com/watch?v=8xONZcBJh5A comment
+
+https://www.airpair.com/aws/posts/building-a-scalable-web-app-on-amazon-web-services-p1
+
+PWM signal
+analog and digital signal
+
+MacGuyver
+
+http://hyperphysics.phy-astr.gsu.edu/hbase/electric/hsehld.html
+
+linux c c++ program check for user input inside loop with no busy-waiting and periodic wakeups
+condition variables
+linux synchronization object
+
+Fast Lock-Free Queue for C++
+lockfree::queue - Boost
+Lock-Free Multi-Producer Multi-Consumer Queue on Ring Buffer
+
+http://www.linuxjournal.com/content/lock-free-multi-producer-multi-consumer-queue-ring-buffer
+
+linux program wait for keyboard input
+
+linux Non-blocking keyboard input ncurses function getch()
+
+http://www.1024cores.net/
+
+linux c c++ program filter Ctrl-C ESC key input
+
+linux c c++ read key input
+
+linux c c++ call bash command
+
+linux C read ESC Ctrl-D and line ended with \n
+
+linux C read single and multiple characters at the same time
+
+https://stackoverflow.com/questions/14214753/how-to-read-until-esc-button-is-pressed-from-cin-in-c
+
+How to make Android and iOS real time voice (Mic-In) distortion software? Does that require special hardware addon?
+
+システムエンジニア
+
+非正規が増える中...追い詰められる若者たち
+ブラック企業にどう向き合うか
+相次ぐ 若者の 過労死　ＮＨＫ ” 美しい日本 ” の醜いありのままの現実
+ブラック企業, 使い捨て, 過労死
+
+約２０万円のＦＸ収入
+
+fedora execute script at startup boot
+fedora execute script at shutdown
+
+floating point random number generator C++
+zsh bash comparison
+
+pinger free texting from web
+
 防藍光 iPhone 6 玻璃貼 － Armorz Stealth Extreme Lite for iPhone 6
