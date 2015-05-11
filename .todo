@@ -403,7 +403,7 @@ llvm clang clang++ fedora 22
 fedora 22 custom service script
 fedora 22 equivalent of Debian start-stop-daemon
 
-ubuntu 15.04 apache mariadb php
+ubuntu 14.04LTS apache mariadb php
 
 build website for startup (AWS, LXC, docker, SEO, )
 
