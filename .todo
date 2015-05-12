@@ -404,6 +404,7 @@ fedora 22 custom service script
 fedora 22 equivalent of Debian start-stop-daemon
 
 ubuntu 14.04LTS apache mariadb php
+ubuntu apache mariadb php website best practice
 
 build website for startup (AWS, LXC, docker, SEO, )
 
@@ -437,4 +438,6 @@ GPG error: http://ppa.launchpad.net trusty Release: The following signatures cou
 入力システムの切り替えは半角/全角キーでできますが、3種類を順々には替わってはくれません。
 http://ub.workdesign.jp/install/data982.html
 
+居酒屋用語
+ブロッコリー 電子レンジ
 
