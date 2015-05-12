@@ -429,5 +429,7 @@ iOS i2p
 should jailbreak iphone 6
 vim 7.4 ubuntu 14.04LTS access system clipboard
 
-ubuntu 14.04 terminal garbled text
+ubuntu 14.04 terminal garbled text #sudo apt-get purge unity-webapps-common xul-ext-unity xul-ext-websites-integration
+#sudo apt-get remove unity-webapps-common xul-ext-unity xul-ext-websites-integration #FINE
+
 GPG error: http://ppa.launchpad.net trusty Release: The following signatures couldn't be verified because the public key is not available
