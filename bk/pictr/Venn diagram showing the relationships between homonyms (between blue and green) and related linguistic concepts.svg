@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-5 -70 320 360">
+ <title>Venn diagram showing the relationships between pronunciation, spelling, and meaning of words</title>
+ <desc>A Venn diagram showing the relationships between pronunciation, spelling, and meaning of words, such as synonyms, homographs, homonyms, homophones, heteronyms and heterographs, drawn by CMG Lee based on http://commons.wikimedia.org/wiki/File:Homograph_homophone_venn_diagram.png</desc>
+ <defs>
+  <g id="rects">
+   <g stroke="#cc0000">
+    <rect x="5"   y="115" rx="10" ry="10" width="300" height="135" stroke-width="3" stroke-dasharray="2,1" fill="#ff6666" />
+    <path d="M 50 250 V 256"/>
+   </g>
+   <g stroke="#996600">
+    <rect x="95"  y="0"   rx="10" ry="10" width="215" height="205" stroke-width="3" fill="#ffff00" />
+    <path d="M 260 0 V -8"/>
+   </g>
+   <g stroke="#006600">
+    <rect x="100" y="5"   rx="5"  ry="5"  width="205" height="105" stroke-width="3" stroke-dasharray="9,1,2,1" fill="#00ff00" />
+    <path d="M 200 5 V -30"/>
+   </g>
+   <g stroke="#0066cc">
+    <rect x="0"   y="10"  rx="10" ry="10" width="195" height="190" stroke-width="3" stroke-dasharray="19,1" fill="#00ffff" />
+    <path d="M 70 10 V -8"/>
+   </g>
+   <g stroke="#3300ff">
+    <rect x="5"   y="15"  rx="5"  ry="5"  width="185" height="90"  stroke-width="3" stroke-dasharray="9,1" fill="#9966ff" />
+    <path d="M 40 15 V -30"/>
+   </g>
+  </g>
+ </defs>
+ <g font-family="sans-serif" font-size="14" letter-spacing="-1" text-anchor="middle" stroke="none" fill="#000000">
+  <use xlink:href="#rects" stroke-opacity="0" fill-opacity="0.25"/>
+  <use xlink:href="#rects" stroke-opacity="0.75" fill-opacity="0"/>
+  <text transform="translate(50,265)" y="0" fill="#cc0000"><tspan x="0">Same meaning</tspan></text>
+  <text transform="translate(260,-10)" y="0" fill="#996600"><tspan x="0">Same spelling</tspan></text>
+  <text transform="translate(210,-60)" y="0" fill="#006600"><tspan x="0" font-weight="bold">Homograph</tspan><tspan x="0" dy="1em">Same spelling,</tspan><tspan x="0" dy="1em">different meaning</tspan></text>
+  <text transform="translate(120,-10)" y="0" fill="#0066cc"><tspan x="0">Same pronunciation</tspan></text>
+  <text transform="translate(70,-60)" y="0" fill="#3300ff"><tspan x="0" font-weight="bold">Homophone</tspan><tspan x="0" dy="1em">Same pronunciation,</tspan><tspan x="0" dy="1em">different meaning</tspan></text>
+
+  <text transform="translate(50,40)" y="0"><tspan x="0" font-weight="bold">Heterograph</tspan><tspan x="0" dy="1em">Different</tspan><tspan x="0" dy="1em">spelling and</tspan><tspan x="0" dy="1em">meaning</tspan><tspan x="0" dy="1em" font-style="italic">e.g. too / two</tspan></text>
+  <text transform="translate(145,30)" y="0"><tspan x="0" font-weight="bold">Homonym</tspan><tspan x="0" dy="1em">Different</tspan><tspan x="0" dy="1em">meaning</tspan><tspan x="0" dy="1em" font-style="italic">e.g. tire</tspan><tspan x="0" dy="1em" font-style="italic">(car wheel) /</tspan><tspan x="0" dy="1em" font-style="italic">tire (fatigue)</tspan></text>
+  <text transform="translate(250,20)" y="0"><tspan x="0" font-weight="bold">Heteronym</tspan><tspan x="0" dy="1em">Different</tspan><tspan x="0" dy="1em">pronunciation</tspan><tspan x="0" dy="1em">and meaning</tspan><tspan x="0" dy="1em" font-style="italic">e.g. desert</tspan><tspan x="0" dy="1em" font-style="italic">(arid region) /</tspan><tspan x="0" dy="1em" font-style="italic">desert (leave)</tspan></text>
+  <text transform="translate(50,130)" y="0"><tspan x="0" dy="1em">Different </tspan><tspan x="0" dy="1em">spelling</tspan><tspan x="0" dy="1em" font-style="italic">e.g. gases /</tspan><tspan x="0" dy="1em" font-style="italic">gasses</tspan></text>
+  <text transform="translate(145,130)" y="0"><tspan x="0" dy="2em">Identical</tspan><tspan x="0" dy="1em">words</tspan></text>
+  <text transform="translate(250,130)" y="0"><tspan x="0">Different </tspan><tspan x="0" dy="1em">pronunciation</tspan><tspan x="0" dy="1em" font-style="italic">e.g. the (before</tspan><tspan x="0" dy="1em" font-style="italic">vowel sound) /</tspan><tspan x="0" dy="1em" font-style="italic">the (before con-</tspan><tspan x="0" dy="1em" font-style="italic">sonant sound)</tspan></text>
+  <text transform="translate(145,217)" y="0"><tspan x="0" font-weight="bold">Synonym</tspan><tspan x="0" dy="1em">Different spelling and pronunciation</tspan><tspan x="0" dy="1em" font-style="italic">e.g. settee / sofa</tspan></text>
+  <text transform="translate(220,272)" y="0"><tspan x="0">Words with different spelling,</tspan><tspan x="0" dy="1em">pronunciation and meaning</tspan></text>
+ </g>
+</svg>
