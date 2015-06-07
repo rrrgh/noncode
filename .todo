@@ -398,7 +398,6 @@ http://stackoverflow.com/questions/16390905/how-to-replace-mysql-with-mariadb-in
 
 <?php print($_GET['varnm']) ?>
 
-install zsh for root without logging in as root
 php mariadb html5 dynamic website templates
 
 fedora apache httpd change document root
@@ -407,9 +406,6 @@ add Linux User With Document Root Permissions
 llvm clang clang++ fedora 22
 fedora 22 custom service script
 fedora 22 equivalent of Debian start-stop-daemon
-
-ubuntu 14.04LTS apache mariadb php
-ubuntu apache mariadb php website best practice
 
 build website for startup (AWS, LXC, docker, SEO, )
 
@@ -465,4 +461,7 @@ PHP HTML5 CSS jQuery Image Slider dynamic website github
 PHP Bootstrap HTML5 eCommerce website CMS from scratch
 best php framework for Bootstrap JS eCommerce website CMS
 
-cp -R ~/hlth\(здоровье\)  ~/oros\(Русский\)  ~/lflssn  ~/jp   /media/r/Fedora-Live-WS-x86_64-22-3
+travel english
+
+fedora 22 fcitx japanese chinese input
+
