@@ -563,3 +563,14 @@ japanese electricity outlet only two socket no neutral wire?
 Clojure Scala Java
 java reflection
 
+/*
+TL;DR. Where’s My Kali 2.0 Download?
+
+The tl;dr of this release is best explained by comparison: If Kali 1.0 was focused on building a solid infrastructure then Kali 2.0 is focused on overhauling the user experience and maintaining updated packages and tool repositories. Along with the arrival of 2.0 comes a whole lot of interesting updates… You can head down to our Kali Linux 2.0 Download page to get the goodness for yourself.
+
+Still TL; Still DR. How Do I Upgrade to Kali 2.0?
+
+Yes, you can upgrade Kali 1.x to Kali 2.0! To do this, you will need to edit your source.list entries, and run a dist-upgrade as shown below. If you have been using incorrect or extraneous Kali repositories or otherwise manually installed or overwritten Kali packages outside of apt, your upgrade to Kali 2.0 may fail. This includes scripts like lazykali.sh, PTF, manual git clones in incorrect directories, etc. – All of these will clobber existing files on the filesystem and result in a failed upgrade. If this is the case for you, you’re better off reinstalling your OS from scratch.
+*/
+
+
