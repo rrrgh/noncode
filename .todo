@@ -575,3 +575,7 @@ Yes, you can upgrade Kali 1.x to Kali 2.0! To do this, you will need to edit you
 
 喧嘩を売ってきたDQNを合気道で瞬殺
 c++11 c++14 regular expression
+
+mail -s "download finished at 10:25:59 2015-08-12 MSK,Среда, shutdown now" $USER -c uhaaral200510@gmail.com
+No configuration file found at .esmtprc or /etc/esmtprc
+
