@@ -579,3 +579,5 @@ c++11 c++14 regular expression
 mail -s "download finished at 10:25:59 2015-08-12 MSK,Среда, shutdown now" $USER -c uhaaral200510@gmail.com
 No configuration file found at .esmtprc or /etc/esmtprc
 
+L(λ)THW : Learn Lisp The Hard Way
+
