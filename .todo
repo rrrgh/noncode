@@ -578,3 +578,9 @@ most productive general purpose multi-paradigm programming language
 save money electricity water bill
 frugal thrifty living
  
+China RMB Yuan depreciation
+
+"What I don't understand is why the values in the before and after are the same?"
+The first question and sample code shows that time() has a resolution of 1 second, so the answer has to be that the two functions execute in less than 1 second. But occasionally it will (apparently illogically) inform 1 second if the two timer marks straddle a one second boundary.
+
+
