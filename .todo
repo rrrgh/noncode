@@ -568,8 +568,6 @@ Programming Clojure
 save money electricity water bill
 frugal thrifty living
  
-China RMB Yuan depreciation
-
 "What I don't understand is why the values in the before and after are the same?"
 The first question and sample code shows that time() has a resolution of 1 second, so the answer has to be that the two functions execute in less than 1 second. But occasionally it will (apparently illogically) inform 1 second if the two timer marks straddle a one second boundary.
 
@@ -577,13 +575,12 @@ Survival Initiative: life-long project Uv'infrastr(C++14/17...+xyz eternal inter
 
 社会保険 年金
 
-russian language podcast itunes
-c++ 11 c++14
-c++ 11 c++14 call shell command
-c++11 c++14 regular expression
 java reflection
+c++14 call shell command
+c++14 regular expression
+c++14 automatic code generation
+Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14 pdf
 
 Rufus - Create bootable USB drives the easy way
 
 lemon ginger preserve
-c++11 c++14 automatic code generation
