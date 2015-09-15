@@ -340,7 +340,6 @@ https://www.edx.org/course/mitx/mitx-6-002x-circuits-electronics-1130
 http://www.dimensions-math.org
 https://www.sciencenews.org/article/seeing-four-dimensions
 
-
 EECS/ICT:
 install Team Win Recovery Project or TWRP on any Android
 
@@ -413,6 +412,33 @@ youtube-dl -x --audio-format mp3 --audio-quality 0 https://www.youtube.com/watch
 youtube-dl -r (e.g. 70K or 1.2M) URLs
 
 mail evernote: title !2014/12/30 #notebook @tag @tag...
+
+IT:
+search engine optimization (SEO)
+c++11 programming in Mac OS?
+install OS X Mavericks on PC with Multibeast Unibeast
+
+Prefer $( ... ) for command substitution; unlike ``, it properly nests. It should have been the way Bourne spelled it from day one, but unfortunately isn't.
+
+Sample .bashrc and .bash_profile Files
+Emmanuel Rouat contributed the following very elaborate .bashrc file, written for a Linux system.
+http://www.tldp.org/LDP/abs/html/sample-bashrc.html
+
+Kali in VrBox, git, ubuntu post install script, autoconf, binutils, gawk, cgdb, g++, emacs
+
+@youtube: dig traceroute linux
+
+Unibeast: Unibeast is a Mac program that modifies the official OS X Mavericks installer, and writes it onto a USB drive. You can then use this Unibeast USB drive to run the Mavericks installer on a PC.
+Multibeast: The ultimate post-installation tool for configuring Mac OS X on PC hardware.
+
+Obj-c:
+ARC (Automatic Reference Counting)
+
+clang -fobjc-arc files -o program
+
+[ ClassOrInstance method ];
+
+What are the advantages of dynamic languages like objective-c over static languages like c++?
 
 Special Characters:
 π
@@ -515,51 +541,10 @@ https://github.com/jmburges/iOSPrework
 https://github.com/jmburges/iOS-TheGoodParts
 http://iosprework.flatironschool.com
 
-google:
-alpha beta gamma
-
-IT:
-search engine optimization (SEO)
-c++11 programming in Mac OS?
-install ubuntu in Mac OS Mavericks
-install OS X Mavericks on PC with Multibeast Unibeast
-
-Sample .bashrc and .bash_profile Files
-Emmanuel Rouat contributed the following very elaborate .bashrc file, written for a Linux system.
-http://www.tldp.org/LDP/abs/html/sample-bashrc.html
-
-Kali in VrBox, git, ubuntu post install script, autoconf, binutils, gawk, cgdb, g++, emacs
-
-@youtube: dig traceroute linux
-
-Unibeast: Unibeast is a Mac program that modifies the official OS X Mavericks installer, and writes it onto a USB drive. You can then use this Unibeast USB drive to run the Mavericks installer on a PC.
-Multibeast: The ultimate post-installation tool for configuring Mac OS X on PC hardware.
-
-
-Obj-c:
-ARC (Automatic Reference Counting)
-
-clang -fobjc-arc files -o program
-
-[ ClassOrInstance method ];
-
-
-What are the advantages of dynamic languages like objective-c over static languages like c++?
-
 smartphone app:
 AnkiDroid
-CourseRa
-Memrise
-Cerego
 edX
-
-EffecTalk
-RoboVox
-
-SLMMSK (Source: Russia Beyond the Headlines - http://rbth.com/science_and_tech/2014/09/01/russian_developers_declare_war_on_the_selfie_39453.html)
-
 1000 Most Common Russian Words
-
 PlayMagnus usr: latebeginnerwoodpusher (Latebeginner Woodpusher)
 scid on the go
 gyro
