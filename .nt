@@ -340,7 +340,27 @@ https://www.edx.org/course/mitx/mitx-6-002x-circuits-electronics-1130
 http://www.dimensions-math.org
 https://www.sciencenews.org/article/seeing-four-dimensions
 
-EECS/ICT:
+EECS,ICT:
+create, retrieve, update, and delete (CRUD)
+REPL
+
+search engine optimization (SEO)
+Advanced Performance Audits With DevTools
+
+js:
+Profiling JavaScript Performance
+What is prototypal inheritance?
+Why is prototypal inheritance better than classical inheritance?
+What are closures and why use them?
+How do you debug closures?
+What are Pure (or Stateless) Functions?
+
+Prefer $( ... ) for command substitution; unlike ``, it properly nests. It should have been the way Bourne spelled it from day one, but unfortunately isn't.
+
+Sample .bashrc and .bash_profile Files
+Emmanuel Rouat contributed the following very elaborate .bashrc file, written for a Linux system.
+http://www.tldp.org/LDP/abs/html/sample-bashrc.html
+
 install Team Win Recovery Project or TWRP on any Android
 
 Active matrix OLED
@@ -405,26 +425,11 @@ tar zvcf /ubtpic.tar.gz  *.jpg *.jpeg *.png *.svg *.gif *.JPG *.JPEG *.PNG *.SVG
 tar tzvf /ubtpic.tar.gz | wc -l
 tar xjvf zsh-5.0.5.tar.bz2
 
-youtube-dl -citk --max-quality FORMAT https://www.youtube.com/playlist?list=PL03F54EB032CE6C7E --reject-title 'Skewers and Pins'
-
+youtube-dl -ci --max-quality FORMAT https://www.youtube.com/playlist?list=PL03F54EB032CE6C7E --reject-title 'Skewers and Pins'
 youtube-dl -x --audio-format mp3 --audio-quality 0 https://www.youtube.com/watch?v=4Oh-pJLGgis
-
-youtube-dl -r (e.g. 70K or 1.2M) URLs
+youtube-dl -r (e.g. 50K or 1M) URLs
 
 mail evernote: title !2014/12/30 #notebook @tag @tag...
-
-IT:
-search engine optimization (SEO)
-c++11 programming in Mac OS?
-install OS X Mavericks on PC with Multibeast Unibeast
-
-Prefer $( ... ) for command substitution; unlike ``, it properly nests. It should have been the way Bourne spelled it from day one, but unfortunately isn't.
-
-Sample .bashrc and .bash_profile Files
-Emmanuel Rouat contributed the following very elaborate .bashrc file, written for a Linux system.
-http://www.tldp.org/LDP/abs/html/sample-bashrc.html
-
-Kali in VrBox, git, ubuntu post install script, autoconf, binutils, gawk, cgdb, g++, emacs
 
 @youtube: dig traceroute linux
 
@@ -435,10 +440,7 @@ Obj-c:
 ARC (Automatic Reference Counting)
 
 clang -fobjc-arc files -o program
-
 [ ClassOrInstance method ];
-
-What are the advantages of dynamic languages like objective-c over static languages like c++?
 
 Special Characters:
 π
@@ -1463,6 +1465,7 @@ Could you please pass me the pitcher?
 Would you open the door for me, please?
 
 Improve sense of humor as a man.
+I could not wrap my head around that for awhile.
 
 index fund
 side hustle
@@ -1470,6 +1473,9 @@ side business
 thrift store
 shoestring budget
 
+anemia(medical : a condition in which a person has fewer red blood cells than normal and feels very weak and tired)
+
+Are garlic and onion toxic?
 anthrax
 
 difference between translucent and transparent
@@ -1478,8 +1484,9 @@ unwary: easily fooled or surprised : not aware of and careful about possible pro
 freelancer
 bid
 This project is ending in 6 days and has an average bid price of $30 AUD.
-
 shoestring startup
+
+palindrome
 
 AED(automated external defibrillator)
 
@@ -2467,7 +2474,7 @@ DIY PC combos 組立キット
 
 日雇い（ひやとい）
 日払い (ひ ばらい)
-即日(そく じつ)
+即日(そく じつ):当日
 採否(さい ひ)を即決(そっ けつ)する。
 別途一部支給 
 シャチハタ: (from company name) self-inking (rubber) stamp; スタンプ印.
@@ -2783,8 +2790,9 @@ TEL受付時間：10：00～20：00　※土日祝OK！
 接着剤(せっ ちゃくざい): 二つの物体を貼り合わせるために用いる物質。糊（のり）や膠（にかわ）のほか，ポリ酢酸ビニル・クロロプレンゴム・尿素樹脂・エポキシ樹脂など合成樹脂や合成ゴムの類が多数開発されている。
 
 学園祭（がくえんさい）campus festival
+後夜祭 / こうや さい: 学園祭などで，最終日の夜に行うファイア-ストームなどの催し(もよおし)。
 
-玉石混淆(ぎょくせきこんこう):良いものと悪いもの、優れたものと劣ったものが入り混じっていること。
+玉石混淆(ぎょくせき こんこう):良いものと悪いもの、優れたものと劣ったものが入り混じっていること。
 
 饒舌 (じょう ぜつ) garrulity (tending to talk a lot, very talkative)
 
@@ -2812,6 +2820,24 @@ TEL受付時間：10：00～20：00　※土日祝OK！
 プロデュースのつけまつげ(付け睫毛)で巨額(きょ がく)の儲け(もう・ける)
 
 旨み /うま み
+
+備忘録 /び ぼう ろく
+
+直近 / ちょっ きん
+原稿 / げん こう
+
+好感触/こうかんしょく:好ましい手応え(て ごたえ)。特に、相手の反応などから受け取れる色よいという印象。
+色よい/いろよい: 色よい返事を期待しております
+
+後天性免疫不全症候群の予防に関する法律（こうてんせいめんえきふぜんしょうこうぐんのよぼうにかんするほうりつ）
+
+息抜き / いき ぬき: 
+① 仕事の間などで，ちょっと休むこと。休憩。息休め。 「 －にお茶にしよう」
+② 空気の流通・換気をよくするための装置や穴。換気口。
+
+装置 /そう ち apparatus
+
+現物為替 /げん ぶつ かわせ:外国為替の売買契約の成立した即日か数日以内に，外国為替と自国通貨の受け渡しが行われる為替。直物（じきもの）為替。 → 先物（さきもの）為替
 
 cn2en:
 相克食物
