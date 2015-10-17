@@ -347,6 +347,9 @@ REPL
 search engine optimization (SEO)
 Advanced Performance Audits With DevTools
 
+Build a Twitter Bot Using Google Spreadsheets in Python
+restaurant reservation robot (app)
+
 js:
 Profiling JavaScript Performance
 What is prototypal inheritance?
@@ -428,6 +431,8 @@ tar xjvf zsh-5.0.5.tar.bz2
 youtube-dl -ci --max-quality FORMAT https://www.youtube.com/playlist?list=PL03F54EB032CE6C7E --reject-title 'Skewers and Pins'
 youtube-dl -x --audio-format mp3 --audio-quality 0 https://www.youtube.com/watch?v=4Oh-pJLGgis
 youtube-dl -r (e.g. 50K or 1M) URLs
+youtube-dl--list-subs luSnOiYD-oE
+youtube-dl --write-sub --sub-lang ru,en --embed-subs 8D_UepJMizs
 
 mail evernote: title !2014/12/30 #notebook @tag @tag...
 
