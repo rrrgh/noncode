@@ -441,6 +441,9 @@ mail evernote: title !2014/12/30 #notebook @tag @tag...
 Unibeast: Unibeast is a Mac program that modifies the official OS X Mavericks installer, and writes it onto a USB drive. You can then use this Unibeast USB drive to run the Mavericks installer on a PC.
 Multibeast: The ultimate post-installation tool for configuring Mac OS X on PC hardware.
 
+Java:
+Java 8 is knocking on the door. And with Java 8 come lambdas, whether you like them or not. Your API consumers may like them, though, and you better make sure that they can make use of them as often as possible. Hence, unless your API accepts simple “scalar” types such as int, long, String,Date, let your API accept SAMs as often as possible. What’s a SAM? A SAM is a Single Abstract Method [Type]. Also known as afunctional interface, soon to be annotated with the @FunctionalInterface annotation. This goes well with rule number 2, where EventListener is in fact a SAM. The best SAMs are those with single arguments, as they will further simplify writing of a lambda.
+
 Obj-c:
 ARC (Automatic Reference Counting)
 
@@ -2857,6 +2860,8 @@ TEL受付時間：10：00～20：00　※土日祝OK！
 「吝か」は、それ自体「気が進まない」「気乗りしない」「あまりやりたくない」といった後ろ向きな気持ちを示す。これを「吝かではない」と、否定形によって表すことで、「やりたくないわけではない」、「やってもよい」、あるいは、「どちらかと言えばやりたい」、「むしろ喜んでする」といった肯定的・積極的な姿勢を婉曲的に表す。
 
 氷山の一角 (ひょうざんのいっかく)
+
+列車の運転順序と、追い抜きや停車駅のパターンが同時にわかる新しい時刻表です。
 
 cn2en:
 相克食物
