@@ -1516,6 +1516,10 @@ passive income
 side business
 intensive saving
 
+Why hasn't functional programming taken over yet?
+
+Cache Invalidation is one of the two techniques of maintaining cache coherency in a system where multiple cores share a lower level cache.The reason why it poses a big engineering problem is due primarily to non-zero latencies of the interconnect network.
+
 Java's supernova days are over.
 renovate: to make changes and repairs to (an old house, building, room, etc.) so that it is back in good condition.
 
