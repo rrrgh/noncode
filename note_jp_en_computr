@@ -1,0 +1,471 @@
+要素のアクション指定
+アーカイブファイルはzip（圧縮）形式であり、ファイルの拡張子は「.mwx」である
+アーカイブファイルのデフォルトのファイル名は編集単位のルート要素のIDとなる
+
+今日こちらの定時までに、一報ください。
+
+本日中に対応完了する見込みです。
+完了次第、再度ご連絡させていただきます。
+
+Proweb　障害対応状況（対応記録）
+本件は、不具合であることを確認しました。 
+修正は次期以降のhotfixやアップデータで行うよう検討します。
+・今回の不具合内容は次のとおりです。
+表の中に表がある場合、PDF作成がエラーになる場合や、表の幅が縮小されて表示される場合があります。
+
+・発生条件は次のとおりです。 
+PDF作成がエラーになるのは、親表に見出し行が無く、親表の第一行内に、見出し行がある子表が存在する場合 
+表の幅が縮小されるのは、親表の第一行内に、子表が存在する場合
+です。
+
+・発生原因は次のとおりです。 
+親表の第一行内に、子表が存在する場合、列数の計算ロジックに不具合がありました。
+
+・回避策は次のとおりです。
+発生条件を満たさない表で代用できないか検討お願いいたします。 
+
+lingo:
+見出し行 TH
+スナップショット
+前提 ぜん てい
+記述 / き じゅつ
+妥当 / だ とう
+逸脱 / いつ だつ
+生成 / せい せい
+さしだしにん 差出人 sender
+げんこう 原稿 original copy
+属す / ぞくす
+付属 / ふ ぞく
+上述 / じょう じゅつ
+採取 / さい しゅ
+戻り値（もどりち）または返り値（かえりち）
+
+パンくずリスト / 別名：トピックパス breadcrumbs list, breadcrumbs
+トップ＞用語辞典＞コンピュータ＞インターネット
+
+識別子 / しき べつし identifier
+特殊 / とく しゅ
+紐付く / ひもづく
+同一 / どう いつ
+引（き）数 / ひき すう パラメーター
+試み / こころ み
+味見 / あじ み
+指摘 / し てき
+個数 / こ すう 
+冊子 / さっ し
+互換　/ ご かん
+突如 / とつ じょ
+点滅 / てん めつ　flash; flashing; flickering
+実際 / じっ さい
+実益 / じつ えき
+兼ねる / か・ねる
+兼併 / けん ぺい
+民謡 / みんよう
+遷移 / せん い  == 推移 / すい い
+切断 / せつ だん
+正時 / しょう じ
+唱える / とな・える
+眺める / なが・める
+簡易 / かん い
+50音順 / おんじゅん
+占有 / せん ゆう
+上書き / うわ がき / overwrite
+ビュー
+配下
+要素 / よう そ
+促す / うなが・す
+催促 / さい そく
+区切り / く ぎり : 物事の切れ目
+悲劇 / ひ げき
+Venetian blind: a covering for a window made of strips of wood, plastic, or metal that can be turned to block out or let in light.
+圧迫 / あっ ぱく
+抑圧 / よく あつ
+脆弱性 / ぜい じゃくせい
+降順 / こう じゅん
+付録・附録 / ふ ろく 
+推測 / すい そく 
+一報 / いっ ぽう : 最初の知らせ
+遺漏 / い ろう
+列数 れっすう
+行列の最後尾 / さい こうび
+親表　おやひょう
+子表　こひょう
+自惚れてる
+下層 / か そう
+上層 / じょう そう
+相互　/ そうご
+現在、復旧(ふっ きゅう)対応を実施しております。
+注釈 / ちゅう しゃく
+居住　/ きょ じゅう
+続行 / ぞっ こう
+併せて / あわせ て
+併記 / へい き
+記す / しる・す
+一定 / いってい
+遜色ない / そんしょくない
+整合 / せい ごう consistence, conformity
+腹黒い / はら ぐろ・い
+旨 / むね
+趣 / おも むき
+凡例 / はん れい
+ランダム
+継承 / けい しょう
+駅直結ホテル / ちょっ けつ
+体裁 / てい さい 「 －が悪くて彼に会えない」
+出所 / しゅっ しょ
+保持 / ほ じ
+双方 / そう ほう
+破棄 / は き
+廃棄 / はい き
+且つ / かつ
+ワイルドカード
+食洗器
+別途 / べっ と
+太字 / ふと じ
+鋭い / するど・い
+機敏 / き びん
+グラデーション gradation
+左端 さ たん
+右端 う たん
+実線枠 じっせん わく
+分割 ぶん かつ
+ダイアログボックス
+置換 ち かん
+消印有効 / けしいんゆうこう
+必着 / ひっ ちゃく
+開始日
+終了日
+トークナイズ
+しおり BOOKMARK
+列挙 / れっ きょ
+予兆 / よ ちょう
+防ぐ / ふせ・ぐ
+夜間 / や かん
+防備 / ぼう び
+早急
+押下 / おう か
+懸念 / け ねん
+頻発しておりますので12/25にご回答とありましたが、可能であれば早い御回答をお願い致します。
+「初動の考え方」を理解する事が目的であるとご理解ください
+起きた現象（症状が出た箇所）から原因（症状を起こした箇所）を探る過程での考え方を示しています
+砂時計 / すなどけい hourglass sandglass
+またがる
+終了スレッド折畳
+折り畳み（おりたたみ、英: Folding, Collapsible）
+logicError_属性への値代入 / だい にゅう
+再帰メソッド RECURSIVE
+脱獄 / だつ ごく
+執筆 / しっ ぴつ
+除外 / じょ がい
+短辺とじ　bind / 綴じる
+長辺とじ
+捉える / 捕（ら）える / とら・える
+敬遠 / けい えん
+随時 / ずい じ
+源泉徴収
+雨天決行 / うてんけっこう
+戻り値（もどりち）または返り値（かえりち）
+乳化剤 / emulsifier
+路面の凍結や積雪 / とうけつ　せきせつ
+続行 / ぞっ こう
+特殊 / とく しゅ
+制御 / せい ぎょ
+手動 しゅどう
+体裁 / ていさい appearance
+勤怠表 / きん たい attendance record
+同等 / どう とう
+解像度 / かいぞう ど resolution
+既定値 / きていち default value
+パレテーナ
+控えておいた reserved
+レントロール : マンションなどの集合住宅の賃貸条件を一覧表にまとめたもの。
+順延 じゅんえん
+躊躇 ちゅうちょ hesitate
+消去 しょう きょ
+校閲
+片言 / かた こと
+怪しい / あやし・い  「片言の－・い日本語」
+保留 / ほりゅう suspend　reserve, put off, withhold
+見栄え / み ばえ
+頭出し / あたまだし
+冒頭 / ぼう とう
+都度 / つ ど : そのたびごと
+投稿 / とう こう
+裏付け / うら づけ
+1.証拠や保証となるもの。 「実験による－のない空論」
+2.結論を証拠や資料によって確実なものとすること。 「 －捜査」 「 －をとる」
+最古 さい こ
+損ねる / そこ・ねる
+苦笑 / く しょう :心中の不快や動揺などをまぎらす笑い。
+一斉 / いっ せい
+等しく / ひとしく
+シングルクォーテーション(アポストロフィー)
+を参考にして実施ください。
+行動指針に則った活動
+混同 / こん どう confuse
+当てはまる: 合致すること、適合すること。もしくは、該当すること。「当て嵌まる」と書く。
+テストスクリプト
+テストデータ
+バックアップデータのリストア restore
+アップデート モジュール
+プリンタードライバー
+ｽｸﾘﾝショット
+アスタリスク（*）
+突っ込み
+
+sign:
+※
+→
+⇒
+⇔
+☆
+★
+
+hosts:
+C:\Windows\System32\Drivers\Etc
+
+shutdown -s -t 90
+
+お世話になっております。
+
+各位
+お疲れ様です。
+
+今日の作業予定を報告致します。
+今日の作業実施状況を報告致します。
+
+週報送ります。
+ご確認をお願いいたします。
+
+以上
+宜しくお願い致します。
+
+本件ですが、お客様からの要望であるため、早急に確認する必要があります。
+そのため、毎日17:00(JST)に状況の報告をお願いします。
+
+en:
+She must have no problem signing a pre-nuptial agreement.
+A Pre-nup probably won’t save you much money, if any, in the case of divorce but her signing a pre-nup does one very important thing for you: it shows you she is serious about making the marriage work.
+https://boldanddetermined.com/pick-the-right-wife
+
+hypermetropia
+inferiority complex
+agnosiophobia: The Irrational Fear Of Not Knowing
+Universal extrapolation never works.
+
+Start Developing in Swift: Setting up Version Control With GitLab
+
+According to Bitcoin's developers, these group puts limitations on input in Bitcoin's governance, selecting options that are favorable to their own interests only, and generally ignoring the developers' and project's best interests.
+"The Bitcoin software is controlled by a small group of people who decide exclusively what can and cannot be changed," Jacob says in a press release.
+"This is in part due to a lack of mechanisms and pathways for funding development work directly from the community, and, as a result, Bitcoin development is funded by external entities that create conflicts of interest between the developers and the representative power of the community that uses Bitcoin."
+So, in order to address this issue, some of the Bitcoin developers have joined hands with the makers of the widely used BTCsuite and are now building their own new digital currency called DECRED.
+
+Nocturnal Leg Cramp
+Nighttime Toe Cramp(left foot third and fourth toe)
+Foot cramps at night may be prevented by taking magnesium or B vitamin supplements.
+
+Chess Guidelines (Principles)
+If you don't know what to do, identify your worst piece and find a way to make it better.
+"If you can't find a plan, find your worst piece and make it better." Alternatively, "...find your opponent's worst piece and keep it bad." Often a great plan is just to make your worst piece better.
+http://www.danheisman.com/Articles/Dan_sayings.html
+
+Dyspraxia
+gastrointestinal cold
+Now-or-Never conceivement
+wise(50% listening, speaking, writing, reading, thinking lecture; 50% thinking chess, life and future) use of school time
+men clean glowing acne-free pore-free blackhead-free skin
+Get your paws off your head, stop touching nose, face and ears, cause infection and gross!
+
+mysophobia
+
+bromodosis (smelly feet)
+
+Your shoes are coming untied/undone.
+
+get some fresh air
+I'd come out and get some fresh air and sunshine.
+
+//END of en
+
+IT:
+HTTP Status 502
+set browser window at foreground
+Select the text (or the cell) you want to strikethrough, and then type Control+5. You can also use that shortcut to remove strikethrough.
+
+文書をインポートする場合、その文書はValidである必要がある。したがって、対応するXMLスキーマが Manual Weaver上にすでに存在すること、文書に指定されるxsi:schemaLocation属性またはxsi:noNamespaceSchemaLocation属性がインポートされる位置と整合が取れている必要がある。文書が参照しているXMLスキーマを変更した場合、文書内に指定されているxsi:schemaLocation属性またはxsi:noNamespaceSchemaLocation属性の値を変更する必要がある。
+
+XMLスキーマファイルにパラメーターファイルテンプレートを指定しなければ、H1-H3の編集エラー
+システムエラーが発生しました。
+オブジェクトがありません。
+
+早々にご回答をいただきましてありがとうごさいます。
+ご指摘の通り、YYYYになっていましたのでyyyyに変更して解消されました。
+
+log:
+\\mw-1.rdh.fujixerox.co.jp\C$\Fuji Xerox\PEMaster\Service\logs\mw_editor
+\\mw-1.rdh.fujixerox.co.jp\C$\Fuji Xerox\PEMaster\Service\data\
+administrator mw-1
+C:\Fuji Xerox\PEMaster\Service\logs\mw
+\\mw-1.rdh.fujixerox.co.jp\c$\Fuji Xerox\PEMaster\Service\data\mw_web
+Webサイトのホームディレクトリ
+C:\Fuji Xerox\PEMaster\Service\data\mw_web
+
+ggl:
+DSLR shutter aperture iso
+
+utuv:
+DSLR
+F-stops, Shutter speeds, ISO Slide Rule
+
+//END of utuv
+
+code:
+
+c++:
+https://meetingcpp.com/index.php/br/items/handling-files-using-boost-filesystem.html
+https://meetingcpp.com/index.php/br/items/using-parallelism-with-boostfuture.html
+c++ std::move
+using entry_ptr = std::unique_ptr;
+std::map<wxString,entry_ptr> entry_map;
+auto entry_f = boost::async([&entry_map,&inzip](){
+    entry_ptr entry(inzip.GetNextEntry());
+    while(entry.get() != nullptr )
+    {
+        entry_map[entry->GetInternalName()]=std::move(entry);
+        entry.reset(inzip.GetNextEntry());
+    }
+});
+
+//END of c++
+
+Ubuntu 14.04 thunderbird
+c++11 excel @github
+excel c++ example
+autofill program
+wtl excel
+
+excel完全　//jp @utuv @Sunday
+
+why xml is more suitable than html for use in the web
+
+C++ Coding Example, Using Hash Algorithm to Remove Duplicate Number by O(n)
+https://codingforspeed.com/c-coding-example-using-hash-algorithm-to-remove-duplicate-number-by-on/
+
+If your going to simply just make games I would recommend a game engine, the codes already their so why rewrite it?
+
+I would recommend Unity, with the new Unity 5 as long as you make less then 100k you can use it for free, and if you make more (which I don't think you will) just buy it for 1.5k(mind you that its per seat).
+
+An alternative would be UE(but that's more aimed at the big studios and teams rather than the indies) which is 100% free(plus a 5% royalty after the first 3k every quarter(aka after every 1k a month))
+
+apache fop html to pdf example
+
+HTML table has two kinds of cells:
+<th> tag defines a header cell in an HTML table.
+<td> tag defines a standard cell in an HTML table.
+
+Extensible Stylesheet Language (XSL)
+xml xsd xslt tutorial
+
+restart windows server service from client pc command line
+psservice [\\computer [-u username] [-p password]] <command> <options>
+
+FOP (Formatting Objects Processor)
+XSL formatting objects (XSL-FO)
+
+javac -cp lib\* src\hirondelle\ante\*.java src\hirondelle\ante\deluvian\*.java
+
+javac -cp lib\* -d build src\hirondelle\ante\*.java src\hirondelle\ante\deluvian\*.java
+
+If your jars are in various directories, then the classpath is a list delimited by semi-colons:
+-cp lib\*;C:\abc\one.jar;C:\xyz\two.jar
+
+C:\SysinternalsSuite\tmp\MW_XML置換ツール\eclipse\XmlContentsReplacer\src\jp\co\fujixerox\pemaster\mw\tool
+
+what's inside proxy.pac
+npm config set proxy http://proxy.kdc.fujixerox.co.jp:8080
+http://proxy.kdc.fujixerox.co.jp:8080
+http://proxy.kdc.fujixerox.co.jp/proxy.pac
+
+http://ant.apache.org/manual/index.html
+build java build.xml from command line
+build eclipse java project from command line
+
+//END of code
+
+jar
+C:\Program Files\Fuji Xerox\PEMaster\Service\webapps\mw\mw\WEB-INF\lib
+\\mw-1.rdh.fujixerox.co.jp\C$\Program Files\Fuji Xerox\PEMaster\Service\webapps\mw\mw\WEB-INF\lib
+
+fop.bat
+C:\Program Files\Fuji Xerox\PEMaster\Service\bin\mw
+\\mw-1.rdh.fujixerox.co.jp\C$\Program Files\Fuji Xerox\PEMaster\Service\bin\mw
+
+fop.xconf
+C:\Program Files\Fuji Xerox\PEMaster\Service\webapps\mw\mw\WEB-INF\classes
+\\mw-1.rdh.fujixerox.co.jp\C$\Program Files\Fuji Xerox\PEMaster\Service\webapps\mw\mw\WEB-INF\classes
+
+pages.xsl
+\\mw-1.rdh.fujixerox.co.jp\C$\Fuji Xerox\PEMaster\Service\conf\mw\fop\style\ja
+C:\Fuji Xerox\PEMaster\Service\conf\mw\fop\style\ja
+
+ftp://username@example.com
+
+%USER_HOME%
+
+webapps\mw\mw\WEB-INF\lib
+
+java -cp lib 
+C:\SysinternalsSuite\tmp\MW_XML置換ツール\eclipse\XmlContentsReplacer>javac -cp lib 
+src\jp\co\fujixerox\pemaster\mw\tool\config\*.java 
+src\jp\co\fujixerox\pemaster\mw\tool\exception\*.java 
+src\jp\co\fujixerox\pemaster\mw\tool\filter\*.java 
+src\jp\co\fujixerox\pemaster\mw\tool\main\*.java 
+src\jp\co\fujixerox\pemaster\mw\tool\sax\*.java 
+src\jp\co\fujixerox\pemaster\mw\tool\util\*.java 
+src\jp\co\fujixerox\pemaster\mw\tool\zip\*.java
+
+21 Days Lifestyle Revamp Program
+
+賞味期限切迫品 / せっ ぱく
+宅配のご要望はお受けできません / たく はい
+ご容赦ください / よう しゃ
+広報宣伝 / こう ほう せん でん
+上映 / じょう えい
+消去 erase, delete
+遣り直す redo
+暗黙 / あん もく
+趣旨 / しゅ し
+納める・収める / おさ・める
+作業経緯(いき さつ/けい い)をおしえていただけますでしょうか？
+別件として扱ってください
+解剖 / かい ぼう
+死活 / し かつ
+一助 / いち じょ
+
+ご期待に沿えられず、申し訳ございません。
+※「VOC Today」2月度の発信分から抜粋 / ばっ すい
+初期の目的は達せられた
+成功は三度目の試みで達せられる
+
+While enrollment in the course normally runs $149, you can get access to the course for just $19 if you use the code “MARCHINSIDER” at checkout.
+Don't try to learn a little bit of every language as a rookie; instead, learn the tenets of coding through one language and then once you have a handle on it, dip your toes in the water of other various programming skills that fit your needs.
+
+net user APEMUSRSVC Pa$$w0rd
+shutdown /s /f /t 0  //win10
+msinfo32
+
+computer network complete tutorial
+windows server 2008 how to export event log from command line
+
+# iptables -L -n -v
+
+CIDR (Classless Inter-Domain Routing)
+
+http://www.tecmint.com/linux-iptables-firewall-rules-examples-commands/
+# host pornhub.com
+pornhub.com has address 66.220.156.68
+# whois 66.220.156.68 | grep CIDR
+CIDR: 66.220.144.0/20
+You can then block that Pornhub network with:
+# iptables -A OUTPUT -p tcp -d 66.220.144.0/20 -j DROP
+
