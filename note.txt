@@ -1,0 +1,195 @@
+新基盤開発環境インストール
+加減フラグ
+西暦（せいれき）
+西暦4桁＋月2桁＋日2桁の形式で指定 YYYYMMDD
+営業日計算仕様書
+正午 midday
+慰労会/いろうかい thank‐you party
+
+システム設計仕様書の書き方
+実務家のための形式手法
+厳密な仕様記述を志すための形式手法入門
+熟達/じゅく たつ
+厳密/げん みつ
+志す/こころざ・す
+
+java thread safe log github
+
+java get current line number funtion name file name
+java StringBuilder vs StringBuffer
+
+https://boldanddetermined.com/how-to-make-money-by-being-yourself/
+
+https://anonymousemail.me
+
+Braceless if considered harmful
+http://cafe.elharo.com/blogroll/braceless-if-considered-harmful/
+Single statement if block - braces or no?
+
+en ru
+Get things done in russian: Добиться цели
+
+WinSCP
+
+For convenience, the Java compiler automatically imports three entire packages for each source file: (1) the package with no name, (2) the java.lang package, and (3) the current package (the package for the current file)...
+
+per se
+: by, of, or in itself or oneself or themselves :  as such : intrinsically
+: being such inherently, clearly, or as a matter of law <a per se conflict of interest>
+e.g.
+Once the state police made it clear that they did not believe his story […] the boy was asked why he had done it.
+"I'm not sure," he answered with a small sigh. "I didn't really have a plan per se."
+I spooled out a lot of textbook stuff on Jean Dubuffet, Art Brut, the anticultural movement. "Usually we're referring to work created by prisoners, children, and the insane, and I'm not sure that Cracke was any of those, per se."
+But she still has weekly appointments with the woman who helped her make the decision about the Summerlin house, and who Michelle insists is not an astrologer per se and who she strongly suggests Chase meet because—like Michelle—his Saturn will be in return soon, too, and that may explain a lot.
+
+enterprise service bus (ESB)
+ローカル端末のコズミ
+
+Web Services Description Language (WSDL /ˈwɪz dəl/) is an XML-based interface definition language that is used for describing the functionality offered by a web service.
+
+Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
+
+postgresql where numerical string value ∓1 ±
+
+Skip to next Breakpoint
+
+javax.interceptor.Interceptors
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Formatter;
+import java.util.Random;
+
+Java
+java Best Practices for Exception Handling
+Exception thrown in catch and finally clause
+java will finally block be executed if exception is thrown from within catch
+java throw exception in catch
+
+Practicum
+https://www.cs.cmu.edu/~pattis/15-1XX/15-200/lectures/writingclasses/lecture.html
+
+public class Wz11tm007 extends AbstractPersistable<Wz11tm007>
+
+Why Java does not allow function definitions to be present outside of the class?
+
+a.
+String.format("%1$02d",arg1)
+
+java.util.Formatter
+// Format a string containing a date.
+   import java.util.Calendar;
+   import java.util.GregorianCalendar;
+   import static java.util.Calendar.*;
+
+   Calendar c = new GregorianCalendar(1995, MAY, 23);
+   String s = String.format("Duke's Birthday: %1$tm %1$te,%1$tY", c);
+   // -> s == "Duke's Birthday: May 23, 1995"
+Y m d -> 2016 03 01
+
+b.
+SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
+Calendar cal = Calendar.getInstance();
+
+try{
+	cal.setTime(sdf.parse(date));
+}catch(ParseException e) {
+}
+
+cal.add(Calendar.MONTH,1);
+cal.set(Calendar.DAY_OF_MONTH,1);
+cal.add(Calendar.DATE,-1);
+Date dt = sdf.format(cal.getTime());
+
+c.
+parameter validation best practice
+
+d.
+java generate random 0 1 sequence
+char[] charr = new char[31];
+for(int i = 0; i < 31; ++i)
+	charr[i] = (char)((char)(2 * Math.random()) + (char)'0'); //(1 + 2 * Math.random())%2
+
+e.
+http://www.newthinktank.com/2012/09/java-reflection-video-tutorial/
+
+Clean way to call functions based on string value
+
+http://stackoverflow.com/questions/4138527/how-to-call-a-java-method-using-a-variable-name
+I actually ran into a case for this once, where using reflection + a HashMap made more sense than a massive if/else of string comparisons and conditional method calls.
+Use reflection:
+Method method = obj.class.getDeclaredMethod("Method" + var, String.class); //or getClass(), getMethod()
+method.invoke(obj, (Object)String.valueOf(char_array)); // (Object)
+
+http://stackoverflow.com/questions/4737388/problem-using-model-getclass-getmethod-in-case-of-inheritance
+
+f.
+catch (NoSuchMethodException | SecurityException e) {
+// Exceptions thrown
+e.printStackTrace();
+} 
+        
+g.
+new String() vs literal string
+http://stackoverflow.com/questions/3052442/what-is-the-difference-between-text-and-new-stringtext
+http://stackoverflow.com/questions/14757978/new-string-vs-literal-string-performance
+
+h.
+http://www.newthinktank.com/2012/10/interpreter-design-pattern-tutorial/
+http://www.newthinktank.com/2012/09/abstract-factory-design-pattern/
+java adapter class
+
+i.
+Eclipse java debugging: source not found
+window->preferences->java->installed jres and delete the jre, then do "add" and look for the JDK not the JRE!
+
+j.
+http://stackoverflow.com/questions/1200621/how-to-declare-an-array
+
+k.
+Integer.valueOf() returns an Integer object, while Integer.parseInt() returns an int primitive.
+
+l.
+http://programmers.stackexchange.com/questions/133381/why-should-identifiers-not-begin-with-a-number
+
+m.
+java.util.MissingResourceException: Can't find bundle for base name standard-message, locale ja_JP
+http://stackoverflow.com/questions/20142002/java-util-missingresourceexception-cant-find-bundle-for-base-name-property-fi
+
+n.
+String strPtrn = "^\\d{4}\\([-/]\\)\\d{2}\\1\\d{2}$";
+Pattern dfPattern = Pattern.compile(strPtrn);
+if(!dfPattern.matcher(strFormat).matches())
+	throw new EnterpriseRuntimeException("フォーマットエラーです");
+
+BigInteger bgIntDate = new BigInteger(strDate,10);
+long numDate = bgIntDate.longValue();
+
+
+export JAVA_OPTS="$JAVA_OPTS -Xms5000m -Xmx6000m -XX:PermSize=1024m -XX:MaxPermSize=2048m"
+•Xms = Minimum memory allocation pool
+•Xmx = Maximum memory allocation pool
+•XX:PermSize = Initial size that will be allocated during startup of the JVM
+•XX:MaxPermSize = Maximum size that can be allocated during startup of the JVM
+
+CppCMS — The C++ Web Development Framework
+JAXB (Java Architecture for XML Binding)
+
+linux kernel data structures github
+linux kernel data structures
+http://luisbg.blogalia.com/historias/74062
+
+umatrix
+svn difference between export and checkout
+
+Becoming a Substantive Person in a Superficial World
+discrimination of unattractive men in nowadays
+low self-esteem low confidence men
+superficial shallow world
+
+java initialization empty string vs null
+
