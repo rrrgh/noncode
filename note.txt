@@ -1,26 +1,83 @@
-新基盤開発環境インストール
-加減フラグ
-西暦（せいれき）
-西暦4桁＋月2桁＋日2桁の形式で指定 YYYYMMDD
-営業日計算仕様書
-正午 midday
-慰労会/いろうかい thank‐you party
+Brth==Evrth
+test class -> TstKlas
 
-システム設計仕様書の書き方
-実務家のための形式手法
-厳密な仕様記述を志すための形式手法入門
-熟達/じゅく たつ
-厳密/げん みつ
-志す/こころざ・す
+stopwatch utility C++
+stopwatch utility Java
+stopwatch utility Python
 
+deep web
+Dark Web
+DarkNet
+hiddenwiki
+
+sidewalk
+hemorrhoids 痔疾(じしつ)、痔
+spartan : a person of great courage and self-discipline.
+bank invoice
+last straw : the last of a series (as of events or indignities) that brings one beyond the point of endurance.
+Clinton Goofs on Russian Translation, Tells Diplomat She Wants to 'Overcharge' Ties.
+goof : 1. a silly or stupid person; 2. a careless or stupid mistake.
+simpleton : someone who is not very intelligent or who does not have or show good sense or judgment.
+
+
+Should the benchmark measure time/iteration or iterations/time, and why?
+It depends on what you are trying to test. If you are interested in latency, use time/iteration and if you are interested in throughput use iterations/time.
+
+∓ ±
+○
+
+excel use cell address as cell value
+excel split merged cell horizontally
+
+reference a class in different project in eclipse //project A-->Properties-->Build Path-->Projects-->Add Project B
+java :: operator
+
+Stream.of("a1", "a2", "a3")
+    .map(s -> s.substring(1))
+    .mapToInt(Integer::parseInt)
+    .max()
+    .ifPresent(System.out::println);  // 3
+
+java get source line number funtion name file name
 java thread safe log github
-
-java get current line number funtion name file name
-java StringBuilder vs StringBuffer
+try-with-resources statement
+should c++ instance variables explicitly initialized
+validate timestamp
+Fastest way to tell if a string is a valid date time
 
 https://boldanddetermined.com/how-to-make-money-by-being-yourself/
-
 https://anonymousemail.me
+
+REST (representational state transfer)
+SOAP (Simple Object Access Protocol)
+
+pertinent: relating to the thing that is being thought about or discussed; having a clear decisive relevance to the matter in hand.
+
+delete Windows usage trace
+index.dat
+
+Java Persistence query language (JPQL) is used to define searches against persistent entities independent of the mechanism used to store those entities. As such, JPQL is "portable", and not constrained to any particular data store. The Java Persistence query language is an extension of the Enterprise JavaBeans query language, EJB QL, adding operations such as bulk deletes and updates, join operations, aggregates, projections, and subqueries. Furthermore, JPQL queries can be declared statically in metadata, or can be dynamically built in code.
+
+www.java2s.com
+
+http://www.javapractices.com/
+Unchecked exceptions:
+represent defects in the program (bugs) - often invalid arguments passed to a non-private method. To quote from The Java Programming Language, by Gosling, Arnold, and Holmes: "Unchecked runtime exceptions represent conditions that, generally speaking, reflect errors in your program's logic and cannot be reasonably recovered from at run time."
+are subclasses of RuntimeException, and are usually implemented using IllegalArgumentException, NullPointerException, or IllegalStateException
+a method is not obliged to establish a policy for the unchecked exceptions thrown by its implementation (and they almost always do not do so)
+Checked exceptions:
+represent invalid conditions in areas outside the immediate control of the program (invalid user input, database problems, network outages, absent files)
+are subclasses of Exception
+a method is obliged to establish a policy for all checked exceptions thrown by its implementation (either pass the checked exception further up the stack, or handle it somehow)
+It's somewhat confusing, but note as well that RuntimeException (unchecked) is itself a subclass of Exception (checked).
+http://howtodoinjava.com/best-practices/java-exception-handling-best-practices/
+
+Initializing fields to 0-false-null is redundant in Java
+javap - The Java Class File Disassembler
+>javap -c -classpath . Quark
+
+Don't declare local variables before use
+http://www.javapractices.com/topic/TopicAction.do?Id=126
 
 Braceless if considered harmful
 http://cafe.elharo.com/blogroll/braceless-if-considered-harmful/
@@ -28,8 +85,6 @@ Single statement if block - braces or no?
 
 en ru
 Get things done in russian: Добиться цели
-
-WinSCP
 
 For convenience, the Java compiler automatically imports three entire packages for each source file: (1) the package with no name, (2) the java.lang package, and (3) the current package (the package for the current file)...
 
@@ -43,15 +98,12 @@ I spooled out a lot of textbook stuff on Jean Dubuffet, Art Brut, the anticultur
 But she still has weekly appointments with the woman who helped her make the decision about the Summerlin house, and who Michelle insists is not an astrologer per se and who she strongly suggests Chase meet because—like Michelle—his Saturn will be in return soon, too, and that may explain a lot.
 
 enterprise service bus (ESB)
-ローカル端末のコズミ
 
 Web Services Description Language (WSDL /ˈwɪz dəl/) is an XML-based interface definition language that is used for describing the functionality offered by a web service.
 
 Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
 
-postgresql where numerical string value ∓1 ±
-
-Skip to next Breakpoint
+Skip to next Breakpoint (F8 Eclipse)
 
 javax.interceptor.Interceptors
 
@@ -74,6 +126,7 @@ Practicum
 https://www.cs.cmu.edu/~pattis/15-1XX/15-200/lectures/writingclasses/lecture.html
 
 public class Wz11tm007 extends AbstractPersistable<Wz11tm007>
+final TypedQuery<?> query = entityManager.createQuery(criteria);
 
 Why Java does not allow function definitions to be present outside of the class?
 
@@ -92,7 +145,8 @@ java.util.Formatter
 Y m d -> 2016 03 01
 
 b.
-SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
+SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.S",Locale.ENGLISH);
+
 Calendar cal = Calendar.getInstance();
 
 try{
@@ -128,11 +182,10 @@ method.invoke(obj, (Object)String.valueOf(char_array)); // (Object)
 http://stackoverflow.com/questions/4737388/problem-using-model-getclass-getmethod-in-case-of-inheritance
 
 f.
-catch (NoSuchMethodException | SecurityException e) {
-// Exceptions thrown
-e.printStackTrace();
-} 
-        
+catch (IllegalArgumentException | SecurityException | IllegalAccessException | NoSuchFieldException e) { //JDK 7+
+	e.printStackTrace();
+}
+
 g.
 new String() vs literal string
 http://stackoverflow.com/questions/3052442/what-is-the-difference-between-text-and-new-stringtext
@@ -169,7 +222,6 @@ if(!dfPattern.matcher(strFormat).matches())
 BigInteger bgIntDate = new BigInteger(strDate,10);
 long numDate = bgIntDate.longValue();
 
-
 export JAVA_OPTS="$JAVA_OPTS -Xms5000m -Xmx6000m -XX:PermSize=1024m -XX:MaxPermSize=2048m"
 •Xms = Minimum memory allocation pool
 •Xmx = Maximum memory allocation pool
@@ -191,5 +243,106 @@ discrimination of unattractive men in nowadays
 low self-esteem low confidence men
 superficial shallow world
 
-java initialization empty string vs null
+myopia and astigmatism
+
+HQL and JPA QL
+
+Why there is no local static variable in Java?
+The Java language spec doesn't seem to defend the omission of variables that correspond to C static variables.
+
+Hiding state in class methods has a few drawbacks when seen from a Java perspective. Generally the existence of a function-level static variable isn't the sort of implementation detail that you'd want to expose outside of that function.
+
+But the method's state is actually part of the class's state, and method-level static variables would have to be serialized / deserialized any time the object is persisted. This might not sound common, coming from a C background, so I'll note a few common examples.
+
+Application server clusters can pass user session objects between nodes in order to provide fault tolerance.
+JAXB could be used to marshall an object into an XML document
+JPA can be used to persist object state to a database
+If the variable's value is worth saving when the object is persisted, then there's a good chance that code outside of that class will need to reference that value. And suddenly that means defining access levels -- is a static variable in a public method automatically public? Or would a programmer have to declare it so?
+
+We also have to think about extensibility. Would derived classes be required to implement the same static variable? Or would there be a reference to the variable from the function in the base class?
+
+It's more likely that the C method that would use a static local variable would be a good candidate for a class in Java. It has state and hopefully exists for a single purpose. There's little drawback to encapsulating the functionality into an object, and it makes for a cleaner separation between transient values (such as local variables) and more long-term state.
+
+Turn off Automatic login Windows
+netplwiz (Advanced User Accounts Control Panel)
+
+XML 文章は、XML 宣言、DTD(Document Type Definition)、XML インスタンスの3 つの部分で構成
+される。
+XSL（Extensible Stylesheet Language）
+XSLT（XSL Transformations）
+XSL-FO（XSL Formatting Objects）
+
+Eclipse key bindings
+jump to matching brace/parenthesis/bracket[]<> : Ctrl + Shift + P
+Organize Imports : Ctrl + Shift + O
+
+java calling close on a "wrapper" stream will automatically call close on its underlying stream
+closing a stream a second time has no consequence?
+
+StringBuilder strPath = new StringBuilder(dir);
+String strPathSeparatorNO = System.getProperty("path.separator"); // ;
+String strPathSeparator = System.getProperty("file.separator"); //Character that separates components of a file path. This is "/" on UNIX and "\" on Windows.
+System.out.println("System.getProperty(\"path.separator\") : " + strPathSeparatorNO);
+System.out.println("System.getProperty(\"file.separator\") : " + strPathSeparator);
+if(null == strPathSeparator || strPathSeparator.isEmpty()){
+	 if(dir.contains("\\"))
+		strPathSeparator = "\\";
+	 else
+		 strPathSeparator = "/";
+}
+if(!dir.endsWith("/") && !dir.endsWith("\\"))
+	strPath.append(strPathSeparator);
+strPath.append("品目グループマスタ_");
+String tmpStr = new SimpleDateFormat("yyyyMMddHHmmss").format(new Timestamp(System.currentTimeMillis()));
+strPath.append(tmpStr);
+LOG.debug("Wz1140002ServiceImpl::postgre2txt()|full path of file to create:["+strPath.toString()+"]\n");
+
+import java.io.OutputStreamWriter;
+import java.io.FileOutputStream;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(strPath,false),"utf-8"));//overwrite
+
+近視のなかには、度数がマイナス8D（ディオプター）を超える「強度近視」に進行するものがある。
+
+システム設計仕様書の書き方
+実務家のための形式手法
+厳密な仕様記述を志すための形式手法入門
+新基盤開発環境インストール
+加減フラグ
+西暦（せいれき）
+西暦4桁＋月2桁＋日2桁の形式で指定 YYYYMMDD
+正午 midday
+慰労会/いろうかい thank‐you party
+疎通 そ つう
+熟達/じゅく たつ
+厳密/げん みつ
+極秘/ごく ひ
+機密
+志す/こころざ・す
+カルキ臭 bleach odor, chlorinous odor
+同じ轍を踏む/おなじてつをふむ:先人(せん じん)が失敗した同じ失敗を繰り返すこと。
+牧場/ぼくじょう/ ranch
+フリーランス高単価案件‎/たん か
+書（き）写す/かき うつ・す
+恒久/こう きゅう
+※宛先漏れは転送願います
+該当するアプリケーションには大変ご迷惑お掛け致します。
+Artemis(新基盤)の前受サーバのHULFT後続JOBのESBプロセス起動処理で起動された
+ESBプロセス(トリガーとなる受信ファイルを取り込むTransfer処理)が異常終了する場合が、稀にある /まれ rare,rarely
+タイミング起因のエラーです。
+ESBプロセス(トリガーとなる受信ファイルを取り込むTransfer処理)実行時にESBプロセス起動処理時に生成されるステータスファイルと業務データの両方が瞬間的に（ミリ秒単位）残存してしまう事によるファイル引き取りエラー
+
+千手(せん じゅ) 登録シート　ネット/ジョブ/カレンダー用
+
+http://www.venture-support.biz/media/avoidance/step/3592.html
+前受金
+前受収益
+
+入手/にゅう しゅ
+捻挫（ねんざ）、または挫き（くじき）は、関節に関節の許容範囲を超えた動きが与えられた為におきる損傷の一つである。多くは患部に痛みと腫脹、熱感を伴う。手や足などの関節をくじくこと。関節に無理な力が加わって，はずれそうになるほど曲がり，関節包や靭帯（じんたい）が損傷された状態。/sprain, ligament rupture
+永続化/えいぞくか
+齟齬/そ ご:物事がくいちがって，意図した通りに進まないこと。また，そのくいちがい。/ discord, dissension
 
