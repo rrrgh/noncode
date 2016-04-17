@@ -1,15 +1,78 @@
-Brth==Evrth
-test class -> TstKlas
+sow/plant ð seeds
+m-w.com/dictionary/griddle
+merriam-webster.com/dictionary/poached%20egg
+sow/plant the seeds of something: to do something that makes a process or feeling start to develop.
+
+How to stop smirking and laughing during a serious situation or an inappropriate time?
+
+big mac price index 2016
+
+credit vs debit
+
+Trunk-Room for luggage (self storage)
+griddle
+wok
+saucepan
+poached egg
+
+Simmer the stew for 40 minutes or until the sauce has thickened.
+The dispute simmered for years before any progress was made.
+Long-simmering tensions between the two groups eventually sparked violence.
+simmer
+1: to cook (something) so that it is almost boiling for a certain period of time
+2: to be filled with a strong feeling that is difficult to control or hide
+3: to be felt strongly by someone without being directly shown or expressed.
+
+patzer: an inept chess player
+inept
+1: lacking in fitness or aptitude : unfit <inept at sports>
+2: lacking sense or reason : foolish
+3: not suitable to the time, place, or occasion :   inappropriate often to an absurd degree <an inept metaphor>
+4: generally incompetent : bungling <inept leadership>
+
+Canadian English (CanE, CE, en-CA)
+The core of Canadian English is a pervasive ambivalence.
+ambivalence
+1: simultaneous and contradictory attitudes or feelings (as attraction and repulsion) toward an object, person, or action
+2
+a : continual fluctuation (as between one thing and its opposite)
+b : uncertainty as to which approach to follow
+
+Creating and using a .this pointer in C language structs
+http://techdiagnosys.blogspot.jp/2016/04/creating-and-using-this-pointer-in-c.html
+
+RMI (Remote Method Invocation)
 
 stopwatch utility C++
 stopwatch utility Java
 stopwatch utility Python
 
-deep web
-Dark Web
-DarkNet
-hiddenwiki
+ack-grep
 
+grep -Ril "text-to-find-here" /
+•i stands for ignore case (optional in your case). 
+•R stands for recursive. 
+•l stands for "show the file name, not the result itself".
+•/ stands for starting at the root of your machine.
+
+grep -rnw '/path/to/somewhere/' -e "pattern"
+•-r or -R is recursive, 
+•-n is line number, and 
+•-w stands match the whole word. 
+•-l (lower-case L) can be added to just give the file name of matching files.
+•Along with these, --exclude or --include parameter could be used for efficient searching. Something like below:
+grep --include=\*.{c,h} -rnw '/path/to/somewhere/' -e "pattern"
+
+This will only search through the files which have .c or .h extensions. Similarly a sample use of --exclude:
+grep --exclude=*.o -rnw '/path/to/somewhere/' -e "pattern"
+
+Above will exclude searching all the files ending with .o extension. Just like exclude file it's possible to exclude/include directories through --exclude-dir and --include-dir parameter; for example, the following shows how to integrate --exclude-dir:
+grep --exclude-dir={dir1,dir2,*.dst} -rnw '/path/to/somewhere/' -e "pattern"
+
+extract hard-coded string literals from java project
+Eclipse Source>Externalize strings
+
+occulted their house from prying eyes by planting large trees around it.(: to shut off from view or exposure : cover, eclipse)
 sidewalk
 hemorrhoids 痔疾(じしつ)、痔
 spartan : a person of great courage and self-discipline.
@@ -23,6 +86,8 @@ simpleton : someone who is not very intelligent or who does not have or show goo
 Should the benchmark measure time/iteration or iterations/time, and why?
 It depends on what you are trying to test. If you are interested in latency, use time/iteration and if you are interested in throughput use iterations/time.
 
+ð
+ø
 ∓ ±
 ○
 
@@ -37,13 +102,19 @@ Stream.of("a1", "a2", "a3")
     .mapToInt(Integer::parseInt)
     .max()
     .ifPresent(System.out::println);  // 3
+    
+//debug/log/info... get current line number function name class name file name at runtime
 
-java get source line number funtion name file name
 java thread safe log github
 try-with-resources statement
 should c++ instance variables explicitly initialized
+
 validate timestamp
 Fastest way to tell if a string is a valid date time
+
+public static boolean isNotNullNotEmptyNotWhiteSpaceOnlyByJava(final String string){
+	return string != null && /*!string.isEmpty() &&*/ !string.trim().isEmpty();
+}
 
 https://boldanddetermined.com/how-to-make-money-by-being-yourself/
 https://anonymousemail.me
@@ -307,6 +378,9 @@ BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStre
 
 近視のなかには、度数がマイナス8D（ディオプター）を超える「強度近視」に進行するものがある。
 
+asparagus - хэрээний нүд
++ butter sesame seeds black pepper
+
 システム設計仕様書の書き方
 実務家のための形式手法
 厳密な仕様記述を志すための形式手法入門
@@ -345,4 +419,6 @@ http://www.venture-support.biz/media/avoidance/step/3592.html
 捻挫（ねんざ）、または挫き（くじき）は、関節に関節の許容範囲を超えた動きが与えられた為におきる損傷の一つである。多くは患部に痛みと腫脹、熱感を伴う。手や足などの関節をくじくこと。関節に無理な力が加わって，はずれそうになるほど曲がり，関節包や靭帯（じんたい）が損傷された状態。/sprain, ligament rupture
 永続化/えいぞくか
 齟齬/そ ご:物事がくいちがって，意図した通りに進まないこと。また，そのくいちがい。/ discord, dissension
+妄想/ぼう そう
+思惟/し い
 
