@@ -7,6 +7,50 @@ How to stop smirking and laughing during a serious situation or an inappropriate
 
 credit vs debit
 
+sql injection
+
+wifislax.com
+
+http://itscompiling.eu/2016/04/11/generating-random-numbers-cpp/
+
+[0] https://github.com/PenturaLabs/Linux_Exploit_Suggester
+[1] https://code.google.com/p/unix-privesc-check/
+
+* The Web Application Hacker's Handbook
+* Hacking: The Art of Exploitation
+* The Database Hacker's Handbook
+* The Art of Software Security Assessment
+* A Bug Hunter's Diary
+* Underground: Tales of Hacking, Madness, and Obsession on the Electronic Frontier
+* TCP/IP Illustrated
+
+http://pastebin.com/raw/0SNSvyjJ
+Phineas Fisher hack back
+vigilante : a member of a volunteer committee organized to suppress and punish crime summarily (as when the processes of law are viewed as inadequate); broadly : a self-appointed doer of justice.
+the whole exposé is quite a long read, we're going to provide a summary, but we recommend checking out Phineas Fisher's post for the finer tips on various hacking techniques and pen-testing tools.
+
+Safe Clearing of Private Data 
+memset()
+stack heap
+http://www.viva64.com/en/b/0388/
+http://www.viva64.com/en/b/0391/
+
+Detecting Overflows of 32-Bit Variables in Long Loops in 64-Bit Programs
+http://www.viva64.com/en/b/0385/
+
+採番 id bigint NOT NULL DEFAULT nextval('wz11tt_002_id_seq'::regclass)
+
+sql select all data inserted after particular time
+
+registry hack that will enable “Open Command Window Here” item without holding down the shift key.
+
+neo is a prefix from the ancient Greek word for young, neos (νέος).
+
+xls -> save as CSV -> replace ?(NULL)? with EMPTY -> save as utf-8 -> DB import
+
+Multi-Dimensional Data Structure(mdd)
+Purely Functional Data Structures
+
 Trunk-Room for luggage (self storage)
 griddle
 wok
@@ -115,7 +159,6 @@ public static boolean isNotNullNotEmptyNotWhiteSpaceOnlyByJava(final String stri
 }
 
 https://boldanddetermined.com/how-to-make-money-by-being-yourself/
-https://anonymousemail.me
 
 REST (representational state transfer)
 SOAP (Simple Object Access Protocol)
@@ -374,6 +417,64 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(strPath,false),"utf-8"));//overwrite
 
+java EOF -1
+
+How to force Google search to only return English results?
+https://encrypted.google.com/webhp?hl=en&gl=en#safe=active&hl=en&gl=en
+1.Go to Chrome settings
+2.Under Search, click on Manage search engines
+3.Scroll to the bottom, fill Add a new search engine and Keyword with whatever you want
+4.Fill the URL field with
+https://encrypted.google.com/webhp?hl=en&gl=en#safe=active&hl=en&gl=en&q=%s
+5.Press Done
+6.Go back to Manage search engines and make it your default
+
+System.out.format("%s: %s\n", e.getKey(), e.getValue());
+
+String tmpStr = new String();
+LOG.debug(tmpStr.format("(\"\".equals(new String())):%s,(new String().length() == 0):%s,new String().isEmpty():%s\n", ("".equals(tmpStr)), (tmpStr.length() == 0), tmpStr.isEmpty()));
+DEBUG c.a.w.w.w.a.s.Wz1139001ServiceImpl - ("".equals(new String())):true,(new String().length() == 0):true,new String().isEmpty():true
+
+java @Override
+The @Override annotation was added in JDK 1.5. It functions more or less as a new method modifier. Its presence indicates to the compiler that the annotated method must override an existing supertype method, either from an interface, or an abstract base class. 
+(When it was first introduced in JDK 1.5, @Override was only applicable to methods defined in a superclass, and not in a supertype. That is, it originally applied to overriding methods in a base class, but not to implementing methods defined in an interface. This was changed in JDK 7, and now @Override can be applied to both.) 
+
+The most common use case for @Override is with Object methods: 
+@Override public String toString(){...}
+@Override public boolean equals(Object){...}
+@Override public int hashCode(){...}
+
+The main reason @Override was created was to deal with simple (but nasty) typographical errors. For example, a method mistakenly declared as public int hashcode(){...}
+is in fact not an override - the method name has all lower case letters, so it doesn't exactly match the name of the hashCode() method. It will however compile perfectly well. Such an error is easy to make, and difficult to catch, which is a dangerous combination. Using the @Override annotation prevents you from making such errors. 
+You should be in the habit of using @Override whenever you override a superclass method, or implement an interface method. 
+
+Any method which is not private, static, or final can be overridden. Allowing a method to be overridden should always be done intentionally, not by accident. Overridable methods, and any methods which call them, represent unusual places in your code, to which special attention must be paid. This is because subclassing violates encapsulation, in the sense that it's possible for a subclass to break its superclass's contract. See Effective Java for more information. 
+If you don't intend a method to be overridden, then you should declare it as private, static, or final. 
+When you do override a method, you should use the @Override annotation. This allows the compiler to verify that the method is indeed a valid override of an existing method. For example, your implementations of toString, equals, and hashCode should always use @Override in the method header. 
+
+//org.apache.commons.io.filefilter.WildcardFileFilter
+FileFilter ff = new WildcardFileFilter("*"+Wz11PropertiesUtils.get(CsvMetaConstant.FILE_WZ1139001_NAME)+"*");
+File[] tmpfls = folder.listFiles(ff);
+
+//java.io.FilenameFilter
+File[] infiles = folder.listFiles(new FilenameFilter() {
+	@Override
+	public boolean accept(File dir, String name) {
+		return name.contains(Wz11PropertiesUtils.get(CsvMetaConstant.FILE_WZ1139001_NAME));
+	}
+});
+
+LOG.debug(new String().format("filtered via java.io.FilenameFilter %d file(s), via org.apache.commons.io.filefilter.WildcardFileFilter %d file(s)\n", infiles.length,tmpfls.length));
+DEBUG c.a.w.w.w.a.s.Wz1139001ServiceImpl - filtered via java.io.FilenameFilter 3 file(s), via org.apache.commons.io.filefilter.WildcardFileFilter 3 file(s)
+
+finally block fails to execute only when system.exit() is invoked or current execution is interrupted or JVM itself crashes due to some reason.
+
+Remove Guest Session from Ubuntu 16.04 Login Screen
+#check
+less /etc/lightdm/lightdm.conf.d/50-no-guest.conf
+sudo mkdir /etc/lightdm/lightdm.conf.d
+sudo sh -c 'printf "[SetDefaults]\nallow-guest=false\n" > /etc/lightdm/lightdm.conf.d/50-no-guest.conf'
+
 近視のなかには、度数がマイナス8D（ディオプター）を超える「強度近視」に進行するものがある。
 
 asparagus - хэрээний нүд
@@ -419,4 +520,7 @@ http://www.venture-support.biz/media/avoidance/step/3592.html
 齟齬/そ ご:物事がくいちがって，意図した通りに進まないこと。また，そのくいちがい。/ discord, dissension
 妄想/ぼう そう
 思惟/し い
+仕入先 しいれさき
+creditor 貸方,貸し主,債権者
+debtor 借方,借り主,債務者
 
