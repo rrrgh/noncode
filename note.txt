@@ -1,7 +1,31 @@
 sow/plant ð seeds
+grow avocado tree from seed
+mulch
+
 m-w.com/dictionary/griddle
 merriam-webster.com/dictionary/poached%20egg
 sow/plant the seeds of something: to do something that makes a process or feeling start to develop.
+
+programmatically enter text and click button, click link in website
+Selenium automates browsers. That's it! What you do with that power is entirely up to you. Primarily, it is for automating web applications for testing purposes, but is certainly not limited to just that. Boring web-based administration tasks can (and should!) also be automated as well.
+
+bug bounty program
+
+crack coding interview pdf
+code complete pdf
+
+animated image
+BPG (Better Portable Graphics)
+best alternative to animated gif
+classic chess game -> animated image
+
+octet stream vs binary file
+e.g. 7z
+
+https://www.guerrillamail.com/compose
+
+@SuppressWarnings("finally")
+finally block fails to execute only when system.exit() is invoked or current execution is interrupted or JVM itself crashes due to some reason.
 
 How to stop smirking and laughing during a serious situation or an inappropriate time?
 
@@ -467,13 +491,29 @@ File[] infiles = folder.listFiles(new FilenameFilter() {
 LOG.debug(new String().format("filtered via java.io.FilenameFilter %d file(s), via org.apache.commons.io.filefilter.WildcardFileFilter %d file(s)\n", infiles.length,tmpfls.length));
 DEBUG c.a.w.w.w.a.s.Wz1139001ServiceImpl - filtered via java.io.FilenameFilter 3 file(s), via org.apache.commons.io.filefilter.WildcardFileFilter 3 file(s)
 
-finally block fails to execute only when system.exit() is invoked or current execution is interrupted or JVM itself crashes due to some reason.
+java Interface = new Implementation()
+http://stackoverflow.com/questions/9852831/polymorphism-why-use-list-list-new-arraylist-instead-of-arraylist-list-n
+http://stackoverflow.com/questions/18329311/reason-for-list-list-new-arraylist
+
+To properly write code to upload files to a FTP server using Apache Commons Net API, the following steps should be followed:
+◦          Connect and login to the server.
+◦          Enter local passive mode for data connection.
+◦          Set file type to be transferred to binary.
+◦          Create an InputStream for the local file.
+◦          Construct path of the remote file on the server. The path can be absolute or relative to the current working directory.
+◦          Call one of the storeXXX()methods to begin file transfer. There are two scenarios:◾      Using an InputStream-based approach: this is the simplest way, since we let the system does the ins and outs. There is no additional code, just passing the InputStream object into the appropriate method, such as storeFile(String remote, InputStream local) method.
+◾      Using an OutputStream-based approach: this is more complex way, but more control. Typically we have to write some code that reads bytes from the InputStream of the local file and writes those bytes into the OutputStream which is returned by the storeXXX() method, such as storeFileStream(String remote) method.
+◦          Close the opened InputStream and OutputStream.
+◦          Call completePendingCommand() method to complete transaction.
+◦          Logout and disconnect from the server.
+
+NOTES: we should check return value of the storeXXX() and completePendingCommand() method to ensure the upload is completed successfully.
 
 Remove Guest Session from Ubuntu 16.04 Login Screen
 #check
 less /etc/lightdm/lightdm.conf.d/50-no-guest.conf
 sudo mkdir /etc/lightdm/lightdm.conf.d
-sudo sh -c 'printf "[SetDefaults]\nallow-guest=false\n" > /etc/lightdm/lightdm.conf.d/50-no-guest.conf'
+sudo sh -c 'printf "[SeatDefaults]\nallow-guest=false\n" > /etc/lightdm/lightdm.conf.d/50-no-guest.conf'
 
 近視のなかには、度数がマイナス8D（ディオプター）を超える「強度近視」に進行するものがある。
 
@@ -523,4 +563,6 @@ http://www.venture-support.biz/media/avoidance/step/3592.html
 仕入先 しいれさき
 creditor 貸方,貸し主,債権者
 debtor 借方,借り主,債務者
+頭18桁
+Web サイトの復元の試みは、無限ループを避けるため 2 回試行した後停止します。
 
