@@ -1,6 +1,6 @@
 sow/plant ð seeds
 grow avocado tree from seed
-mulch
+mulch : a protective covering (as of sawdust, compost, or paper) spread or left on the ground to reduce evaporation, maintain even soil temperature, prevent erosion, control weeds, enrich the soil, or keep fruit (as strawberries) clean.
 
 m-w.com/dictionary/griddle
 merriam-webster.com/dictionary/poached%20egg
@@ -8,6 +8,8 @@ sow/plant the seeds of something: to do something that makes a process or feelin
 
 programmatically enter text and click button, click link in website
 Selenium automates browsers. That's it! What you do with that power is entirely up to you. Primarily, it is for automating web applications for testing purposes, but is certainly not limited to just that. Boring web-based administration tasks can (and should!) also be automated as well.
+
+liquid sandbox
 
 bug bounty program
 
@@ -18,6 +20,9 @@ animated image
 BPG (Better Portable Graphics)
 best alternative to animated gif
 classic chess game -> animated image
+
+en2mn
+underwear
 
 octet stream vs binary file
 e.g. 7z
