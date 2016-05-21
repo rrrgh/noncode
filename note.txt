@@ -11,10 +11,16 @@ Selenium automates browsers. That's it! What you do with that power is entirely 
 
 liquid sandbox
 
+System.gc();
+java log TRACE
+
 bug bounty program
 
 crack coding interview pdf
 code complete pdf
+
+java pass by value or pass by reference
+java best way to pass large objects
 
 animated image
 BPG (Better Portable Graphics)
@@ -152,7 +158,6 @@ last straw : the last of a series (as of events or indignities) that brings one 
 Clinton Goofs on Russian Translation, Tells Diplomat She Wants to 'Overcharge' Ties.
 goof : 1. a silly or stupid person; 2. a careless or stupid mistake.
 simpleton : someone who is not very intelligent or who does not have or show good sense or judgment.
-
 
 Should the benchmark measure time/iteration or iterations/time, and why?
 It depends on what you are trying to test. If you are interested in latency, use time/iteration and if you are interested in throughput use iterations/time.
@@ -520,6 +525,67 @@ less /etc/lightdm/lightdm.conf.d/50-no-guest.conf
 sudo mkdir /etc/lightdm/lightdm.conf.d
 sudo sh -c 'printf "[SeatDefaults]\nallow-guest=false\n" > /etc/lightdm/lightdm.conf.d/50-no-guest.conf'
 
+printf and format methods are overloaded. Each has a version with the following syntax:
+public PrintStream format(Locale l, String format, Object... args)
+%n is a platform-independent newline character
+
+import org.apache.commons.lang.builder.ToStringBuilder;
+import org.apache.commons.lang.builder.ToStringStyle;
+public String toString() {
+	return ToStringBuilder.reflectionToString(this,	ToStringStyle.MULTI_LINE_STYLE);
+}
+
+import java.sql.Timestamp;
+wz11tm011.setRnewDay(new Timestamp(Calendar.getInstance().getTime().getTime()));
+wz11tm011.setRnewDay(Calendar.getInstance().getTime());
+
+generate sequential numbers in notepad++/sakura-editor
+FOR /L %A IN (1,1,100) DO ECHO %A >> sequential_num.txt
+
+jpa 1.0 filter in clause
+jpa 1.0
+Wz11tm011RepositoryImpl
+final Query query = service.createNativeQuery(sql.toString(), "WZ1140003Wz11tm011ResultSetMapping");
+Wz11tm011
+@Entity(name = "WZ1140003_Wz11tm011")
+@Table(name = "wz11tm_011", uniqueConstraints = { @UniqueConstraint(columnNames = { "hojinCode","guid","trxType" }) })
+@SqlResultSetMapping(name = "WZ1140003Wz11tm011ResultSetMapping", entities = { @EntityResult(entityClass = Wz11tm011.class, fields = {
+
+java 6 comparator collections of different size
+Comparator
+
+Convert case using regular expression
+_(.*)
+_\U\1\E = "\1";
+\U converts all backreferences up to the next \L or \E to uppercase. \L converts all backreferences up to the next \U or \E to lowercase. \E turns off case conversion.
+
+^((?!NotThisStr).)*$
+Explanation:
+( group and capture to \1 (0 or more times (matching the most amount possible))
+(?! look ahead to see if there is not:
+<string>
+) end of look-ahead
+)* end of \1 (NOTE: because you are using a quantifier on this capture, only the LAST repetition of the captured pattern will be stored in \1)
+$ before an optional \n, and the end of the string
+
+(.*?)\.equals\((.*?\(\))\)( &&|\) \{)
+((isNullorEmpty(\1) && isNullorEmpty(\2)) || (!isNullorEmpty(\1) && !isNullorEmpty(\2) && \1.equals(\2))) \3
+
+\s*\n -> ,
+
+excel compare columns
+=IF(AND($F$2:$F=$G$2:$G,$H$2:$H=$I$2:$I),"○","×")	incorrect
+=IF(AND(MATCH ($F2:$F,$G2:$G),MATCH ($H2:$H,$I2:$I)),"○","×")	incorrect
+=IF(EXACT($F$2:$F, $G$2:$G),"○","×")	incorrect
+
+eclipse shortcut key to insert todo task tags
+// TODO inserted by ${user} [${time} ${date}]
+
+//↴未設定
+
+ping 208.67.222.222
+ping 208.67.220.220
+
 近視のなかには、度数がマイナス8D（ディオプター）を超える「強度近視」に進行するものがある。
 
 asparagus - хэрээний нүд
@@ -570,4 +636,25 @@ creditor 貸方,貸し主,債権者
 debtor 借方,借り主,債務者
 頭18桁
 Web サイトの復元の試みは、無限ループを避けるため 2 回試行した後停止します。
+本番機についてもなるはやで対応いたします。
+従業員別設定情報ワークテーブルのエンティティクラス
+整形 せい けい
+末尾 まつ び
+嘱託 しょく たく
+
+首題の件、ＮＲＩタワー13階男性用トイレにて拾得がありました。
+
+カフス（円形部分が赤色）
+
+お心当たりのある方はお手すきの際に
+総務・リスク管理グループまでお越し下さい。
+よろしくお願いします。
+
+傘立てクリーンキャンペーンのリマインドです。
+明日は放置された傘の撤去日になります。
+傘のお持ち帰り、あるいは「所属部署、氏名」の記入、
+貼り付けをお願いいたします。
+
+老朽化 ろうきゅうか
+
 
