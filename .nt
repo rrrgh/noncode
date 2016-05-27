@@ -1271,7 +1271,7 @@ Security forces in Ukraine have accused the Russian army of disrupting mobile co
 Smaller-scale attacks have seen news websites and social media defaced with propaganda messages.
 
 
-ru(rss):
+ru:
 What is the Russian word containing MOST number of DIFFERENT Cyrillic characters?
 
 скороговорка
@@ -1502,7 +1502,6 @@ Russian OS X
 Russian dairy products
 Russian dairy industry
 
-http://rt.com
 ChessTV.com
 http://vefire.ru/channel/ChessTV/
 http://chess4you.ru/
@@ -1529,7 +1528,7 @@ Umka - the Ice City of NW Russia
 
 car travel from Saint Petersburg to Vladivostok (->Umka->Moscow->Lake Baikal->Ulan Ude->)
 
-jp2ru(rss):
+jp2ru:
 （人間・物事を）いい加減にあしらう (vt.)
 いいかげんに扱う
 中途半端 (ちゅう とはんぱ): 物事が完成していないこと。また，徹底していないで，どっちつかずなさま。 「 －な態度」
@@ -1539,12 +1538,12 @@ jp2ru(rss):
 偏差値
 標準偏差
 
-うがい(gargle?)
+うがい/gargle
 
 カーブミラー (Convex Traffic Mirror?)
 リストラ
 
-en2ru(rss):
+en2ru:
 Don't wait. The time will never be just right.
 
 Russian Grammar Case:
@@ -1567,6 +1566,8 @@ Direct Voice Rehabilitation
 Could I have a glass of water, please?
 Could you please pass me the pitcher?
 Would you open the door for me, please?
+
+cartel
 
 Improve sense of humor as a man.
 I could not get/wrap my head around that for awhile.
@@ -2223,7 +2224,7 @@ trace mineral
 
 stuck in rut
 
-<<END of en2ru(rss)>>
+<<END of en2ru>>
 
 Thoughts:
 Where there are Chinese, there are destructions and pollutions. The once beautiful, harmonious, eco, clean, and peaceful homeland of Barag People, livestocks and swans, now became severly degraded and polluted deserts, numerous mine dumps, "shelter" of banned-from-other-parts-of-China chemical factories, and Chinese farmland!
@@ -3152,8 +3153,10 @@ cn2jp:
 
 回転式 三脚マウント
 
-酷使/こく し: lash up/exploitation
+酷使/こく し : lash up/exploitation
 批評/ひ ひょう
+静脈/じょうみゃく: vein
+動脈/どうみゃく: artery
 
 cn2ru :
 稍纵即逝
