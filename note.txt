@@ -10,6 +10,9 @@ programmatically enter text and click button, click link in website
 Selenium automates browsers. That's it! What you do with that power is entirely up to you. Primarily, it is for automating web applications for testing purposes, but is certainly not limited to just that. Boring web-based administration tasks can (and should!) also be automated as well.
 
 liquid sandbox
+Knowledge-Hoarding Expert
+wreak havoc
+content agnostic
 
 System.gc();
 java log TRACE
@@ -29,6 +32,9 @@ classic chess game -> animated image
 
 en2mn
 underwear
+thumb tack (North American English) or push pin
+裾上げ/すそあげ hemming
+hem stitch
 
 octet stream vs binary file
 e.g. 7z
@@ -159,6 +165,7 @@ Clinton Goofs on Russian Translation, Tells Diplomat She Wants to 'Overcharge' T
 goof : 1. a silly or stupid person; 2. a careless or stupid mistake.
 simpleton : someone who is not very intelligent or who does not have or show good sense or judgment.
 
+
 Should the benchmark measure time/iteration or iterations/time, and why?
 It depends on what you are trying to test. If you are interested in latency, use time/iteration and if you are interested in throughput use iterations/time.
 
@@ -168,7 +175,6 @@ It depends on what you are trying to test. If you are interested in latency, use
 ○
 
 excel use cell address as cell value
-excel split merged cell horizontally
 
 reference a class in different project in eclipse //project A-->Properties-->Build Path-->Projects-->Add Project B
 java :: operator
@@ -529,6 +535,8 @@ printf and format methods are overloaded. Each has a version with the following 
 public PrintStream format(Locale l, String format, Object... args)
 %n is a platform-independent newline character
 
+linux command to determine cd/dvd writable
+
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 public String toString() {
@@ -578,6 +586,10 @@ excel compare columns
 =IF(AND(MATCH ($F2:$F,$G2:$G),MATCH ($H2:$H,$I2:$I)),"○","×")	incorrect
 =IF(EXACT($F$2:$F, $G$2:$G),"○","×")	incorrect
 
+Line Break in Cell Formulas
+=IF(Sheet1!A1<>Sheet2!A1,"old:"&Sheet1!A1&CHAR(10)&"new:"&Sheet2!A1, "○") + Wrap Text from menu
+& -> str concatenation, CONCATENATE() function
+
 eclipse shortcut key to insert todo task tags
 // TODO inserted by ${user} [${time} ${date}]
 
@@ -586,6 +598,12 @@ eclipse shortcut key to insert todo task tags
 ping 208.67.222.222
 ping 208.67.220.220
 
+// BOM付き
+bw = new BufferedWriter(new FileWriter(writefile));
+bw.write(0xef);
+bw.write(0xbb);
+bw.write(0xbf);
+			
 近視のなかには、度数がマイナス8D（ディオプター）を超える「強度近視」に進行するものがある。
 
 asparagus - хэрээний нүд
@@ -656,5 +674,5 @@ Web サイトの復元の試みは、無限ループを避けるため 2 回試�
 貼り付けをお願いいたします。
 
 老朽化 ろうきゅうか
-
+実行証跡
 
