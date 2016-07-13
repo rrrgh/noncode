@@ -1,0 +1,175 @@
+date +%Y%m%d%H%M%S
+
+vim
+Convert DOS line endings to Linux line endings in vim
+set fileformat=unix
+
+Bash: Print each command before executing?
+bash -x 
+
+select cells in a row or column by selecting the first cell and then pressing CTRL+SHIFT+ARROW key (RIGHT ARROW or LEFT ARROW for rows, UP ARROW or DOWN ARROW for columns).
+Note If the row or column contains data, CTRL+SHIFT+ARROW key selects the row or column to the last used cell. Pressing CTRL+SHIFT+ARROW key a second time selects the entire row or column.
+
+sed -i '/bsd/ s/windows/linux/g' file
+
+Vi has been able to flip between two files, the second being the alternate file use CTRL-^ to flip, even to the exact line and position on the line is retained.
+vi 
+Then you want to peak at your second file,
+:e otherfile
+Work away, find what you want, copy a region into a buffer, then hit CTRL-^ On a qwerty kbd, you actually have to press CTRL-SHIFT-6 and you are back to before you started editing the new file.
+CTRL-^ flips you back. So you can flip back and forth just by remembering only one extra command.
+The alternate file can be edited using :e # and you can have a number of alternates, :e 2# to edit the 2nd alternate file. But thats too much to remember, stick with CTRL-^
+
+"C:\Program Files (x86)\Mozilla Firefox\firefox.exe" 
+firefox -new-tab
+
+端株/は かぶ odd‐[broken‐]lot stocks
+
+データ長全てブランク埋め
+                                                                                                    
+五芒星（ごぼうせい、英: pentagram）★
+
+c++ developer fastest way to parse log file > 2gb
+
+http://www.javapractices.com/home/HomeAction.do
+
+MySQL multi-row insert doesn't work in Oracle!
+INSERT ALL 
+INTO PgCenterCutMerge_WK (KOZA_NO,UKEW_YMD,KINGK,SOSAI_KBN,USER_CD,TUKA_CD,TORI_NO,CREATOR,CREATION_DATE) values ('03104703501',20160628,20,'0',2904,'JPY',1,'wca002BH2904.sh                         ',TO_NUMBER(TO_CHAR(SYSDATE,'YYYYMMDD')))
+INTO PgCenterCutMerge_WK (KOZA_NO,UKEW_YMD,KINGK,SOSAI_KBN,USER_CD,TUKA_CD,TORI_NO,CREATOR,CREATION_DATE) values ('03104704501',20160628,-700000,'0',2904,'JPY',1,'wca002BH2904.sh                         ',TO_NUMBER(TO_CHAR(SYSDATE,'YYYYMMDD')))
+SELECT * FROM dual;
+commit;
+
+TO_NUMBER(TO_CHAR(SYSDATE,'YYYYMMDD'))
+
+Bears are scavengers, eating bear meat can be dangerous because of possible parasites.
+
+cd /d C:\Program Files\WinMerge
+WinMergeU /e /r /wl /wr D:\workspace2\01_Source\Kabucom.ITR.Batch\Kabucom.ITR.Batch.ExternalBatch D:\workspace\01_Source\Kabucom.ITR.Batch\Kabucom.ITR.Batch.ExternalBatch
+
+\s*(\S*?)\s*2>&1$	->	■&> \1
+
+attenuate : to lessen in amount, effect, or force.
+hindsight : the knowledge and understanding that you have about an event only after it has happened; perception of the nature of an event after it has happened.
+
+#rmdir
+rd /S /Q bin obj
+del /S /Q *.*
+
+visual studio
+Ctrl - / F12
+
+おまけ extra, addition, discount, brotus, lagniappe, lagnappe
+
+oracle procedure
+COALESCE(CRCT.HEIKIN_TANKA, GC.HEIKIN_TANKA) / 10000 AS xyz
+
+SQL PIVOT
+
+Ctrl+m : new Excel
+Toggle absolute / relative reference
+F4 (Mac: Command + T)
+e.g. for the reference A1, you'll see: $A$1, A$1, $A1, and, finally, A1 again.
+
+excel left pad
+=IF(EXACT(B3,"×"),ROUNDDOWN(PgStockDepositT1_WK!AR2*PgStockDepositT1_WK!AH2*PgStockDepositT1_WK!AU2*PgStockDepositT1_WK!AV2,0),"")
+=IFERROR(IF(EXACT(B3,"○"),ROUNDDOWN(PgStockDepositT1_WK!AR2*XBOKAG!J3/10000*PgStockDepositT1_WK!AH2,0),""),0)
+=IF(CONDITION,"literal_text,""") #""" -> false
+
+=TEXT(sheet!column,"0000000000")
+=A1&B1
+=VLOOKUP(C1,PMEAAZ_BL!B:B,1,FALSE)
+
+& -> concatenate
+
+libreoffice index match
+excel index match
+
+Select any cell in the column and press CTRL+SPACE to select the whole column.
+Hit Ctrl+X to cut the column.
+Select the column before which you what to paste the cut column.
+Press Ctrl together with the Plus sign (+) on the numeric keypad to insert the column.
+
+#oracle check last update time of a talbe
+SELECT SCN_TO_TIMESTAMP(MAX(ora_rowscn)) from PMEAAZ_BL;
+SELECT TO_CHAR(SYSDATE, 'YYYY-MM-DD HH24:MI:SS') "NOW" FROM DUAL;
+
+知るだけで天地の差が出る
+実行されないコード、 2重チェックなどの冗長なコードがないこと
+処理が逆流するような処理(goto文など)がないこと
+最大値を考慮して無闇に大きな型で変数を定義しないこと(Int型で充分な箇所をLong型で定義)
+"システム全体で基本機能デグレードがないことを確認する項目があるか？
+今回修正した機能に絞らず、一通りの操作を行い（ピックアップでも可）他の機能の動作保証をする。
+デグレードテストの粒度に関しては案件により確定"
+
+best way to improve working memory
+most effective way to enhance working memory
+
+→
+←
+↑
+↓
+⇔
+
+if (1 < spMsgList.Length) → if (spMsgList.Length > 1)
+#1
+get-childitem *\Query\DatabaseAccessor.cs | 
+Foreach-Object { $f = $_.fullname; (get-content $f) | 
+ 	Foreach-Object { $_ -replace [string]"if (spMsgList.Length > 1)",[string]"if (1 < spMsgList.Length)" } | 
+ 		set-content $f -encoding utf8
+}
+
+#2
+gci *\Query DatabaseAccessor.cs -recurse | ForEach {
+  (Get-Content $_ | ForEach {$_ -replace [string]"if (spMsgList.Length > 1)", [string]"if (1 < spMsgList.Length)"}) | Set-Content $_ -encoding utf8
+}
+
+#3 regexp problem
+Get-ChildItem  -Path .\*\Query\DatabaseAccessor.cs -recurse 
+ | ForEach {If (Get-Content $_.FullName | Select-String -Pattern 'if\s*\((spMsgList\.Length)\s*>\s*(\d*)\)') 
+           {(Get-Content $_ | ForEach {$_ -replace 'if\s*\((spMsgList\.Length)\s*>\s*(\d*)\)', 'if ($2 < $1)'}) | Set-Content $_ -encoding utf8 }
+}
+
+#other
+foreach($i in Get-ChildItem -Recurse) {
+    if ($i.PSIsContainer) {
+        continue
+    }
+
+    $dest = $i.Fullname.Replace($PWD, "some_folder")
+    if (!(Test-Path $(Split-Path $dest -Parent))) {
+        New-Item $(Split-Path $dest -Parent) -type Directory
+    }
+
+    get-content $i | out-file -encoding utf8 -filepath $dest
+}
+If you want UTF8 without BOM, replace the get-content $i | out-file -encoding utf8 -filepath $dest line with the following (source):
+
+$filecontents = Get-Content $i
+$Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding($False)
+[System.IO.File]::WriteAllLines($i, $filecontents, $Utf8NoBomEncoding)
+
+Note that this may not be very performant for larger files, since it reads entire files into memory before writing them again. If efficiency is needed, it is possible to read line by line, or even a specific number of bytes at a time. However, I'd rather just write a quick program in C# by that point (since you'd be using .NET fuctions in PS anyway).
+
+egrep -3 -in "date|time" * > hizuke_ctl.txt
+egrep -3 -in "date|time" DDL/* > hizuke_sql.txt
+
+до сих пор вода бежит глубоко
+Still water runs deep.
+
+Problem: List the total amount ordered for each customer
+SELECT SUM(O.TotalPrice), C.FirstName, C.LastName
+      FROM [Order] O JOIN Customer C 
+        ON O.CustomerId = C.Id
+     GROUP BY C.FirstName, C.LastName
+     ORDER BY SUM(O.TotalPrice) DESC;
+
+select USER_CD, KOZA_NO, count(USER_CD) from PgAcctAttrMini_WK group by USER_CD, KOZA_NO HAVING count(USER_CD) > 1;
+/*
+COUNT関数を使用する場合、「*」(アスタリスク)は使用しないこと。
+COUNT(1)は表の全件数を調べる場合、COUNT(カラム名）はカラム値がNULL以外のレコード件数をカウントする場合に使用すること。
+*/
+
+http://c.learncodethehardway.org/book/ex9.html
+
+= "INSERT INTO " & $Z$5 & " (" & $A$7 & ", " & $B$7 & ", " & $C$7 & ", " & $D$7 & ", " & $E$7 & ", " & $F$7 & ", " & $G$7 & ", " & $H$7 & ", " & $I$7 & ", " & $J$7 & ", " & $K$7 & ", " & $L$7 & ", " & $M$7 & ", " & $N$7 & ", " & $O$7 & ", " & $P$7 & ", " & $Q$7 & ", " & $R$7 & ", " & $S$7 & ", " & $T$7 & ", " & $U$7 & ", " & $V$7 & ", " & $W$7 & ", " & $X$7 & ") " & "VALUES (" & "'" & A8 & "'" & ", " & "'" & B8 & "'" & ", " & "'" & C8 & "'" & ", " & "'" & D8 & "'" & ", " & "'" & E8 & "'" & ", " & "'" & F8 & "'" & ", " & "'" & G8 & "'" & ", " & "'" & H8 & "'" & ", " & "'" & I8 & "'" & ", " & "to_timestamp('" & J8 & "','RR-MM-DD HH24:MI:SSXFF')" & ", " &  "to_timestamp('" & K8 & "','RR-MM-DD HH24:MI:SSXFF')" & "," & "'" & L8 & "'" & "," & "'" & M8 & "'" & "," & "'" & N8 & "'" & "," & "'" & O8 & "'" & "," & "'" & P8 & "'" & "," & "'" & Q8 & "'" & "," & "'" & R8 & "'" & "," & "'" & S8 & "'" & "," & "'" & T8 & "'" & "," & "to_timestamp('" & U8 & "','RR-MM-DD HH24:MI:SSXFF')" & "," & "'" & $AA$5 & "'" & "," & "to_timestamp('" & W8 & "','RR-MM-DD HH24:MI:SSXFF')" & "," & "'" & $AA$5 & "'" & ");"
