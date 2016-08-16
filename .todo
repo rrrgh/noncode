@@ -876,4 +876,5 @@ karma
 
 Armitage nmap kali linux
 
-c/c++ bitwise operator >> << >>>
+c c++ bit shift operator >>>
+c++ read write .sqlite linux
