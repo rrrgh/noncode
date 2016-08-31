@@ -895,3 +895,10 @@ http://www.tecmint.com/install-lamp-apache-php-7-and-mariadb-10-on-ubuntu-16-04/
 https://www.howtoforge.com/tutorial/install-apache-with-php-and-mysql-on-ubuntu-16-04-lamp/
 https://www.youtube.com/watch?v=bBaGWayHgOg
 https://www.howtoforge.com/apache_php_mysql_on_centos_7_lamp
+
+sjis2u8 () {
+iconv -f SHIFT-JIS -t UTF-8 
+}
+zsh string # % operator
+bash string # % operator
+http://superuser.com/questions/1119290/what-does-do-in-linux-shell-strings
