@@ -899,6 +899,4 @@ https://www.howtoforge.com/apache_php_mysql_on_centos_7_lamp
 sjis2u8 () {
 iconv -f SHIFT-JIS -t UTF-8 
 }
-zsh string # % operator
-bash string # % operator
 http://superuser.com/questions/1119290/what-does-do-in-linux-shell-strings
