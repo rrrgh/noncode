@@ -900,3 +900,7 @@ sjis2u8 () {
 iconv -f SHIFT-JIS -t UTF-8 
 }
 http://superuser.com/questions/1119290/what-does-do-in-linux-shell-strings
+
+http://stackoverflow.com/questions/4456442/multiplication-of-two-integers-using-bitwise-operators
+https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/bitshift.html
+http://stackoverflow.com/questions/3722004/how-to-perform-multiplication-using-bitwise-operators?noredirect=1
