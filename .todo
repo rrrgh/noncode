@@ -1,3 +1,8 @@
+#wish to accomplish before death:
+1. Read and comprehend «Война́ и мир» (рус. дореф. «Война и миръ») in Russian.
+2. Make chess set with my own hands.
+3. Learn to ride horse.
+
 connect device via usb to computer that has android sdk tools. (ubuntu better on this job)sudo adb shell su 
 mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /system
 cd /system/app
@@ -954,3 +959,5 @@ rotogenflux method pdf
 would-be parents supplement Iodine & baby in womb 40 week
 
 MQTT
+kali linux 2016.2 any website ssl vulnerability
+make chess set with one's own hands
