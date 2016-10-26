@@ -992,5 +992,22 @@ if you understand pointer, you understand c++
 欧米で仕事注意
 
 js c++ java php -> WeChat Line iMessage
+js c++ -> WeChat Line login, send and receive message
+
 use WeChat Line API to send message from js c++ java php
 
+#KrtkInfrs
+logging, timing, debugging info(function/method name, line number,etc.), reflection, serialization
+c++ 1x -> traditional mongolian libreoffice document -> pdf
+c++ 1x -> traditional mongolian latex document -> pdf
+libreoffice c++ api
+
+how to contribute to open source project on github
+
+#linux distro
+rpm -q --whatprovides redhat-release || rpm -q --whatprovides centos-release || rpm -q --whatprovides cloudlinux-release || rpm -q --whatprovides sl-release
+
+uname -m
+
+git clone git://anongit.freedesktop.org/libreoffice/core
+fedora shortcut key to access system tray
