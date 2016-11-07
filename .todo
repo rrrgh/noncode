@@ -1002,8 +1002,6 @@ c++ 1x -> traditional mongolian libreoffice document -> pdf
 c++ 1x -> traditional mongolian latex document -> pdf
 libreoffice c++ api
 
-how to contribute to open source project on github
-
 #linux distro
 rpm -q --whatprovides redhat-release || rpm -q --whatprovides centos-release || rpm -q --whatprovides cloudlinux-release || rpm -q --whatprovides sl-release
 
@@ -1012,8 +1010,9 @@ uname -m
 git clone git://anongit.freedesktop.org/libreoffice/core
 fedora shortcut key to access system tray
 
-how to properly wipe bottom with only left hand
-
 Algorithms, 5th Edition by Robert Sedgewick and Kevin Wayne
 
 how economy works
+
+setup linux for online video interview
+
