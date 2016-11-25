@@ -1030,3 +1030,10 @@ https://codility.com/c/feedback/HCBZQW-AYJ
 初穂餅
 debug c/c++ network application
 fedora 25 SELinux AVC denial
+
+X Error of failed request:  BadMatch (invalid parameter attributes)
+  Major opcode of failed request:  146 (DPMS)
+  Minor opcode of failed request:  6 (DPMSForceLevel)
+  Serial number of failed request:  12
+  Current serial number in output stream:  14
+
