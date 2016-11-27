@@ -94,16 +94,12 @@ Press Ctrl together with the Plus sign (+) on the numeric keypad to insert the c
 SELECT SCN_TO_TIMESTAMP(MAX(ora_rowscn)) from PMEAAZ_BL;
 SELECT TO_CHAR(SYSDATE, 'YYYY-MM-DD HH24:MI:SS') "NOW" FROM DUAL;
 
-知るだけで天地の差が出る
 実行されないコード、 2重チェックなどの冗長なコードがないこと
 処理が逆流するような処理(goto文など)がないこと
 最大値を考慮して無闇に大きな型で変数を定義しないこと(Int型で充分な箇所をLong型で定義)
 "システム全体で基本機能デグレードがないことを確認する項目があるか？
 今回修正した機能に絞らず、一通りの操作を行い（ピックアップでも可）他の機能の動作保証をする。
 デグレードテストの粒度に関しては案件により確定"
-
-best way to improve working memory
-most effective way to enhance working memory
 
 →
 ←
