@@ -337,7 +337,7 @@ http://www.dimensions-math.org
 https://www.sciencenews.org/article/seeing-four-dimensions
 
 #fedora
-#things for which fedora is preferable over ubuntu
+#things for which fedora is preferable over ubuntu (at least for Lenovo, NEC notebook)
 fedora quotes files' names with space, colon, exclamation, etc. when output to terminal, which saves users inserting quotes required to pass to commands;
 persistent can't resolve host github error on ubuntu 14.04+; (https://stackoverflow.com/questions/40562173/cant-resolve-host-github-com-on-ubuntu-14-04-but-not-in-fedora-22)
 unresponsive, crash, freeze while wake from sleep/standby on ubuntu 14.04+;
@@ -488,6 +488,10 @@ Ravrokivor
 Ravrotsagaan
 Rosradarruv
 Rosradarroman
+
+#pronunciation
+Лхамсүрэн
+http://www.tsahimmongol.com/mongol_dictionary.html
 
 mgl:
 Шатрын нүүдэл шиг ухаантай нүүдэл хийвэл Монгол сайхан болно.
