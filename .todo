@@ -1008,11 +1008,8 @@ rpm -q --whatprovides redhat-release || rpm -q --whatprovides centos-release || 
 uname -m
 
 git clone git://anongit.freedesktop.org/libreoffice/core
-fedora shortcut key to access system tray
 
 Algorithms, 5th Edition by Robert Sedgewick and Kevin Wayne
-
-how economy works
 
 Crack the Coding Interview 6th edition pdf
 
@@ -1027,11 +1024,12 @@ STAR Method for Behavioral Interviews
 latest javascript book 2016
 
 https://codility.com/c/feedback/HCBZQW-AYJ
-初穂餅
+
 debug c/c++ network application
+
 fedora 25 SELinux AVC denial
 
-X Error of failed request:  BadMatch (invalid parameter attributes)
+fedora 25 dpms force off  X Error of failed request:  BadMatch (invalid parameter attributes)
   Major opcode of failed request:  146 (DPMS)
   Minor opcode of failed request:  6 (DPMSForceLevel)
   Serial number of failed request:  12
@@ -1043,3 +1041,7 @@ difference between hash table and hash map
 hash table and hash map c c++
 OpenOCD JTAG
 linux free tool to scan email attachment
+
+fedora shortcut key to access system tray
+gnome access system task bar from keyboard
+
