@@ -3850,6 +3850,8 @@ jp2ru,en,mgl:
 薄める dilute, water down
 模倣 もほう imitation
 
+懸賞
+
 «end of jp2ru,en,mgl»
 
 cn2ru,en,mgl:
@@ -3860,12 +3862,13 @@ cn2ru,en,mgl:
 «end of cn2ru,en,mgl»
 
 #asuult question
-Is it possible for iPhone 6 to not invoke shutter hardware which makes noise when taking screenshot, by using third party apps like graphics apps, browsers(via built-in functionality or plugin) and messaging apps, etc?
+Is it possible for iPhone 6 to not invoke shutter hardware which makes noise when taking screenshot, by using third party apps like graphics apps, browsers(via built-in webpage capture functionality or plugin) and messaging apps(e.g. Line/WeChat/Telegram), etc?
 
+app interoperability
 c++1x/python -> LibreOffice docs
 c++1x/python on Linux -> Line/WeChat/Telegram on iOS/Android (through OAuth? OpenID?)
 
 chess:"opening" is for white and "defense" is for black?
 
-what is whipped milk?
+what is whipped milk? Is that fat-removed?
 
