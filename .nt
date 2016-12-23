@@ -359,6 +359,11 @@ macchanger + dish antenna + aircrack + reaver + ip fwd + arp poison + sslstrip +
 
 http://www.softether.org/4-docs/2-howto/1.VPN_for_On-premise/2.Remote_Access_VPN_to_LAN
 
+"C++ templates are to common lisp macros, what IRS tax forms are to poetry."
+Clasp: Common Lisp using LLVM and C++ for Molecular Metaprogramming 
+Google Tech Talk June 9, 2015 Presented by Christian Schafmeister.
+https://www.youtube.com/watch?v=8X69_42Mj-g
+
 #terms
 boilerplate
 
