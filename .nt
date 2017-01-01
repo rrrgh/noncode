@@ -375,6 +375,12 @@ exit code[79,113]
 create, retrieve, update, and delete (CRUD)
 REPL
 
+#ffmpeg
+decoding time stamp (DTS)
+presentation time stamp (PTS)
+-filter:v "setpts=PTS/1.5" -filter:a "atempo=1.5"
+https://ffmpeg.org/documentation.html
+
 m17n:multilingualization
 
 Packages added by CentOS that are not included upstream
