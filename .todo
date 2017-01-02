@@ -15,7 +15,6 @@ exit
 ggl:
 BeagleBone voice recognition
 electricity
-blue LED
 doubling time exponential function
 
 Ggl pic: #гироскоп
@@ -320,7 +319,6 @@ write traditional mongolian characters (excerpt from poems? or Encrypted Message
 bootstrap @ github
 nodejs @ github
 spin.atomicobject.com
-dwnld@utub: jquery zero to hero
 
 c++ generate excel
 
@@ -948,7 +946,6 @@ Urlencode decode from command line zsh
 dependency injection java
 dependency injection javacreed.com
 
-find /mnt/0 ~ -iname "dwn" -type f -execdir rm {} \;
 DDoS attack
 OSQuery facebook
 defend against DDoS attack
@@ -1060,7 +1057,6 @@ capture webpage from chrome firefox safari
 
 7z extract only certain files
 
-Telegram
 Programming in Objective-C (6th Edition) (Developer's Library)
 best Objective C book
 
