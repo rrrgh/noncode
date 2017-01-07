@@ -356,7 +356,6 @@ persistent can't resolve host github error on ubuntu 14.04+; (https://stackoverf
 unresponsive, crash, freeze while wake from sleep/standby on ubuntu 14.04+;
 wifi disconnected when resume from sleep normally on ubuntu 14.04+;
 
-
 EECS ICT:
 macchanger + dish antenna + aircrack + reaver + ip fwd + arp poison + sslstrip + wireshark post filter -> hack
 
