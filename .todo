@@ -1080,3 +1080,7 @@ g++ 4.8.3 csv read write Japanese utf-8 file
 Linux c++日本語csvファイル扱い
 linux g++ 4.8.3 read write Japanese utf-8 CSV file
 java 1.6 Linux 日本語csvファイル扱い
+vim search replace [] <--> {}, () <--> {} in one statement?
+generic types in Java are not covariant
+java regex Negative look ahead: Negative look ahead provides the possibility to exclude a pattern. With this you can say that a string should not be followed by another string.
+http://www.vogella.com/tutorials/JavaRegularExpressions/article.html
