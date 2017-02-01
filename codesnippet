@@ -8,6 +8,7 @@ if (args.length > 0) {
     }
 }
 
+#DI IoC
 http://www.vogella.com/tutorials/DependencyInjection/article.html
 Dependency injection is a concept valid for any programming language. The general concept behind dependency injection is called Inversion of Control. According to this concept a class should not configure its dependencies statically but should be configured from the outside.
 
