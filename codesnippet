@@ -337,3 +337,101 @@ Conclusion:
 Well, that’s all I’ve got. So much for annotations in Java. I can’t say that I’m sure that all this has made you feel the same way as I do about Java, but I hope that you’ve seen some interesting stuff. While day-to-day Java may be lacking a bit in expressivity, there are a few basic building blocks in the Java kit that make it possible for advanced developers to create powerful tools that amplify the productivity of the entire community.
 If you’re interested in diving in deeper, you will find the topic of driving code generation with annotations very interesting. It’s not necessarily pretty to read or write, but folks are doing some nifty work out there with the tools as they are. The source for ButterKnife is reasonably simple, if you’re interested in an example of how it’s done in the real world.
 
+
+java.lang.Object
+  extended by java.text.Format
+      extended by java.text.DateFormat
+          extended by java.text.SimpleDateFormat
+
+Date and Time Pattern 	Result
+"yyyy.MM.dd G 'at' HH:mm:ss z" 	2001.07.04 AD at 12:08:56 PDT
+"EEE, MMM d, ''yy" 	Wed, Jul 4, '01
+"h:mm a" 	12:08 PM
+"hh 'o''clock' a, zzzz" 	12 o'clock PM, Pacific Daylight Time
+"K:mm a, z" 	0:08 PM, PDT
+"yyyyy.MMMMM.dd GGG hh:mm aaa" 	02001.July.04 AD 12:08 PM
+"EEE, d MMM yyyy HH:mm:ss Z" 	Wed, 4 Jul 2001 12:08:56 -0700
+"yyMMddHHmmssZ" 	010704120856-0700
+"yyyy-MM-dd'T'HH:mm:ss.SSSZ" 	2001-07-04T12:08:56.235-0700
+
+#Java Print string literal unicode as the actual character
+for (int i=0x2500;i<=0x257F;i++) {
+  System.out.printf("0x%x : %c\n",i,(char)i);
+}
+
+for(int index=0;index<65536; index++)
+System.out.prinln((char)index);
+But you can not view the unicode chars above 256. They will be displayed as question mark.
+Instead you write all unicode characters in a file using UTF8 format.
+
+#Convert International String to \u Codes in java
+http://stackoverflow.com/questions/6230190/convert-international-string-to-u-codes-in-java
+
+#Printing out unicode from Java code issue in windows console
+http://stackoverflow.com/questions/20386335/printing-out-unicode-from-java-code-issue-in-windows-console
+In additions to the steps you have taken, you also need a PrintStream/PrintWriter that encodes the printed characters to UTF-8.
+Unfortunately, Java designers have chosen to open the standard streams with the so called "default" encoding, which is almost always unusable*) under Windows. Hence, using System.out and System.err naively will make your program output appear differently, depending on where you run it. This is straight against the goal: compile once, run anywhere.
+
+*) It will be some non standard "code page" nobody except Microsoft recognizes on this planet. And AFAIK, if for example you have a German keyboard and a "German" OEM Windows and you want to have date and time in your home time zone, there is just no way to say: But I want UTF-8 input/output in my CMD window. This is one reason why I have my dual Ubuntu booted most of the time, where it goes without saying that the terminal does UTF-8.
+
+The following usually works for me in JDK7:
+public static PrintWriter stdout = new PrintWriter(
+    new OutputStreamWriter(System.out, StandardCharsets.UTF_8), true);
+For ancient Java versions, I replace StandardCharsets.UTF_8 by Charset.forName("UTF-8").
+
+#Chinese Characters Displayed as Questions Marks in Mac Terminal
+http://stackoverflow.com/questions/15488628/chinese-characters-displayed-as-questions-marks-in-mac-terminal/15516722#15516722
+System.out printstream isn't created as a UTF-8 print stream. You can convert it to be one like this:
+import java.io.PrintStream;
+import java.io.UnsupportedEncodingException;
+
+public class JavaTest {
+    public static void main(String[] args) {
+        try{
+            PrintStream out = new PrintStream(System.out, true, "UTF-8");
+
+            out.println("Hello");
+            out.println("施华洛世奇");
+            out.println("World");
+        }
+        catch(UnsupportedEncodingException UEE){
+	//...
+        }
+    }
+}
+
+You can also set the default encoding as per here by:
+java -Dfile.encoding=UTF-8 -jar JavaTest.jar
+
+#Gnu Make Makefile Examples
+http://www.jwrr.com/content/Gnu-Makefile-Examples/
+
+#Using make and writing Makefiles
+https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html
+
+:read !"date +'%Y-%m-%d %H:%M:%S.%N %:::z'"
+:read !date +'%Y-%m-%d %H:%M:%S.%N %:::z'
+:read `date +'%Y-%m-%d %H:%M:%S.%N %:::z`
+
+#Java String encoding conversion UTF-8 to SHIFT-JIS
+stringToEncode.getBytes(Charset.forName("SHIFT-JIS"))
+or
+new String(unecodedString.getBytes("SHIFT-JIS"), "UTF-8")
+
+Very strange,as:
+
+byte[] b = resultString.getBytes("Shift_JIS");
+String value = new String(b, "UTF-8");
+
+didn't work, but:
+
+String value = new String(resultString.getBytes("SHIFT-JIS"), "UTF-8")
+
+Works like a charm. Maybe it was because of the underscore and lower case character in "Shift_JIS".
+
+#jar
+jar cf jar-file input-file(s)
+As an example, suppose you wanted to put audio files and gif images used by the TicTacToe demo into a JAR file, and that you wanted all the files to be on the top level, with no directory hierarchy. You could accomplish that by issuing this command from the parent directory of the images and audio directories:
+jar cf ImageAudio.jar -C images . -C audio .
+The -C images part of this command directs the Jar tool to go to the images directory, and the . following -C images directs the Jar tool to archive all the contents of that directory. The -C audio . part of the command then does the same with the audio directory.
+
