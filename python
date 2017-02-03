@@ -1,0 +1,37 @@
+https://www.azavea.com/blog/2014/03/24/solving-unicode-problems-in-python-2-7/
+UnicodeDecodeError: ‘ascii’ codec can’t decode byte 0xd1 in position 1: ordinal not in range(128)
+
+https://gist.github.com/gornostal/1f123aaf838506038710
+
+    Unicode is an international encoding standard for use with different languages and scripts
+    In python-2.x, there are two types that deal with text.
+        str is an 8-bit string.
+        unicode is for strings of unicode code points.
+        A code point is a number that maps to a particular abstract character. It is written using the notation U+12ca to mean the character with value 0x12ca (4810 decimal)
+    Encoding (noun) is a map of Unicode code points to a sequence of bytes. (Synonyms: character encoding, character set, codeset). Popular encodings: UTF-8, ASCII, Latin-1, etc.
+    Encoding (verb) is a process of converting unicode to bytes of str, and decoding is the reverce operation.
+    Python 2.x uses ASCII as a default encoding. (More about this later)
+
+# -*- encoding: utf-8 -*-
+
+How to fix: encode unicode string manually using .encode('utf8') before passing to str().
+UnicodeDecodeError Explained
+>>> utf_string = u'café'
+>>> byte_string = utf_string.encode('utf8')
+>>> unicode(byte_string)
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 3: ordinal not in range(128)
+
+How to fix: decode str manually using .decode('utf8') before passing to your function.
+Rule of Thumb:
+Make sure your code works only with Unicode strings internally, converting to a particular encoding on output, and decoding str on input. Learn the libraries you are using, and find places where they return str. Decode str before return value is passed further in your code.
+
+I use this helper function in my code:
+
+def force_to_unicode(text):
+    "If text is unicode, it is returned as is. If it's str, convert it to Unicode using UTF-8 encoding"
+    return text if isinstance(text, unicode) else text.decode('utf8').
+
+https://docs.python.org/2/howto/unicode.html
+
