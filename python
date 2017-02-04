@@ -12,6 +12,7 @@ https://gist.github.com/gornostal/1f123aaf838506038710
     Encoding (verb) is a process of converting unicode to bytes of str, and decoding is the reverce operation.
     Python 2.x uses ASCII as a default encoding. (More about this later)
 
+#!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
 How to fix: encode unicode string manually using .encode('utf8') before passing to str().
