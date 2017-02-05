@@ -25,6 +25,7 @@ Traceback (most recent call last):
 UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 3: ordinal not in range(128)
 
 How to fix: decode str manually using .decode('utf8') before passing to your function.
+
 Rule of Thumb:
 Make sure your code works only with Unicode strings internally, converting to a particular encoding on output, and decoding str on input. Learn the libraries you are using, and find places where they return str. Decode str before return value is passed further in your code.
 
