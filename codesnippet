@@ -443,3 +443,6 @@ Acceptance Test Driven Development (ATDD)
 Test Driven Development (TDD)
 Behavior Driven Develpment (BDD)
 
+#Java String UTF-8 SHIFT-JIS
+http://stackoverflow.com/questions/37155417/string-encoding-conversion-utf-8-to-shift-jis/
+
