@@ -4012,3 +4012,10 @@ Why some website(e.g. http://www.yomiuri.co.jp) can't be opened under direct WiF
 
 c/c++ inline function is devised for fitting into CPU cache?
 
+Why Ubuntu's 64bit iso image is smaller in size than that of 32bit?
+e.g.
+http://cdimage.ubuntu.com/xenial/daily-live/pending/
+xenial-desktop-i386.iso	2017-02-09 14:26 	1.5G
+xenial-desktop-amd64.iso	2017-02-09 14:24 	1.4G
+Is that just a random occurrence or common thing?
+
