@@ -23,7 +23,6 @@ package com.example.e4.rcp.todo.parts;
 import java.util.logging.Logger;
 
 public class MyClass {
-
         private final static Logger logger;
 
         public MyClass(Logger logger) {
@@ -51,9 +50,7 @@ The standard Java annotations for describing the dependencies of a class are def
 The following listing shows a class which uses annotations to describe its dependencies.
 
 // import statements left out
-
 public class MyPart {
-
         @Inject private Logger logger;
 
         // inject class for database access
@@ -67,26 +64,20 @@ public class MyPart {
                 Text text = new Text(parent, SWT.NONE);
                 text.setText(dao.getNumber());
         }
-
 }
 
 #Please note that this class uses the new operator for the user interface components. This implies that this part of the code is nothing you plan to replace via your tests. In this case you made the decision to have a hard coupling to the corresponding user interface toolkit.
 1.3. Where can objects be injected into a class according to JSR330?
 
 Dependency injection can be performed on:
-
     the constructor of the class (construction injection)
-
     a field (field injection)
-
     the parameters of a method (method injection)
 
 It is possible to use dependency injection on static and on non-static fields and methods. Avoiding dependency injection on static fields and methods is a good practice, as it has the following restrictions and can be hard to debug.
 
     Static fields will be injected after the first object of the class was created via DI, which means no access to the static field in the constructor
-
     Static fields can not be marked as final, otherwise the compiler or the application complains at runtime about them
-
     Static methods are called only once after the first instance of the class was created
 
 1.4. Order in which dependency injection is performed on a class
@@ -94,9 +85,7 @@ It is possible to use dependency injection on static and on non-static fields an
 According to JSR330 the injection is done in the following order:
 
     constructor injection
-
     field injection
-
     method injection
 
 The order in which the methods or fields annotated with @Inject are called is not defined by JSR330. You cannot assume that the methods or fields are called in the order of their declaration in the class.
@@ -141,10 +130,8 @@ My opinion has changed.
 Something Peculiar to Java
 
 Oddly enough, the tool that changed my mind is only popular because of problems that are peculiar to Java. Consider the following code:
-
 public class Payroll {
     ...
-
     public long getWithholding(long payInDollars) {
         ...
         return withholding;
@@ -154,7 +141,6 @@ public class Payroll {
         long basePay = EmployeeDatabase.getInstance()
            .getBasePay(employee);
         long withholding = getWithholding(basePay);
-
         return basePay - withholding;
     }
 }
@@ -162,16 +148,13 @@ public class Payroll {
 This class has a dependency in getAfterTaxPay() called EmployeeDatabase. There are a variety of ways that we could create this object, but in this example, I’ve used a typical singleton pattern of having a static getInstance method.
 
 Dependencies in Java are surprisingly strict things. Whenever I write a line of code like this:
-
-        long basePay = EmployeeDatabase.getInstance()
-           .getBasePay(employee);
+        long basePay = EmployeeDatabase.getInstance().getBasePay(employee);
 
 I create a strict dependency on the EmployeeDatabase class. Not only that, but I also create a strict dependency on a particular method in EmployeeDatabase: the getInstance() method. In other languages, I might be able to swizzle or monkey patch this kind of thing. Not that that’s a great idea, necessarily, but it is at least possible. Not so in Java.
 
 Other ways of creating a dependency are even more strict than that. Let’s say that instead, I wrote that line like this:
 
-        long basePay = new EmployeeDatabase()
-           .getBasePay(employee);
+        long basePay = new EmployeeDatabase().getBasePay(employee);
 
 When I use the new keyword, I tie myself down in all the same ways I did with the static method, but I also add one more: calling new EmployeeDatabase() must always yield an instance of the EmployeeDatabase class. You can’t rewrite that constructor to return a mock subclass, no matter what you do.
 Dependency Injection
@@ -182,7 +165,6 @@ Dependency injection simply means receiving collaborators as constructor paramet
 
 public class Payroll {
     ...
-
     EmployeeDatabase mEmployeeDatabase;
 
     public Payroll(EmployeeDatabase employeeDatabase) {
@@ -215,8 +197,7 @@ See, now that we are passing in dependencies through our constructors, our objec
 
 Now, though, I have to write this:
 
-    new Payroll(EmployeeDatabase.getInstance())
-        .getAfterTaxPay(employee);
+    new Payroll(EmployeeDatabase.getInstance()).getAfterTaxPay(employee);
 
 Plus, anytime I change Payroll’s dependencies, I have to change every place I write new Payroll, too.
 
@@ -231,9 +212,7 @@ To do this, we use Java’s tool for describing code: the annotation. We declare
 
 The @Inject annotation says, “To build an instance of Payroll, execute this constructor, passing in values for all of its parameters.” Then when I actually need a Payroll instance, I ask the dependency injector to build me one, like so:
 
-    Payroll payroll = RoboGuice.getInjector(getContext())
-        .getInstance(Payroll.class);
-
+    Payroll payroll = RoboGuice.getInjector(getContext()).getInstance(Payroll.class);
     long afterTaxPay = payroll.getAfterTaxPay(employee);
 
 Once I’m constructing instances in this way, I can use the injector itself to configure how dependencies are satisfied. Do I want EmployeeDatabase to be a singleton? Do I want to use a customized subclass? All of this can be specified in one place.
@@ -266,7 +245,6 @@ ButterKnife allows us to instead provide a little bit of metadata that says, “
 public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_content);
-
     ButterKnife.inject(this);
 }
 
@@ -288,8 +266,7 @@ An Example of Runtime Annotation Processing
 I’d like to finish up by showing a simple example of how one might define and process a runtime annotation. Let’s say that you were an exceptionally impatient person and were tired of typing out fully qualified static constants in your Android codebase, constants like these:
 
 public class CrimeActivity {
-    public static final String ACTION_VIEW_CRIME = 
-        “com.bignerdranch.android.criminalintent.CrimeActivity.ACTION_VIEW_CRIME”;
+    public static final String ACTION_VIEW_CRIME = “com.bignerdranch.android.criminalintent.CrimeActivity.ACTION_VIEW_CRIME”;
 }
 
 You could use a runtime annotation to do this work for you. First, you’d create the annotation class:
@@ -314,9 +291,7 @@ public static void populateConstants(Class<?> klass) {
                 field.set(null, value);
                 Log.i(TAG, "Setup service constant: " + value + "");
             } catch (IllegalAccessException iae) {
-                Log.e(TAG, "Unable to setup constant for field " + 
-                        field.getName() +
-                        " in class " + klass.getName());
+                Log.e(TAG, "Unable to setup constant for field " + field.getName() + " in class " + klass.getName());
             }
         }
     }
@@ -336,7 +311,6 @@ public class CrimeActivity {
 Conclusion:
 Well, that’s all I’ve got. So much for annotations in Java. I can’t say that I’m sure that all this has made you feel the same way as I do about Java, but I hope that you’ve seen some interesting stuff. While day-to-day Java may be lacking a bit in expressivity, there are a few basic building blocks in the Java kit that make it possible for advanced developers to create powerful tools that amplify the productivity of the entire community.
 If you’re interested in diving in deeper, you will find the topic of driving code generation with annotations very interesting. It’s not necessarily pretty to read or write, but folks are doing some nifty work out there with the tools as they are. The source for ButterKnife is reasonably simple, if you’re interested in an example of how it’s done in the real world.
-
 
 java.lang.Object
   extended by java.text.Format
@@ -389,7 +363,6 @@ public class JavaTest {
     public static void main(String[] args) {
         try{
             PrintStream out = new PrintStream(System.out, true, "UTF-8");
-
             out.println("Hello");
             out.println("施华洛世奇");
             out.println("World");
@@ -445,4 +418,401 @@ Behavior Driven Develpment (BDD)
 
 #Java String UTF-8 SHIFT-JIS
 http://stackoverflow.com/questions/37155417/string-encoding-conversion-utf-8-to-shift-jis/
+
+http://www.journaldev.com/2394/java-dependency-injection-design-pattern-example-tutorial
+Java Dependency Injection – DI Design Pattern Example Tutorial
+Java Dependency Injection design pattern allows us to remove the hard-coded dependencies and make our application loosely coupled, extendable and maintainable. We can implement dependency injection in java to move the dependency resolution from compile-time to runtime.
+Java Dependency injection seems hard to grasp with theory, so I would take a simple example and then we will see how to use dependency injection pattern to achieve loose coupling and extendability in the application.
+Let’s say we have an application where we consume EmailService to send emails. Normally we would implement this like below.
+package com.journaldev.java.legacy;
+
+public class EmailService {
+	public void sendEmail(String message, String receiver){
+		//logic to send email
+		System.out.println("Email sent to "+receiver+ " with Message="+message);
+	}
+}
+EmailService class holds the logic to send email message to the recipient email address. Our application code will be like below.
+
+package com.journaldev.java.legacy;
+
+public class MyApplication {
+	private EmailService email = new EmailService();
+	public void processMessages(String msg, String rec){
+		//do some msg validation, manipulation logic etc
+		this.email.sendEmail(msg, rec);
+	}
+}
+Our client code that will use MyApplication class to send email messages will be like below.
+package com.journaldev.java.legacy;
+
+public class MyLegacyTest {
+	public static void main(String[] args) {
+		MyApplication app = new MyApplication();
+		app.processMessages("Hi Pankaj", "pankaj@abc.com");
+	}
+}
+At first look, there seems nothing wrong with above implementation. But above code logic has certain limitations.
+
+    MyApplication class is responsible to initialize the email service and then use it. This leads to hard-coded dependency. If we want to switch to some other advanced email service in future, it will require code changes in MyApplication class. This makes our application hard to extend and if email service is used in multiple classes then that would be even more harder.
+    If we want to extend our application to provide additional messaging feature, such as SMS or Facebook message then we would need to write another application for that. This will involve code changes in application classes and in client classes too.
+    Testing the application will be very difficult since our application is directly creating the email service instance. There is no way we can mock these objects in our test classes.
+
+One can argue that we can remove the email service instance creation from MyApplication class by having a constructor that requires email service as argument.
+package com.journaldev.java.legacy;
+
+public class MyApplication {
+
+	private EmailService email = null;
+	
+	public MyApplication(EmailService svc){
+		this.email=svc;
+	}
+	
+	public void processMessages(String msg, String rec){
+		//do some msg validation, manipulation logic etc
+		this.email.sendEmail(msg, rec);
+	}
+}
+But in this case, we are asking client applications or test classes to initializing the email service that is not a good design decision.
+
+Now let’s see how we can apply java dependency injection pattern to solve all the problems with above implementation. Dependency Injection in java requires at least following:
+
+    Service components should be designed with base class or interface. It’s better to prefer interfaces or abstract classes that would define contract for the services.
+    Consumer classes should be written in terms of service interface.
+    Injector classes that will initialize the services and then the consumer classes.
+Java Dependency Injection – Service Components
+For our case, we can have MessageService that will declare the contract for service implementations.
+package com.journaldev.java.dependencyinjection.service;
+
+public interface MessageService {
+	void sendMessage(String msg, String rec);
+}
+Now let’s say we have Email and SMS services that implement above interfaces.
+package com.journaldev.java.dependencyinjection.service;
+public class EmailServiceImpl implements MessageService {
+	@Override
+	public void sendMessage(String msg, String rec) {
+		//logic to send email
+		System.out.println("Email sent to "+rec+ " with Message="+msg);
+	}
+}
+package com.journaldev.java.dependencyinjection.service;
+
+public class SMSServiceImpl implements MessageService {
+	@Override
+	public void sendMessage(String msg, String rec) {
+		//logic to send SMS
+		System.out.println("SMS sent to "+rec+ " with Message="+msg);
+	}
+}
+Our dependency injection java services are ready and now we can write our consumer class.
+Java Dependency Injection – Service Consumer
+We are not required to have base interfaces for consumer classes but I will have a Consumer interface declaring contract for consumer classes.
+package com.journaldev.java.dependencyinjection.consumer;
+public interface Consumer {
+	void processMessages(String msg, String rec);
+}
+My consumer class implementation is like below.
+package com.journaldev.java.dependencyinjection.consumer;
+
+import com.journaldev.java.dependencyinjection.service.MessageService;
+
+public class MyDIApplication implements Consumer{
+	private MessageService service;
+	
+	public MyDIApplication(MessageService svc){
+		this.service=svc;
+	}
+	@Override
+	public void processMessages(String msg, String rec){
+		//do some msg validation, manipulation logic etc
+		this.service.sendMessage(msg, rec);
+	}
+}
+Notice that our application class is just using the service. It does not initialize the service that leads to better “separation of concerns“. Also use of service interface allows us to easily test the application by mocking the MessageService and bind the services at runtime rather than compile time.
+Now we are ready to write java dependency injector classes that will initialize the service and also consumer classes.
+Java Dependency Injection – Injectors Classes
+Let’s have an interface MessageServiceInjector with method declaration that returns the Consumer class.
+package com.journaldev.java.dependencyinjection.injector;
+
+import com.journaldev.java.dependencyinjection.consumer.Consumer;
+
+public interface MessageServiceInjector {
+	public Consumer getConsumer();
+}
+
+Now for every service, we will have to create injector classes like below.
+package com.journaldev.java.dependencyinjection.injector;
+
+import com.journaldev.java.dependencyinjection.consumer.Consumer;
+import com.journaldev.java.dependencyinjection.consumer.MyDIApplication;
+import com.journaldev.java.dependencyinjection.service.EmailServiceImpl;
+
+public class EmailServiceInjector implements MessageServiceInjector {
+	@Override
+	public Consumer getConsumer() {
+		return new MyDIApplication(new EmailServiceImpl());
+	}
+}
+package com.journaldev.java.dependencyinjection.injector;
+
+import com.journaldev.java.dependencyinjection.consumer.Consumer;
+import com.journaldev.java.dependencyinjection.consumer.MyDIApplication;
+import com.journaldev.java.dependencyinjection.service.SMSServiceImpl;
+
+public class SMSServiceInjector implements MessageServiceInjector {
+	@Override
+	public Consumer getConsumer() {
+		return new MyDIApplication(new SMSServiceImpl());
+	}
+}
+Now let’s see how our client applications will use the application with a simple program.
+package com.journaldev.java.dependencyinjection.test;
+
+import com.journaldev.java.dependencyinjection.consumer.Consumer;
+import com.journaldev.java.dependencyinjection.injector.EmailServiceInjector;
+import com.journaldev.java.dependencyinjection.injector.MessageServiceInjector;
+import com.journaldev.java.dependencyinjection.injector.SMSServiceInjector;
+
+public class MyMessageDITest {
+	public static void main(String[] args) {
+		String msg = "Hi Pankaj";
+		String email = "pankaj@abc.com";
+		String phone = "4088888888";
+		MessageServiceInjector injector = null;
+		Consumer app = null;
+		
+		//Send email
+		injector = new EmailServiceInjector();
+		app = injector.getConsumer();
+		app.processMessages(msg, email);
+		
+		//Send SMS
+		injector = new SMSServiceInjector();
+		app = injector.getConsumer();
+		app.processMessages(msg, phone);
+	}
+}
+As you can see that our application classes are responsible only for using the service. Service classes are created in injectors. Also if we have to further extend our application to allow facebook messaging, we will have to write Service classes and injector classes only.
+So dependency injection implementation solved the problem with hard-coded dependency and helped us in making our application flexible and easy to extend. Now let’s see how easily we can test our application class by mocking the injector and service classes.
+Java Dependency Injection – JUnit Test Case with Mock Injector and Service
+package com.journaldev.java.dependencyinjection.test;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import com.journaldev.java.dependencyinjection.consumer.Consumer;
+import com.journaldev.java.dependencyinjection.consumer.MyDIApplication;
+import com.journaldev.java.dependencyinjection.injector.MessageServiceInjector;
+import com.journaldev.java.dependencyinjection.service.MessageService;
+
+public class MyDIApplicationJUnitTest {
+	private MessageServiceInjector injector;
+	@Before
+	public void setUp(){
+		//mock the injector with anonymous class
+		injector = new MessageServiceInjector() {
+			@Override
+			public Consumer getConsumer() {
+				//mock the message service
+				return new MyDIApplication(new MessageService() {
+					
+					@Override
+					public void sendMessage(String msg, String rec) {
+						System.out.println("Mock Message Service implementation");
+						
+					}
+				});
+			}
+		};
+	}
+	@Test
+	public void test() {
+		Consumer consumer = injector.getConsumer();
+		consumer.processMessages("Hi Pankaj", "pankaj@abc.com");
+	}
+	@After
+	public void tear(){
+		injector = null;
+	}
+}
+
+As you can see that I am using anonymous classes to mock the injector and service classes and I can easily test my application methods. I am using JUnit 4 for above test class, so make sure it’s in your project build path if you are running above test class.
+
+We have used constructors to inject the dependencies in the application classes, another way is to use setter method to inject dependencies in application classes. For setter method dependency injection, our application class will be implemented like below.
+
+package com.journaldev.java.dependencyinjection.consumer;
+
+import com.journaldev.java.dependencyinjection.service.MessageService;
+
+public class MyDIApplication implements Consumer{
+	private MessageService service;
+	
+	public MyDIApplication(){}
+
+	//setter dependency injection	
+	public void setService(MessageService service) {
+		this.service = service;
+	}
+
+	@Override
+	public void processMessages(String msg, String rec){
+		//do some msg validation, manipulation logic etc
+		this.service.sendMessage(msg, rec);
+	}
+}
+
+package com.journaldev.java.dependencyinjection.injector;
+
+import com.journaldev.java.dependencyinjection.consumer.Consumer;
+import com.journaldev.java.dependencyinjection.consumer.MyDIApplication;
+import com.journaldev.java.dependencyinjection.service.EmailServiceImpl;
+
+public class EmailServiceInjector implements MessageServiceInjector {
+	@Override
+	public Consumer getConsumer() {
+		MyDIApplication app = new MyDIApplication();
+		app.setService(new EmailServiceImpl());
+		return app;
+	}
+}
+
+One of the best example of setter dependency injection is Struts2 Servlet API Aware interfaces.
+
+Whether to use Constructor based dependency injection or setter based is a design decision and depends on your requirements. For example, if my application can’t work at all without the service class then I would prefer constructor based DI or else I would go for setter method based DI to use it only when it’s really needed.
+
+Dependency Injection in Java is a way to achieve Inversion of control (IoC) in our application by moving objects binding from compile time to runtime. We can achieve IoC through Factory Pattern, Template Method Design Pattern, Strategy Pattern and Service Locator pattern too.
+
+Spring Dependency Injection, Google Guice and Java EE CDI frameworks facilitate the process of dependency injection through use of Java Reflection API and java annotations. All we need is to annotate the field, constructor or setter method and configure them in configuration xml files or classes.
+Benefits of Java Dependency Injection
+
+Some of the benefits of using Dependency Injection in Java are:
+    Separation of Concerns
+    Boilerplate Code reduction in application classes because all work to initialize dependencies is handled by the injector component
+    Configurable components makes application easily extendable
+    Unit testing is easy with mock objects
+Disadvantages of Java Dependency Injection:
+    If overused, it can lead to maintenance issues because effect of changes are known at runtime.
+    Dependency injection in java hides the service class dependencies that can lead to runtime errors that would have been caught at compile time.
+
+SLF4J solves most of the problems around latency, "isDebugEnabled", parameterized logging and future proofing.
+SL4J is great API and specially parametrized logging is best. Though latency in electronic trading system is proportional to how much you log, SLFJ slightly improves that due to its speed.
+
+"Mapped Diagnostic Context" is essentially a map maintained by the logging framework where the application code provides key-value pairs which can then be inserted by the logging framework in log messages. MDC data can also be highly helpful in filtering messages or triggering certain actions.
+SLF4J supports MDC, or mapped diagnostic context. If the underlying logging framework offers MDC functionality, then SLF4J will delegate to the underlying framework's MDC. Note that at this time, only log4j and logback offer MDC functionality. If the underlying framework does not offer MDC, for example java.util.logging, then SLF4J will still store MDC data but the information therein will need to be retrieved by custom user code.
+Thus, as a SLF4J user, you can take advantage of MDC information in the presence of log4j or logback, but without forcing these logging frameworks upon your users as dependencies.
+
+https://www.javacodegeeks.com/2012/04/using-slf4j-with-logback-tutorial.html
+Using slf4j with logback tutorial April 11th, 2012
+The Simple Logging Facade For Java (slf4j) is a simple facade for various logging frameworks, like JDK logging (java.util.logging), log4j, or logback. Even it contains a binding tat will delegate all logger operations to another well known logging facade called jakarta commons logging (JCL).
+Logback is the successor of log4j logger API, in fact both projects have the same father, but logback offers some advantages over log4j, like better performance and less memory consumption, automatic reloading of configuration files, or filter capabilities, to cite a few features.
+Native implementation of slf4j is logback, thus using both as logger framework implies zero memory and computational overhead.
+First we are going to add slf4j and logback into pom as dependencies.
+<properties>
+ <slf4j.version>1.6.4</slf4j.version>
+ <logback.version>1.0.1</logback.version>
+</properties>
+<dependencies>
+ <dependency>
+  <groupId>org.slf4j</groupId>
+  <artifactId>slf4j-api</artifactId>
+  <version>${slf4j.version}</version>
+ </dependency>
+
+ <dependency>
+  <groupId>ch.qos.logback</groupId>
+  <artifactId>logback-classic</artifactId>
+  <version>${logback.version}</version>
+ </dependency>
+
+ <dependency>
+  <groupId>ch.qos.logback</groupId>
+  <artifactId>logback-core</artifactId>
+  <version>${logback.version}</version>
+ </dependency>
+</dependencies>
+Note that three files are required, one for slf4j, and two for logback. The last two dependencies will change depending on you logging framework, if for example you want to still use log4j, instead of having logback dependencies we would have log4j dependency itself and slf4j-log4j12.
+
+Next step is creating the configuration file. Logback supports two formats of configurations files, the traditional way, using XML or using a Groovy DSL style. Let’s start with traditional way, and we are going to create a file called logback.xml into classpath. File name is mandatory, but logback-test.xml is also valid. In case that both files are found in classpath the one ended with -test, will be used.
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <!-- encoders are assigned the type
+         ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <logger name="com.lordofthejars.foo" level="INFO" additivity="false">
+   <appender-ref ref="STDOUT" />
+  </logger>
+
+  <!-- Strictly speaking, the level attribute is not necessary since -->
+  <!-- the level of the root level is set to DEBUG by default.       -->
+  <root level="DEBUG">          
+    <appender-ref ref="STDOUT" />
+  </root>  
+</configuration>
+In general file is quite intuitive, we are defining the appender (the output of log messages), in this case to console, a pattern, and finally root level logger (DEBUG) and a different level logger (INFO) for classes present in foo package.
+
+Obviously this format is much readable than typical log4j.properties. Recall on additivity attribute, the appender named STDOUT is attached to two loggers, to root and to com.lordofthejars.foo. because the root logger is the ancestor of all loggers, logging request made by com.lordofthejars.foo logger will be output twice. To avoid this behavior you can set additivity attribute to false, and message will be printed only once.
+
+Now let’s create to classes which will use slf4j. First class called BarComponent is created on com.lordofthejars.bar:
+public class BarComponent {
+ private static final Logger logger = LoggerFactory.getLogger(BarComponent.class);
+ public void bar() {
+  String name = "lordofthejars";
+  logger.info("Hello from Bar.");
+  logger.debug("In bar my name is {}.", name);
+ }
+}
+Note two big differences from log4j. The first one is that is no longer required the typical if construction above each log call. The other one is a pair of ‘{}’. Only after evaluating whether to log or not, logback will format the message replacing ‘{}’ with the given string value.
+
+The other one called FooComponent is created on com.lordofthejars.foo:
+public class FooComponent {
+ private static final Logger logger = LoggerFactory.getLogger(FooComponent.class);
+ public void foo() {
+  String name = "Alex";
+  logger.info("Hello from Foo.");
+  logger.debug("In foo my name is {}.", name);
+ }
+}
+And now calling foo and bar method, with previous configuration, the output produced will be:
+13:49:59.586 [main] INFO  c.l.b.BarComponent - Hello from Bar.
+13:49:59.617 [main] DEBUG c.l.b.BarComponent - In bar today is 5/3/2012
+13:49:59.618 [main] INFO  c.l.f.FooComponent - Hello from Foo.
+Notice that debug lines in foo method are not shown. This is ok, because we have set to be in this way.
+
+Next step we are going to take is configuring logback, but instead of using xml approach we are going to use groovy DSL approach. Logback will give preference to groovy configuration over xml configuration, so keep in mind it if you are mixing configuration approaches.
+
+So first thing to do is add groovy as dependency.
+<dependency>
+ <groupId>org.codehaus.groovy</groupId>
+ <artifactId>groovy</artifactId>
+ <version>${groovy.version}</version>
+ <scope>runtime</scope>
+</dependency>
+
+And then we are going to create the same configuration created previously but in groovy format.
+import ch.qos.logback.classic.encoder.PatternLayoutEncoder
+import ch.qos.logback.core.ConsoleAppender
+
+import static ch.qos.logback.classic.Level.DEBUG
+import static ch.qos.logback.classic.Level.INFO
+
+appender("STDOUT", ConsoleAppender) {
+  encoder(PatternLayoutEncoder) {
+    pattern = "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} Groovy - %msg%n"
+  }
+}
+
+logger("com.lordofthejars.foo", INFO)
+root(DEBUG, ["STDOUT"])
+You can identify the same parameters of xml approach but as groovy functions.
+
+http://softwareengineering.stackexchange.com/questions/279690/why-does-the-trace-level-exist-and-when-should-i-use-it-rather-than-debug
+Why does the TRACE level exist, and when should I use it rather than DEBUG?
 
