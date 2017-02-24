@@ -473,7 +473,7 @@ public class MyApplication {
 		//do some msg validation, manipulation logic etc
 		this.email.sendEmail(msg, rec);
 	}
-}
+
 But in this case, we are asking client applications or test classes to initializing the email service that is not a good design decision.
 
 Now let’s see how we can apply java dependency injection pattern to solve all the problems with above implementation. Dependency Injection in java requires at least following:
@@ -622,7 +622,6 @@ public class MyDIApplicationJUnitTest {
 					@Override
 					public void sendMessage(String msg, String rec) {
 						System.out.println("Mock Message Service implementation");
-						
 					}
 				});
 			}
