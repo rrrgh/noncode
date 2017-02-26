@@ -399,6 +399,8 @@ More advanced users should be introduced to different types of registers. My fav
 
 macchanger + dish antenna + aircrack + reaver + ip fwd + arp poison + sslstrip + wireshark post filter -> hack
 
+tail-call optimization (TCO)
+
 http://www.softether.org/4-docs/2-howto/1.VPN_for_On-premise/2.Remote_Access_VPN_to_LAN
 
 "C++ templates are to common lisp macros, what IRS tax forms are to poetry."
