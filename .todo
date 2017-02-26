@@ -1152,4 +1152,12 @@ speed up fedora 25
 resume evaluation from TopResume
 mgl: curry
 
+#python
 program automation script to get post delivery information from postoffice webstie
+http://www.xe.com/currencyconverter/convert/?Amount=500&From=JPY&To=CNY
+http://www.xe.com/currencyconverter/convert/?Amount=500&From=JPY&To=USD
+http://www.xe.com/currencyconverter/convert/?Amount=500&From=RUB&To=USD
+http://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=JPY
+http://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=CNY
+http://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=RUB
+
