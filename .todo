@@ -1166,3 +1166,5 @@ http://www.xe.com/currencyconverter/convert/?Amount=1&From=XBT&To=RUB
 Large Integer Fibonacci Numbers
 subscribe Sudoku Guy
 linux decompress .tar.lz
+libreoffice --headless --convert-to pdf
+soffice  --headless --convert-to pdf
