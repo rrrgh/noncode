@@ -400,6 +400,42 @@ More advanced users should be introduced to different types of registers. My fav
 macchanger + dish antenna + aircrack + reaver + ip fwd + arp poison + sslstrip + wireshark post filter -> hack
 
 tail-call optimization (TCO)
+pentanacci sequence (OEIS A001591)
+
+Packing 4 bytes into an int
+int packBigEndian(byte[] b) {
+  return (b[0] & 0xFF) << 24
+       | (b[1] & 0xFF) << 16
+       | (b[2] & 0xFF) <<  8
+       | (b[3] & 0xFF) <<  0;
+}
+
+int packLittleEndian(byte[] b) {
+  return (b[0] & 0xFF) <<  0
+       | (b[1] & 0xFF) <<  8
+       | (b[2] & 0xFF) << 16
+       | (b[3] & 0xFF) << 24;
+}
+
+Unpacking an int into 4 bytes
+byte[] unpackBigEndian(int x) {
+  return new byte[] {
+    (byte)(x >>> 24),
+    (byte)(x >>> 16),
+    (byte)(x >>>  8),
+    (byte)(x >>>  0)
+  };
+}
+
+byte[] unpackLittleEndian(int x) {
+  return new byte[] {
+    (byte)(x >>>  0),
+    (byte)(x >>>  8),
+    (byte)(x >>> 16),
+    (byte)(x >>> 24)
+  };
+}
+Always use the unsigned right shift operator (>>>) for bit packing, never the arithmetic right shift operator (>>).
 
 http://www.softether.org/4-docs/2-howto/1.VPN_for_On-premise/2.Remote_Access_VPN_to_LAN
 
