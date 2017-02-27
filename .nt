@@ -401,6 +401,7 @@ macchanger + dish antenna + aircrack + reaver + ip fwd + arp poison + sslstrip +
 
 tail-call optimization (TCO)
 pentanacci sequence (OEIS A001591)
+dice toss problem
 
 Packing 4 bytes into an int
 int packBigEndian(byte[] b) {
@@ -4163,6 +4164,8 @@ UT ユーティリティテラス: 広さはまちまちだが、キッチンや
 踏襲 とうしゅう follow in somebody's footsteps, follow suit, follow 《the policy of the former Cabinet》
 師匠(ししょう)のやり方をただ踏襲しているだけでいいのだろうか. I wonder if it is really satisfactory simply to follow [stick to] the way one's teacher did things.
 外字 characters not in Joyo Kanji; external character
+
+高千穂牧場　たかちほぼくじょう
 
 «end of jp2ru,en,mgl»
 
