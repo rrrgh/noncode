@@ -1154,6 +1154,10 @@ mgl: curry
 
 #python
 program automation script to get post delivery information from postoffice webstie
+http://tracking.post.japanpost.jp/services/srv/search/
+CD245144708JP
+https://trackings.post.japanpost.jp/services/srv/search/direct?searchKind=S004&locale=ja&reqCodeNo1=CD245144708JP&x=40&y=19
+
 http://www.xe.com/currencyconverter/convert/?Amount=500&From=JPY&To=CNY
 http://www.xe.com/currencyconverter/convert/?Amount=500&From=JPY&To=USD
 http://www.xe.com/currencyconverter/convert/?Amount=500&From=RUB&To=USD
@@ -1164,7 +1168,12 @@ http://www.xe.com/currencyconverter/convert/?Amount=1&From=XBT&To=USD
 http://www.xe.com/currencyconverter/convert/?Amount=1&From=XBT&To=RUB
 
 Large Integer Fibonacci Numbers
+
 subscribe Sudoku Guy
-linux decompress .tar.lz
+
 libreoffice --headless --convert-to pdf
 soffice  --headless --convert-to pdf
+discrete Fourier transform (DFT)
+
+linux x86 x86-64 assembly matrix code rain implementation
+
