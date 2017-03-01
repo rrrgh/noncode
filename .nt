@@ -441,6 +441,12 @@ Always use the unsigned right shift operator (>>>) for bit packing, never the ar
 
 JNLP (Java Network Launch Protocol)
 
+regex: non-greedy(or reluctant) quantifier:
+*? (Java)
+\{-} (vim)
+non-capturing group:
+(?:) (Java)
+
 http://www.softether.org/4-docs/2-howto/1.VPN_for_On-premise/2.Remote_Access_VPN_to_LAN
 
 "C++ templates are to common lisp macros, what IRS tax forms are to poetry."
