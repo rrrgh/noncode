@@ -1189,3 +1189,5 @@ clean code pdf
 shell process GNU long options
 shell process GNU long options getopts
 
+disallow inline comments after code (no-inline-comments) -> gthb & ~/.zshrc ~/.zsh-func :%s/\([^#]*\)\s*\(?:#|//\)\(.*\)$/\1\r\2\3/
+
