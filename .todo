@@ -146,6 +146,7 @@ Everything You Need To Know About A DDoS Attack
 
 dedicated server for enterprise website
 
+#en
 deductive vs inductive
 
 Underscore.js asm.js
@@ -172,8 +173,6 @@ dark fiber
 entropy
 dogmail
 deepwebresearch.info THRU Tor
-
-throw exceptions vs return error code
 
 Nikola Tesla Wardenclyffe Tower
 
@@ -206,9 +205,7 @@ linux Non-blocking keyboard input ncurses function getch()
 http://www.1024cores.net/
 
 linux c c++ program filter Ctrl-C ESC key input
-
 linux c c++ read key input
-
 linux c c++ call bash command
 
 linux C read ESC Ctrl-D and line ended with \n
@@ -263,11 +260,16 @@ visitting MD: smelly green mucus in nostrils, Parasite Cleanse (Round Worm -> si
 
 IT test: Orbot (TOR) iOS, TOR Fedora, BeagleBone RaspberryPi Arduino, wifi router hack OpenWRT, Deep Web Dark Net (WikiLeak), 
 
-traditional mongolian language pack for Mac OSX, iPhone, iPad, Android, Windows, Linux(Ubuntu, Fedora at least), FreeBSD etc.
-TeX/LaTeX support for traditional mongolian language type setting.
+#mgl
+mongol bichig Fedora 25+ LibreOffice 5.2+ gimp
+What are fonts?
+How to make fonts?
+What are required to edit and process traditional mongolian text in non-traditional-mongolian OS?
 
-todo:
-St.Petersburg Moscow Kazan Lake Baikal Vladivostok Russia family tour 2021.7.1 (hot spring Arshan)
+write traditional mongolian characters (excerpt from poems? or Encrypted Message) in the style of Matrix falling characters, using C++ or C (LLVM preferably)
+
+traditional mongolian language pack for Mac OSX, iPhone, iPad, Android, Windows, Ubuntu, CentOS, Fedora, etc.
+TeX/LaTeX support for traditional mongolian language type setting.
 
 buy:
 	Interesting math Zanimatelnaya arifmetika (Russian) Hardcover – 2010 by Perelman Yakov Isidorovich
@@ -292,31 +294,18 @@ en2jp:
 dry mouth
 dry lips
 
-www.root-developers.com www.r00tsect0r.net
-
-kali: golismero -t www.root-developers.com
-
 how to buy gold bullion
 gold and silver investment
 BullionVault real time physical gold price ?
 paper gold v.s. physical gold
 
-c++ read write excel spreadsheet
-excel automation c++
-
-Matrix Falling Rain Source Code C++ C
-
-write traditional mongolian characters (excerpt from poems? or Encrypted Message ) in the style of Matrix falling characters, using C++ or C (LLVM preferably)
-
 bootstrap @ github
 nodejs @ github
 spin.atomicobject.com
 
-c++ generate excel
-
 art of computer programming
-
-blackwaterops.com
+how to think like a computer scientist c++
+computer networking a top-down approach 6e pdf
 
 difference GPU CPU
 SSD -> boot drive (OSes !!!), HDD -> data
@@ -326,8 +315,6 @@ Are higher voltages more energy efficient than lower voltages?
 Strategic Initiative: Russian literacy
 
 turn on, off and reboot computer without buttons and chassis
-
-anti-estrogenic diet
 
 computer terminology:
 external build, internal build
@@ -437,9 +424,6 @@ telephone etiquette
 high fat low carb diet
 well formulated ketogenic diet(70% fat, 20% protein, 10% carbohydrate(60g/day))
 
-cook kale
-cook parsley
-
 iOS vpn anonymity system-wide proxy
 
 起業・独立・副業を志す者は必ず読むべき厳選本
@@ -447,8 +431,6 @@ iOS vpn anonymity system-wide proxy
 Direct Voice Rehabilitation
 
 http://gorka.eguileor.com/category/technology/linux/
-
-Windows 7 x64 SP1 Optimized iso activated
 
 what are finance stock bond dividend
 
@@ -463,9 +445,6 @@ what are finance stock bond dividend
 出張手当
 IT系各種資格手当
 会員制福利厚生施設あり
-
-東京都外国人採用
-http://staff.hiwork.jp
 
 胸膜炎（きょうまくえん）
 
@@ -486,8 +465,6 @@ http://www.chance.jobs/siboudouki/software.html
 http://mikumikuplay.com/it/3sentences_of_aspiring_motive/
 http://work-wave.com/?act=shibou_2
 http://tenshoku.mynavi.jp/knowhow/super_real/022
-
-edit excel word document programmatically c++ application
 
 JavaScript: The Good Parts
 cracking the c c++ and java interview (english) 2nd edition pdf
@@ -534,30 +511,19 @@ Cole Haan Mens Black Leather Dress Boots Sherpa Lined Lace Up
 
 possible and reasonable to grow avocado indoor?
 JavaScript IDE
-起業
 feeling of bugs or small insects crawling on skin
 Javascript Combinator
-節電
-極東ロシア
-大和総研グループ
 
 The Superlearner Myth: The Organic, Long-Term Approach to Effective Learning | Angelos Georgakis
 
+節電
+極東ロシア
+大和総研グループ
 東京不動産 賃貸アパート外国人
-
-交　通／ＪＲ線「浜松町」駅徒歩７分　　　　　都営三田線「芝公園」駅徒歩３分　　　　　都営浅草線「芝公園」駅徒歩６分
-
 外　装／コンクリート打ち放し
 内　装／床フローリング　　　　　壁一部コンクリート打ち放し
-
 設　備／エレベーター・宅配ボックス　　　　　TVモニター付オートロック　　　　　防犯カメラ・冷暖房　　　　　浴室乾燥機・室内洗濯機置場　　　　　CATV(みなとケーブルTV・要別途契約)　　　　　BS(CATV経由・要別途契約)　　　　　CS(スカイTV・要別途契約)　　　　　床暖房＆床下収納(101・102のみ)
-
-駐輪場／15台(要空き確認)
-
 賃貸条件／敷金　　　2ヶ月 礼金　　　0ヶ月 更新料　　新賃料の1ヶ月分　　　　　契約期間　2年間
-
-入居時期／201、203：12月中旬予定
-
 カゴ車
 梱包の仕方
 rent apartment tokyo
@@ -671,7 +637,6 @@ http://www.rcgus.com/xlxsss/352613.html
 署名用電子証明書
 利用者証明用電子証明書
 
-computer networking a top-down approach 6e pdf
 fedora firewall
 横形ＯＡ用抜け止め接地タップ
 コンセント接地端子
@@ -697,14 +662,7 @@ sudo less /var/spool/cron/crontabs/root
 train wheel inner rim outer rim
 おしりふき ウェットティッシュ トイレに流せるおしりふき 大判厚手タイプ 40枚入
 
-kirsan ilyumzhinov
-
 difference between normal group normal user and system group system user
-
-Vladimir Zhirinovsky english subtitle
-Владимир Вольфович Жириновский
-
-excel finance
 
 how economy works?
 prepare for economic collapse
@@ -716,16 +674,17 @@ http://cs75.tv/2012/summer/
 ubuntu microsoft office
 HTTP Error 404
 
-aws ubuntu lamp
 Advice to Starting Online Business
-ubuntu 14.04 lamp php 7
+
+AWS ubuntu lamp
+ubuntu 16.04 lamp php 7
 linux invoke system command from c++11 c++14
 
 Premature Ejaculation
 
-エクセルで財務
 Judyth Vary Baker
 anti cancer cookbook
+anti-estrogenic diet
 
 一番安いケータイプラン
 
@@ -770,19 +729,25 @@ ubuntu 16.04 following signatures couldn't be verified because the public key is
 java alternative to passing large objects
 Java how to clear/zero-out memory associated with an object
 
-high myopia
+#excel
+エクセルで財務
+excel finance
+most useful excel function for finance
+excel Typical financial functions such as NPV, IRR, PV
 spreadsheet for small business
 spreadsheet receipt small business
 free excel accounting templates for small business
-国外使用支付宝
+https://people.highline.edu/mgirvin/excelisfun.htm
+
 pivot table Libreoffice Calc
 VLookup Libreoffice Calc
 libreoffice calc index function
 libreoffice sumx exchange rate
-libreoffice sumproduct exchange rate
-excel sumproduct exchange rate
-
+excel libreoffice sumproduct exchange rate
 Excel for Accounting: Formulas, VLOOKUP & INDEX, PivotTables, Recorded Macros, Charts, Keyboards 
+
+excel automation c++
+c++1x read write excel spreadsheet libreoffice
 
 Flect is a Simple DIY Device for Shooting Reflection-less Photos Through Glass
 
@@ -791,13 +756,12 @@ IRR LLC
 php responsive website
 https://www.youtube.com/watch?v=2R-qmsvtSaQ
 
+Windows 7 x64 SP1 Optimized iso activated
 lopatkin Windows 7 Enterprise SP1 x64 ru en Windows 7 сборки
 俄罗斯win7精简
 
 Eyeglasses Prescription
 OS(ocular sinistra) L OD(dextra) R
-
-prevent zsh from interpret ? mark
 
 c++ directx game development
 c++ design pattern because c++
@@ -807,8 +771,6 @@ c++ Fastest way of parsing a log file of huge size > 2gb
 блокнот
 
 qt tutorial
-
-move to russia
 
 http://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=大手町（東京）&eki2=大森（東京）
 http://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=地下鉄成増&eki2=神保町&eki3=新宿三丁目&via_on=1
@@ -827,10 +789,16 @@ grow walnut
 
 GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
 
-excel
-https://people.highline.edu/mgirvin/excelisfun.htm
+#kali
+www.root-developers.com www.r00tsect0r.net
+blackwaterops.com
+golismero -t www.root-developers.com
 
+Armitage nmap kali linux
 hack any facebook account
+https://www.facebook.com/badma.ereegen
+hack gashuun
+
 major system
 loci method
 
@@ -839,20 +807,13 @@ https://codek.tv/
 
 makefile c/c++ separate output directory
 
-karma
-
-Armitage nmap kali linux
-
 c c++ bit shift operator >>>
 c++ read write .sqlite linux
 
-https://www.facebook.com/badma.ereegen
-
 linux system wide vpn
+~/.i2p/router.config
 
 Linux Server Security Hack and Defend pdf
-
-~/.i2p/router.config
 
 shell script to detect working network connection && exit if network is off
 master lynx linux
@@ -900,7 +861,7 @@ https://haveibeenpwned.com/API/v2
 curl --data "birthyear=1905&press=%20OK%20"  http:/www.example.com/when.cgi
 http://doc.scrapy.org/en/latest/topics/spiders.html
 
- LMAO. (Internet slang) Laughing my ass (arse) off; used to indicate great amusement, usually exaggerated, at something (usually from an online source eg discussion group, or instant message).
+LMAO. (Internet slang) Laughing my ass (arse) off; used to indicate great amusement, usually exaggerated, at something (usually from an online source eg discussion group, or instant message).
 ワンセグやおサイフケータイが使えるSIMフリースマートフォン、富士通の「arrows M03」を紹介します。防水（IPX5/IPX8）や耐衝撃（MIL-STD-810G）、緊急災害速報に対応。
 ガラケー
 ワンセグ
@@ -926,14 +887,10 @@ would-be parents supplement Iodine & baby in womb 40 week & child's deep breathi
 
 MQTT
 kali linux 2016.2 any website ssl vulnerability
-make chess set with one's own hands
 
 fx "https://www.youtube.com/watch?v=JEB-ctUom54&t=48m40s" "http://surfsecured.net/" "http://thehackernews.com/" "http://www.tecmint.com/increase-nginx-performance-enable-gzip-compression-module/"
 fx "https://www.youtube.com/watch?v=JEB-ctUom54&t=33m33s"
 fx "https://www.youtube.com/watch?v=zPHerhks2Vg&t=3m"
-hack gashuun
-
-avatar + celibacy mgtow
 
 reptyr Reparent a running program to a new terminal 
 impossibly fast c++ delegate
@@ -945,11 +902,6 @@ crime and punishment by Fyodor Dostoevsky
 Преступление и наказание, Ф. М. Достоевский - отзывы
 
 Principles essence of debugging
-
-mongol bichig Fedora 25+ LibreOffice 5.2+ gimp
-What are fonts?
-How to make fonts?
-What are required to edit and process traditional mongolian text in non-traditional-mongolian OS?
 
 copy-on-write (COW)
 how to properly create UT test case
@@ -987,7 +939,7 @@ http://www.xe.com/currencyconverter/convert/\?Amount\=100\&From\=RUB\&To\=XAU
 https://en.wikipedia.org/wiki/Situation,_Task,_Action,_Result
 STAR Method for Behavioral Interviews
 
-latest javascript book 2016
+latest javascript book 2017
 
 https://codility.com/c/feedback/HCBZQW-AYJ
 
@@ -995,18 +947,11 @@ debug c/c++ network application
 
 fedora 25 SELinux AVC denial
 
-fedora 25 dpms force off  X Error of failed request:  BadMatch (invalid parameter attributes)
-  Major opcode of failed request:  146 (DPMS)
-  Minor opcode of failed request:  6 (DPMSForceLevel)
-  Serial number of failed request:  12
-  Current serial number in output stream:  14
-
-c++1x excel libreoffice
-spreadsheet programming in c++1x excel libreoffice
 difference between hash table and hash map
 hash table and hash map c c++
 OpenOCD JTAG
-linux free tool to scan email attachment
+
+linux free antivirus scan email attachment
 
 fedora shortcut key to access system tray
 gnome access system task bar from keyboard
@@ -1153,6 +1098,8 @@ resume evaluation from TopResume
 mgl: curry
 
 #python
+https://www.easypost.com/docs/api/python.html
+python track trace post EMS
 program automation script to get post delivery information from postoffice webstie
 http://tracking.post.japanpost.jp/services/srv/search/
 CD245144708JP
@@ -1169,15 +1116,15 @@ http://www.xe.com/currencyconverter/convert/?Amount=1&From=XBT&To=RUB
 
 Large Integer Fibonacci Numbers
 
+#todo
 subscribe Sudoku Guy
+
+Matrix Falling Rain Source Code C++ C
+linux x86 x86-64 assembly matrix code rain implementation
 
 libreoffice --headless --convert-to pdf
 soffice  --headless --convert-to pdf
 discrete Fourier transform (DFT)
-
-linux x86 x86-64 assembly matrix code rain implementation
-
-how to think like a computer scientist c++
 
 vim fold source code block
 java log source code line number
@@ -1190,4 +1137,7 @@ shell process GNU long options
 shell process GNU long options getopts
 
 disallow inline comments after code (no-inline-comments) -> gthb & ~/.zshrc ~/.zsh-func :%s/\([^#]*\)\s*\(?:#|//\)\(.*\)$/\1\r\2\3/
+
+throw exceptions vs return error code
+
 
