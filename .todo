@@ -749,6 +749,12 @@ Excel for Accounting: Formulas, VLOOKUP & INDEX, PivotTables, Recorded Macros, C
 excel automation c++
 c++1x read write excel spreadsheet libreoffice
 
+excel spreadsheet for business finance accounting
+excel trim apply trim() on range of cells
+
+=sum($A$!.A1)
+https://www.quora.com/What-Excel-skills-are-most-valuable-for-finance-and-accounting
+
 Flect is a Simple DIY Device for Shooting Reflection-less Photos Through Glass
 
 IRR LLC
@@ -1117,8 +1123,6 @@ http://www.xe.com/currencyconverter/convert/?Amount=1&From=XBT&To=RUB
 Large Integer Fibonacci Numbers
 
 #todo
-subscribe Sudoku Guy
-
 Matrix Falling Rain Source Code C++ C
 linux x86 x86-64 assembly matrix code rain implementation
 
@@ -1139,5 +1143,6 @@ shell process GNU long options getopts
 disallow inline comments after code (no-inline-comments) -> gthb & ~/.zshrc ~/.zsh-func :%s/\([^#]*\)\s*\(?:#|//\)\(.*\)$/\1\r\2\3/
 
 throw exceptions vs return error code
+Error codes vs exceptions: critical code vs typical code
 
 
