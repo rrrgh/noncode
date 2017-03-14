@@ -1145,4 +1145,10 @@ disallow inline comments after code (no-inline-comments) -> gthb & ~/.zshrc ~/.z
 throw exceptions vs return error code
 Error codes vs exceptions: critical code vs typical code
 
+scala for the impatient pdf
+Java SE 8 for the really impatient Cay S Hortsmann pdf
+
+best way to get all numbers with same set of digits of given number
+best way to perform K-swap operations on an N-digit integer to get maximum possible number
+find all possible combinations of numbers to reach a given sum
 
