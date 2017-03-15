@@ -817,3 +817,17 @@ Why does the TRACE level exist, and when should I use it rather than DEBUG?
 
 https://logback.qos.ch/manual/configuration.html#cumulative
 
+#detect last foreach loop iteration
+http://stackoverflow.com/questions/41591107/detect-last-foreach-loop-iteration
+Set<String> names = new HashSet<>();
+	//some code
+	int i = 0;
+
+for (String name: names) {
+	if(i++ == names.size() - 1){
+	// Last iteration
+	}
+	//some code
+}
+
+
