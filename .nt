@@ -403,6 +403,8 @@ More advanced users should be introduced to different types of registers. My fav
 Debugging a program that produces a core dump
 http://cs.baylor.edu/~donahoo/tools/gdb/tutorial.html
 
+Debugging C/C++ Applications on Linux in CLion: From Basics to Reverse Debug 
+
 macchanger + dish antenna + aircrack + reaver + ip fwd + arp poison + sslstrip + wireshark post filter -> hack
 
 tail-call optimization (TCO)
