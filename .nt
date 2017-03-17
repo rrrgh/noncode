@@ -405,6 +405,8 @@ http://cs.baylor.edu/~donahoo/tools/gdb/tutorial.html
 
 Debugging C/C++ Applications on Linux in CLion: From Basics to Reverse Debug 
 
+linux makefile put rules for different programming languages in one makefile (possible with java and c++ on RHEL7.1, tested on Mar.17,2017)
+
 macchanger + dish antenna + aircrack + reaver + ip fwd + arp poison + sslstrip + wireshark post filter -> hack
 
 tail-call optimization (TCO)
