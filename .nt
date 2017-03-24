@@ -403,6 +403,8 @@ More advanced users should be introduced to different types of registers. My fav
 https://www.quora.com/Is-an-assembly-language-still-used-today-in-2017-If-so-in-which-areas
 I work with small embedded systems, often with 1k or even 512 bytes of code space and very limited RAM. I mostly use Assembler with bigger embedded projects too, because I’m so familiar with it. The arguments about the coding efficiency of high level languages don’t have much relevance to me, because I already have an extensive archive of assembler source code for any function I need.
 
+Functional Reactive Programming(FRP), a type of dataflow programming, is a declarative programming paradigm used to construct reactive systems (Sculthorpe, 2011).
+
 Debugging a program that produces a core dump
 http://cs.baylor.edu/~donahoo/tools/gdb/tutorial.html
 
