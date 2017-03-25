@@ -1135,7 +1135,6 @@ java log source code line number
 
 fedora 25 view system services and auto start programs
 2017 build webservice from zero
-clean code pdf
 
 shell process GNU long options
 shell process GNU long options getopts
@@ -1145,24 +1144,26 @@ disallow inline comments after code (no-inline-comments) -> gthb & ~/.zshrc ~/.z
 throw exceptions vs return error code
 Error codes vs exceptions: critical code vs typical code
 
-scala for the impatient 2nd edition pdf
+#pdf
 Scala for the Impatient (2nd Edition): Cay S. Horstmann
 Java SE 8 for the really impatient Cay S Hortsmann pdf
-
-best way to get all numbers with same set of digits of given number
-best way to perform K-swap operations on an N-digit integer to get maximum possible number
-find all possible combinations of numbers to reach a given sum
-
 c++ STL algorithm summary pdf
 c++ STL algorithm reference card pdf
 c++ STL algorithm cheatsheet pdf
 C++ Standard Library: A Tutorial and Reference by Nicolai M. Josuttis, 3rd edition pdf
 herb sutter exceptional c++ c++14 pdf
 practical c++ financial programming by carlos oliveira
+Discovering Modern C++: An Intensive Course for Scientists, Engineers, and Programmers (C++ In-Depth)
+The Boost C++ Libraries 2nd Edition
+clean code pdf
 
 GDB Pocket Reference: Debugging Quickly & Painlessly with GDB pdf
 gdb print multiple variables at once? -> macro .gdbinit?
 gdb diff between clear and delete
+
+best way to get all numbers with same set of digits of given number
+best way to perform K-swap operations on an N-digit integer to get maximum possible number
+find all possible combinations of numbers to reach a given sum
 
 CVC Code Credit Card
 
