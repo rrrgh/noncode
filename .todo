@@ -1145,6 +1145,7 @@ throw exceptions vs return error code
 Error codes vs exceptions: critical code vs typical code
 
 #pdf
+clean code pdf
 Scala for the Impatient (2nd Edition): Cay S. Horstmann
 Java SE 8 for the really impatient Cay S Hortsmann pdf
 c++ STL algorithm summary pdf
@@ -1156,7 +1157,8 @@ practical c++ financial programming by carlos oliveira
 Discovering Modern C++: An Intensive Course for Scientists, Engineers, and Programmers (C++ In-Depth)
 The Boost C++ Libraries 2nd Edition
 boost.asio c++ network programming - second edition pdf
-clean code pdf
+C++ Concurrency in Action, Second Edition pdf
+https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition
 
 GDB Pocket Reference: Debugging Quickly & Painlessly with GDB pdf
 gdb print multiple variables at once? -> macro .gdbinit?
