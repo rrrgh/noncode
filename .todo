@@ -1160,9 +1160,15 @@ boost.asio c++ network programming second edition pdf
 The Boost C++ Libraries 2nd Edition pdf
 From Mathematics to Generic Programming 1st Edition by Alexander A. Stepanov (Author), Daniel E. Rose (Author)
 
+#update
+http://www.cs.yale.edu/homes/aspnes/classes/223/notes.pdf
+Notes on Data Structures and Programming Techniques (CPSC 223, Spring 2015) James Aspnes 2016-11-12T19:07:09-0500
+
 Autumn 2017
 C++ Concurrency in Action, Second Edition pdf
 https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition
+
+http://users.cs.fiu.edu/~weiss/
 
 GDB Pocket Reference: Debugging Quickly & Painlessly with GDB pdf
 gdb print multiple variables at once? -> macro .gdbinit?
