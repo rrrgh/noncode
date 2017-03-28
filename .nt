@@ -400,6 +400,7 @@ Every programmer should understand what a register is, and how it is used. Some 
 Even languages like java, while not directly interfacing with cpu registers, are using a form or registers behind the scene.
 More advanced users should be introduced to different types of registers. My favorite is the circular register. It fascinates me how it is efficient because of the way it maintains space due to the consideration of the common locality of functions and arguments.
 
+#2020?
 Traditional Mongolian Unicode and pornography URL filter-out support in Linux kernel 4.10+?
 
 Simplified Wrapper and Interface Generator (SWIG) is an open-source software tool used to connect computer programs or libraries written in C or C++ with scripting languages such as Lua, Perl, PHP, Python, R, Ruby, Tcl, and other languages like C#, Java, JavaScript, Go, Modula-3, OCaml, Octave, Scilab and Scheme. Output can also be in the form of XML or Lisp S-expressions.
@@ -3296,6 +3297,8 @@ https://docs.oracle.com/javase/tutorial/essential/environment/cmdLineArgs.html
 
 mistype
 
+escape hatch
+
 «end of en2ru,mgl»
 
 Thoughts:
@@ -4257,6 +4260,12 @@ UT ユーティリティテラス: 広さはまちまちだが、キッチンや
 衝突/しょうとつ collision; impingement?
 
 ...よう習慣付けして下さい。
+
+反射鏡 はんしゃきょう
+鏡像 きょうぞう
+
+累乗 るいじょう raise a number to a power,exponential
+剰余 じょうよ remainder
 
 排煙口開放函 smoke exhaust box
 函(箱、匣、筥、筐、凾 とも書く)/はこ box,case
