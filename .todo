@@ -1051,8 +1051,6 @@ what Common Lisp can do
 best common lisp book
 best chess tips techniques
 
-assembly language mnemonics
-
 The Electrical Engineering Handbook
 
 Introduction to 64 Bit Assembly Programming for Linux and OS X: Third Edition by Ray Seyfarth – June 30, 2014
@@ -1063,7 +1061,6 @@ bash zsh display countdown or stopwatch timer
 must know business english
 
 men dress well on tight budget
-man Dress well On a Budget
 
 cheatography quick reference, summary pdf gdb python javascript c++1x c++1z java
 
@@ -1092,24 +1089,22 @@ what every software architect must know
 report generator xslt
 XSLT (Extensible Stylesheet Language Transformations)
 
-戸籍謄本等の交付請求書に押印した印鑑に係る印鑑登録証明書
-
 finance most important function
 how to quickly familiarize oneself with new physical environment
 how to quickly familiarize oneself with new places
 linux difference between | and < and <<<
 linux bc base last
 speed up fedora 25
-resume evaluation from TopResume
 mgl: curry
 
-#python
+Large Integer Fibonacci Numbers
+
+#todo
 https://www.easypost.com/docs/api/python.html
 python track trace post EMS
 program automation script to get post delivery information from postoffice webstie
 http://tracking.post.japanpost.jp/services/srv/search/
-CD245144708JP
-https://trackings.post.japanpost.jp/services/srv/search/direct?searchKind=S004&locale=ja&reqCodeNo1=CD245144708JP&x=40&y=19
+https://trackings.post.japanpost.jp/services/srv/search/direct?searchKind=S004&locale=ja&reqCodeNo1=CD245144708JP
 
 http://www.xe.com/currencyconverter/convert/?Amount=500&From=JPY&To=CNY
 http://www.xe.com/currencyconverter/convert/?Amount=500&From=JPY&To=USD
@@ -1120,9 +1115,15 @@ http://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=RUB
 http://www.xe.com/currencyconverter/convert/?Amount=1&From=XBT&To=USD
 http://www.xe.com/currencyconverter/convert/?Amount=1&From=XBT&To=RUB
 
-Large Integer Fibonacci Numbers
+python lookup online dictionary and retrieve result from command line
+1.https://en.oxforddictionaries.com/definition/
+https://www.merriam-webster.com/dictionary/
+2.ejje.weblio.jp
+weblio.jp
+3.bolor-toli
+https://mongoltoli.mn/search.php?opt=1&word=дөлгөн#
+4.iciba.com
 
-#todo
 Matrix Falling Rain Source Code C++ C
 linux x86 x86-64 assembly matrix code rain implementation
 
@@ -1136,7 +1137,6 @@ java log source code line number
 fedora 25 view system services and auto start programs
 2017 build webservice from zero
 
-shell process GNU long options
 shell process GNU long options getopts
 
 disallow inline comments after code (no-inline-comments) -> gthb & ~/.zshrc ~/.zsh-func :%s/\([^#]*\)\s*\(?:#|//\)\(.*\)$/\1\r\2\3/
@@ -1167,17 +1167,24 @@ The Hitchhiker's Guide to Python: Best Practices for Development
 Python Data Science Handbook: Essential Tools for Working with Data
 
 #update
+Autumn 2017
+C++ Concurrency in Action, Second Edition pdf
+https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition
+
+crash course in GNU Debugger
+debugging multiple processes and threads can be found in the advanced part of this tutorial (coming soon...
+https://cristos.vipserv.org/2015/03/a-crash-course-in-gnu-debugger-a-gdb-tutorial/
+https://cristos.vipserv.org/
+
 http://www.cs.yale.edu/homes/aspnes/classes/223/notes.pdf
 Notes on Data Structures and Programming Techniques (CPSC 223, Spring 2015) James Aspnes 2016-11-12T19:07:09-0500
 
 https://www.kevinsheppard.com/images/0/09/Python_introduction.pdf
 Introduction to Python for Econometrics, Statistics and Data Analysis
 
-Autumn 2017
-C++ Concurrency in Action, Second Edition pdf
-https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition
-
 http://users.cs.fiu.edu/~weiss/
+
+assembly language mnemonics
 
 GDB Pocket Reference: Debugging Quickly & Painlessly with GDB pdf
 gdb print multiple variables at once? -> macro .gdbinit?
@@ -1193,9 +1200,10 @@ CVC Code Credit Card
 
 install fedora 25 from LAN
 
-or: http://www.geekinterview.com/Interview-Questions/Languages/C-Plus-Plus
 linux source code of pstree
 
 compound interest formula
 
 http://download.csdn.net
+Amazon Standard identification number & python
+
