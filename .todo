@@ -1119,7 +1119,7 @@ java log source code line number
 fedora 25 view system services and auto start programs
 2017 build webservice from zero
 
-shell process GNU long options getopts
+linux shell parse long options getopt getopts replacement
 
 disallow inline comments after code (no-inline-comments) -> gthb & ~/.zshrc ~/.zsh-func :%s/\([^#]*\)\s*\(?:#|//\)\(.*\)$/\1\r\2\3/
 
