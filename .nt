@@ -394,6 +394,16 @@ persistent can't resolve host github error on ubuntu 14.04+; (https://stackoverf
 unresponsive, crash, freeze while wake from sleep/standby on ubuntu 14.04+;
 wifi disconnected when resume from sleep normally on ubuntu 14.04+;
 
+#blockchain
+BaaS
+PoW:Proof of Work
+AltCoin
+Off Chain
+Sidechains
+micropayment
+Ethereum
+Rootstock
+
 EECS ICT:
 Life is too short, write fast code.
 Every programmer should understand what a register is, and how it is used. Some to the point of building a register out of simple electrical gates and clocking stuff into it.
@@ -1972,6 +1982,8 @@ The fire flickered like a beacon in the darkness.
 Don't half-ass anything. Whatever you do, always use your full ass.
 Don't put all your eggs in one basket.
 methodology:best practices, cookbook, crash course, tips, tricks, cheat sheet, guidelines, summary, overview, big picture, etc.
+Habitualize yourself to execute high-value high-priority activities in C++1z std::atomic way!
+Minimize daily drudgery, low value activities.
 paradigm shift
 streamline
 flow state & focus
@@ -4172,6 +4184,8 @@ https://welq.jp/16343
 懺悔/ざんげ
 
 jp2ru,en,mgl:
+FX 外国為替
+
 無能
 外れる
 （人間・物事を）いい加減にあしらう (vt.)
