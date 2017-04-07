@@ -1,5 +1,5 @@
 C++14 thread tutorial
-In this tool-assisted education video I explain the tools that C++11 introduced for creating multi-threaded programs. ENGLISH-LANGUAGE CLOSED CAPTIONS ARE AVAILABLE.
+/usr/bin/time xecutbl
 
 Note to self: Possible topics for a hypothetical second episode:
 – Thread-local variables
