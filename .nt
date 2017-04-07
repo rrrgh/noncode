@@ -413,6 +413,8 @@ More advanced users should be introduced to different types of registers. My fav
 #2020?
 Traditional Mongolian Unicode and pornography URL filter-out support in Linux kernel 4.10+?
 
+OpenMP (Open Multi-Processing) is an application programming interface (API) that supports multi-platform shared memory multiprocessing programming in C, C++, and Fortran,[3] on most platforms, instruction set architectures and operating systems, including Solaris, AIX, HP-UX, Linux, macOS, and Windows. It consists of a set of compiler directives, library routines, and environment variables that influence run-time behavior.
+
 Language agnostic refers to aspects of programming that are independent of any specific programming language. The world "agnostic" is derived from the ancient Greek for "don't know".
 
 Simplified Wrapper and Interface Generator (SWIG) is an open-source software tool used to connect computer programs or libraries written in C or C++ with scripting languages such as Lua, Perl, PHP, Python, R, Ruby, Tcl, and other languages like C#, Java, JavaScript, Go, Modula-3, OCaml, Octave, Scilab and Scheme. Output can also be in the form of XML or Lisp S-expressions.
