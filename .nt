@@ -1211,6 +1211,8 @@ https://www.merriam-webster.com/words-at-play/6-common-hypercorrections-and-how-
 
 Preemptive Incident Response (PIR)
 
+"I took the view that, if convergence was the future and we could deliver it as free software, that would be widely appreciated both in the free software community and in the technology industry, where there is substantial frustration with the existing, closed, alternatives available to manufacturers. I was wrong on both counts. In the community, our efforts were seen fragmentation not innovation. And industry has not rallied to the possibility, instead taking a ‘better the devil you know’ approach to those form factors, or investing in home-grown platforms. What the Unity8 team has delivered so far is beautiful, usable and solid, but I respect that markets, and community, ultimately decide which products grow and which disappear".  - Mark Shuttleworth
+
 At 14:21 You used the term, "This begs the question", that is a logical term (fallacy) called circular reasoning. The classic example is, "Are you still beating your wife?" where the answer is assumed from the question. What you meant to say was, "This raises the question".
 https://www.youtube.com/watch?v=_160oMzblY8
 
@@ -3455,7 +3457,8 @@ Beaglebone Black
 UDOO
 Arduino
 
-to-do@Japan:
+to-do
+Fedora/Ubuntu18.04LTS/RaspberryPi Russified
 BeagleBone/UDOO/ODroid/RaspberryPi/Arduino home automation
 
 jp:
