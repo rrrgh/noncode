@@ -1225,6 +1225,23 @@ Oneitis is an obsessive, worrying, insecure emotion a guy feels towards a partic
 
 Is Drinking Tea Residue Bad for You?
 
+spout:
+1. A tube or lip projecting from a container, through which liquid can be poured.
+e.g. teapot with a chipped spout
+I found a used milker inflation tube fits snugly over a 1-quart plastic oil can and makes a pour spout for hard-to-reach transmissions on combines.
+2. A stream of liquid issuing from somewhere with great force.
+‘the tall spouts of geysers’
+2.1 The plume of water vapour ejected from the blowhole of a whale.
+‘the spout of an occasional whale’
+3. A pipe or trough through which water may be carried away or from which it can flow out.
+3.1 A sloping trough for conveying grain, coal, etc. to a lower level; a chute.
+V.
+1. Send out (liquid) forcibly in a stream.
+1.1 [no object, with adverbial] (of a liquid) flow out forcibly in a stream.
+‘blood was spouting from the cuts on my hand’
+1.2 (of a whale or dolphin) eject (water vapour and air) through its blowhole.
+2. Express (one's views or ideas) in a lengthy, declamatory, and unreflecting way.
+
 book-smart
 street-smart
 
@@ -1998,6 +2015,17 @@ syntopicon
 interstitial material should be read quickly (-> interstice)
 
 "...or at least a better access to a better workplace that has a more benevolent dictator"
+
+How do electric kettles work? - Explain that Stuff
+fluid dynamics - When does a pot not spill? - Physics Stack Exchange
+fluid dynamics - Why does lesser water spill if it's hotter? - Physics Stack Exchange
+
+What the British Invented: From the Great to the Downright Bonkers
+
+gooseneck kettles (also known as pour over coffee kettles)
+Let’s not forget: pour over brewing requires incremental pouring - some recipes even require you to meticulously regulate each pour by weight - and a gooseneck kettle makes it much easier to avoid the pain of under-pouring or over-pouring each round.
+Essentially, this type of kettle is for the barista what a fine-tipped brush is for the painter: a perfectionist’s tool.
+drippy spout
 
 sphygmomanometer
 
@@ -4177,6 +4205,9 @@ KYリンチを許容する国 - ブラック大国(たい こく)日本
 笛吹 ふえふき 
 犯す/おか・す
 惜しむ/おしむ regret、repent
+虚偽の記載や記入漏れ
+縫い針 ぬいばり sewing needle
+針 はり prickle; dart; spine; acus; sting; needle; pointer; stylus
 
 «end of jp2ru,en,mgl»
 
@@ -4190,12 +4221,23 @@ cn2ru,en,mgl:
 Otryaddarkh
 
 #asuult question
-Is it possible for iPhone 6 to not invoke shutter hardware which makes noise when taking screenshot, by using third party apps like graphics apps, browsers(via built-in webpage capture functionality or plugin) and messaging apps(e.g. Line/WeChat/Telegram), etc?
+#common
+Does gooseneck drip less (fluid)?
+what is whipped milk? Is that fat-removed?
 
+#tech
 app interoperability
 c++1x/python -> LibreOffice docs
 c++1x/python on Linux -> Line/WeChat/Telegram on iOS/Android (through OAuth? OpenID?)
 
+c/c++ inline function is devised for fitting into CPU cache?
+
+How to learn C++ effectively?
+How to master C++ quickly?
+
+Why some website(e.g. http://www.yomiuri.co.jp) can't be opened under direct WiFi internet connection but through Tor?
+
+#game
 chess:"opening" is for white and "defense" is for black?
 xyz(placeholder) opening is speaking of white's play and zyx(placeholder) defense is referring to black's play, is that correct?
 or
@@ -4203,14 +4245,7 @@ opening schemes are played by white, while defense schemes are played by opponen
 Is this thinking correct?
 https://chess.stackexchange.com/questions/16606/beginner-chess-terminology-opening-is-whites-and-defense-is-blacks
 
-what is whipped milk? Is that fat-removed?
-
-Why some website(e.g. http://www.yomiuri.co.jp) can't be opened under direct WiFi internet connection but through Tor?
-
-c/c++ inline function is devised for fitting into CPU cache?
-
-How to learn C++ effectively?
-How to master C++ quickly?
+«end of asuult question»
 
 #utv comment
 I think that a lot of the intellectual indolence spoken of here can be indirectly attributed to the optimism bias, which supposedly 80% of people are subject to. As a result of this cognitive error, it's all too easy to blithely assume that things will work out 'just fine' without putting any thought into the matter at hand. The consequences of this mode of thinking can range from trivial to disastrous, and it's something to be wary of in all manner of personal interactions.
