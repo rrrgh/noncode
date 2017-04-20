@@ -831,3 +831,7 @@ for (String name: names) {
 }
 
 
+#javascript
+var is not global, it's function scoped, and if you define a var variable inside a function, it won't be available outside of that function. Let is BLOCK scoped.
+https://www.youtube.com/watch?v=Jakoi0G8lBg
+
