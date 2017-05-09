@@ -3581,6 +3581,8 @@ chess annotation symbols:
 ?!  a dubious move or move that may turn out to be bad
 □  the only reasonable move, or the only move available
 TN or N  a theoretical novelty
+Always castle with one hand -- move the king first, then complete castling by moving the rook. This avoids confusion as to what piece you intended to move. (Castling is considered a king move.)
+
 
 «end of en2ru,mgl»
 
