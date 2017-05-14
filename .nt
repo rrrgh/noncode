@@ -3596,6 +3596,14 @@ Always castle with one hand -- move the king first, then complete castling by mo
 
 Besides not conforming to the definition of “simultaneous”, why is this difference important and why does it make exhibitor’s task easier than starting all games at the same time? All previous blindfold champions have stated that the first 10-15 moves of a game are the hardest to handle. Of course the games all start in the same position and the exhibitor needs to make individual games distinctive as soon as possible to avoid confusion among them (see the discussion of how champions plan their sequence of openings in advance to alleviate or prevent this confusion problem on pages 193-196 of our book). With successive “waves"of players an exhibitor could make the current games reasonably distinctive before the next wave began.
 
+Chess960 (also known as Fischer Random Chess or Fischerandom)
+White pawns are placed on the second rank as in standard chess. All remaining white pieces are placed randomly on the first rank, with two restrictions:
+The bishops must be placed on opposite-color squares.
+The king must be placed on a square between the rooks.
+Black's pieces are placed equal-and-opposite to White's pieces. For example, if the white king is randomly determined to start on f1, then the black king is placed on f8. (The king never starts on the a - or h -file, since this would leave no space for a rook.)
+Each bishop can take one of four positions; for each position of two bishops, the queen can be placed on six different squares; and then the two knights can assume five or four possible positions, respectively. This leaves three open squares which the king and rooks must occupy per setup stipulations, without choice. This means there are 4×4×6×5×4 = 1920 possible starting positions if the two knights were different in some way. The two knights are indistinguishable during play (if swapped, there would be no difference), however, so the number of distinguishable possible positions is half of 1920, or 1920÷2 = 960. (Half of the 960 positions are left–right mirror images of the other half; however, Chess960 castling rules preserve left–right asymmetry in play.)
+https://en.wikipedia.org/wiki/Chess960
+
 «end of en2ru,mgl»
 
 Thoughts:
