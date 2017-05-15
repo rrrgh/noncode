@@ -2186,7 +2186,9 @@ The IRS exacerbated the marriage penalty by offering a very large reward for unm
 
 most important function in finance
 compound interest
-doubling time exponential function
+doubling-time exponential function
+doubling-time & half-life
+inflation rate
 
 electronic weighing scales
 The most basic element in bc is the number. Numbers are arbitrary precision numbers. This precision is both in the integer part and the fractional part. All numbers are represented internally in decimal and all computation is done in decimal. (This version truncates results from divide and multiply operations.) There are two attributes of numbers, the length and the scale. The length is the total number of significant decimal digits in a number and the scale is the total number of decimal digits after the decimal point. For example:
@@ -2771,11 +2773,15 @@ carnivore men
 omnivorous men
 
 working poor
-passive income
-dividend
 intensive saving
-
+side hustle
+side business
+passive income
 Residual income is the amount of income that an individual has after all personal debts and expenses, including a mortgage, have been paid. This calculation is usually made on a monthly basis, after the monthly debts are paid.
+
+dividend
+index fund
+investment in precious metals and cryptocurrencies
 
 milk carton clip
 
@@ -2886,12 +2892,6 @@ thrift store
 dumpster dive
 extreme cheapskate
 stingy
-
-passive income
-side hustle
-side business
-index fund
-investment in precious metals and cryptocurrencies
 
 index: товьёг ᠲᠣᠪᠶᠤᠭmb, хэм 
 footnote: зүүлт, зүүвэр
@@ -3583,6 +3583,9 @@ per diem: For each day (used in financial contexts).
 Sprain is a stretch or tear in a ligament. Ligaments are bands of fibrous tissue that connect bones to bones at joints. Strain is also a stretch or tear, but it happens in a muscle or a tendon.
 
 C-reactive protein (CRP) is a blood test marker for inflammation in the body. CRP is produced in the liver and its level is measured by testing the blood. CRP is classified as an acute phase reactant, which means that its levels will rise in response to inflammation.
+
+flyer person
+Work is to distribute flyers.
 
 chess annotation symbols:
 !  an excellent move
