@@ -427,6 +427,8 @@ Every programmer should understand what a register is, and how it is used. Some 
 Even languages like java, while not directly interfacing with cpu registers, are using a form or registers behind the scene.
 More advanced users should be introduced to different types of registers. My favorite is the circular register. It fascinates me how it is efficient because of the way it maintains space due to the consideration of the common locality of functions and arguments.
 
+cb: callback
+
 String interpolation
 
 SlideGrubber
@@ -2777,7 +2779,7 @@ intensive saving
 side hustle
 side business
 passive income
-Residual income is the amount of income that an individual has after all personal debts and expenses, including a mortgage, have been paid. This calculation is usually made on a monthly basis, after the monthly debts are paid.
+residual income is the amount of income that an individual has after all personal debts and expenses, including a mortgage, have been paid. This calculation is usually made on a monthly basis, after the monthly debts are paid.
 
 dividend
 index fund
