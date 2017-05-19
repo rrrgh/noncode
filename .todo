@@ -141,7 +141,6 @@ Underscore.js asm.js
 functional js
 
 var myFunc = myObj.myFunc;  @ http://learnxinyminutes.com/docs/javascript/ 
-node.js express stream npm redis @ using node.js for everything
 
 Professional JavaScript for Web Developers, 3rd Edition - by Nicholas Zakas
 http://www.jackkinsella.ie/2011/12/05/janki-method.html
@@ -509,8 +508,6 @@ send message from website to social network apps
 how to obtain WeChat access token certificate
 website social media app integration
 russia china e-commerce
-automatically check for MEAN component update download install shell script
-linux shell script automatically update node.js mongodb express angular
 
 memorize numbers
 best russian language app
@@ -544,10 +541,7 @@ vim access system clipboard (vimx "+yG, "+dd)
 make youtube video
 linux c programming
 Line Dennys Jonathans coupon
-Creating and Deploying a Responsive Node.js web site using the MEAN stack to Microsoft's Azure Cloud Platform
 AWS vs Azure
-create and deploy ecommerce website node.js
-node.js auto upgrade
 AP calculus crash course
 linux c++ read write xlsx file
 vim transpose-words : Swap two words as M-t (transpose-words) in Emacs or bash
@@ -598,8 +592,6 @@ pure function
 Подмосковные Вечера
 c++ vs d
 c++ vs go
-node.js Content Management Systems (or CMS)
-responsive website CMS node.js jquery bootstrap
 Critical Thinking
 ネット販売
 日本代购
@@ -849,7 +841,6 @@ dependency injection javacreed.com
 DDoS attack
 OSQuery facebook
 defend against DDoS attack
-Robotics with Node.js and Arduino
 
 rotogenflux method pdf
 
@@ -1136,6 +1127,7 @@ nodejs book pdf
 Node.js Design Patterns Second Edition Mario Casciaro, Luciano Mammino July 2016
 Express in Action: Writing, building, and testing Node.js applications 1st Edition by Evan Hahn
 building APIs with Node.js
+Building Bots with Node.js
 
 Winning Chess: How to Perfect Your Attacking Play (Batsford Chess) November 26, 2013 by Irving Chernev (Author), Fred Reinfeld (Author)
 Dynamic Decision Making in Chess by Boris Gelfand pdf
@@ -1233,10 +1225,20 @@ fedora 25 google chrome longin keyring
 determine video file resolution in linux
 http://www.thechessdrum.net/chessacademy/index.html
 http://www.thechessdrum.net/65thSquare/65_janfeb04.html
-node js網站架設
-node js book
+
 tips to effective verbal communication pdf
 
 ＭＳ ゴシック
 Razer glassdoor
 html2pdf: file:///home/r/Downloads/reduceFromFunctionaltoCpp17FoldExpression/meetingcpp2016/meetingcpp16.slides.html
+
+node js網站架設
+automatically check for MEAN component update download install shell script
+linux shell script automatically update node.js mongodb express angular
+node.js Content Management Systems (or CMS)
+responsive website CMS node.js jquery bootstrap
+Creating and Deploying a Responsive Node.js web site using the MEAN stack to Microsoft's Azure Cloud Platform
+create and deploy ecommerce website node.js
+Robotics with Node.js and Arduino
+node.js express stream npm redis @ using node.js for everything
+
