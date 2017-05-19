@@ -430,6 +430,7 @@ More advanced users should be introduced to different types of registers. My fav
 cb: callback
 
 DSO: Digital Sampling Oscilloscope
+ØMQ: ZeroMQ Distributed Messaging
 
 String interpolation
 
