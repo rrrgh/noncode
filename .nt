@@ -437,6 +437,9 @@ String interpolation
 SlideGrubber
 http://grub.cballenar.me/
 
+xguest: Kiosk Mode
+The xguest package provides a kiosk user account. This account is used to secure machines that people walk up to and use, such as those at libraries, banks, airports, information kiosks, and coffee shops. The kiosk user account is very limited: essentially, it only allows users to log in and use Firefox to browse Internet websites. Any changes made while logged in with this account, such as creating files or changing settings, are lost when you log out.
+
 GMP:GNU Multiple Precision Arithmetic Library
 https://gmplib.org/
 
