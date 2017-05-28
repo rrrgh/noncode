@@ -429,6 +429,10 @@ More advanced users should be introduced to different types of registers. My fav
 
 cb: callback
 
+ECMAScript 6
+WeakMap
+WeakSet
+
 DSO: Digital Sampling Oscilloscope
 ØMQ: ZeroMQ Distributed Messaging
 
