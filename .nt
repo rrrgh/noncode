@@ -243,57 +243,10 @@ What/Who the heck...
 What if They Cut Off Your Electricity?
 Check this/it out.
 
-Draw 2D chess set on wall using crayons.
-
-chess:
-Which chess openings are best for beginners?
-chess best opening for black
-chess best opening for white
-
-best chess book pdf
-
-Chess Guidelines (Principles)
-If you don't know what to do, identify your worst piece and find a way to make it better.
-"If you can't find a plan, find your worst piece and make it better." Alternatively, "...find your opponent's worst piece and keep it bad." Often a great plan is just to make your worst piece better.
-http://www.danheisman.com/Articles/Dan_sayings.html
-
-algebraic notation:
-BxNc6 => Bxc6 
-d7xBc6 => dxc6
-f7-f8 = Q => f8 = Q
-
-Garry Kasparov:
-Checkmate!: My First Chess Book (Everyman Chess) Hardcover
-Garry Kasparov, The Test of Time pdf
-Garry Kasparov on Modern Chess
-
-Secrets of the Russian Chess Masters: Fundamentals of the Game (Vol. 1)
-Secrets of the Russian Chess Masters: Beyond the Basics (Vol. 2)
-
-Accessible Chess Tutor (ACT) is a software package that allows visually disabled people to learn and play chess.
-
-http://www.chessopolis.com/tutorials/
-https://www.techsupportalert.com/best-free-computer-chess.htm
-http://chess.about.com/od/improveyourchess/a/Five-Great-Chess-Channels-On-Youtube.htm
-chesstv.com
-http://chess4you.ru/
-http://digicast.ru/
-
 Water Bottle Trick/Experiments
 https://www.youtube.com/watch?v=K9jRztEQ06o&list=UUe_vXdMrHHseZ_esYUskSBw
 comment:
 it's the basics of electron charges pulling and attractive the other electrons in the water towards one another.  Swipe your hand disrupts the constant connection that they all split apart.
-
-android bkmrk:
-http://dict.num.edu.mn
-http://www.russianforeveryone.com/RufeA/Lessons/Introduction/Alphabet/Alphabet.htm
-
-utub:
-Chess.com Middle game
-Chess.com end game
-
-Dive into C++11 by Vittorio Romeo
-Emacs as a C C++ Editor IDE
 
 .Emacs Tutorials
 http://www.youtube.com/playlist?list=PLxj9UAX4Em-IiOfvF2Qs742LxEK4owSkr
@@ -3609,6 +3562,41 @@ https://upyourfashiongame.wordpress.com/2014/02/10/how-to-hem-dress-pants/
 
 Fiat Currency
 
+«end of en2ru,mgl»
+
+chess:
+Which chess openings are best for beginners?
+chess best opening for black
+chess best opening for white
+
+best chess book pdf
+
+Chess Guidelines (Principles)
+If you don't know what to do, identify your worst piece and find a way to make it better.
+"If you can't find a plan, find your worst piece and make it better." Alternatively, "...find your opponent's worst piece and keep it bad." Often a great plan is just to make your worst piece better.
+http://www.danheisman.com/Articles/Dan_sayings.html
+
+algebraic notation:
+BxNc6 => Bxc6 
+d7xBc6 => dxc6
+f7-f8 = Q => f8 = Q
+
+Garry Kasparov:
+Checkmate!: My First Chess Book (Everyman Chess) Hardcover
+Garry Kasparov, The Test of Time pdf
+Garry Kasparov on Modern Chess
+
+Secrets of the Russian Chess Masters: Fundamentals of the Game (Vol. 1)
+Secrets of the Russian Chess Masters: Beyond the Basics (Vol. 2)
+
+Accessible Chess Tutor (ACT) is a software package that allows visually disabled people to learn and play chess.
+
+http://www.chessopolis.com/tutorials/
+https://www.techsupportalert.com/best-free-computer-chess.htm
+chesstv.com
+http://chess4you.ru/
+http://digicast.ru/
+
 chess annotation symbols:
 !  an excellent move
 !!  a particularly good—and usually surprising—move
@@ -3630,7 +3618,7 @@ Black's pieces are placed equal-and-opposite to White's pieces. For example, if 
 Each bishop can take one of four positions; for each position of two bishops, the queen can be placed on six different squares; and then the two knights can assume five or four possible positions, respectively. This leaves three open squares which the king and rooks must occupy per setup stipulations, without choice. This means there are 4×4×6×5×4 = 1920 possible starting positions if the two knights were different in some way. The two knights are indistinguishable during play (if swapped, there would be no difference), however, so the number of distinguishable possible positions is half of 1920, or 1920÷2 = 960. (Half of the 960 positions are left–right mirror images of the other half; however, Chess960 castling rules preserve left–right asymmetry in play.)
 https://en.wikipedia.org/wiki/Chess960
 
-«end of en2ru,mgl»
+«end of chess»
 
 Thoughts:
 Where there are Chinese, there are destructions and pollutions. The once beautiful, harmonious, eco, clean, and peaceful homeland of Barag People, livestocks and swans, now became severly degraded and polluted deserts, numerous mine dumps, "shelter" of banned-from-other-parts-of-China chemical factories, and Chinese farmland!
@@ -4266,6 +4254,7 @@ UT ユーティリティテラス: 広さはまちまちだが、キッチンや
 眼球 がんきゅう
 瞳 ひとみ pupil
 瞳を凝らす ひとみをこらす to strain one's eyes; to stare
+工夫を凝らす/くふうをこらす work out/elaborate a plan, to exercise one's ingenuity; to come up with an ingenious plan
 再鑑 double check
 快哉を叫ぶ かいさいをさけぶ to shout with exultation; to shout for joy
 踏襲 とうしゅう follow in somebody's footsteps, follow suit, follow 《the policy of the former Cabinet》
@@ -4598,6 +4587,7 @@ kinematics 運動力学  うんどうりきがく
 指数関数 しすうかんすう exponential function
 真っ裸 まっぱだか/丸裸 まるはだか stark nakedness
 著者 ちょしゃ author,writer
+筆者 ひっしゃ calligrapher,writer
 無謀 むぼう reckless; thoughtless; rash; ill-advised; impulsive
 企て/くわだて gimmick、effort、endeavor
 強固/きょうこ rigid、stiff、steadfast、firm、unwavering、unfaltering
@@ -4605,6 +4595,10 @@ kinematics 運動力学  うんどうりきがく
 杓子定規/しゃくしじょうぎ formalism
 杓子定規の人 stickler(for the rules), formalist
 切迫 せっぱく urgent, imminent
+発覚 はっかく detection
+尋問 じんもん examine、question、interrogate
+瞬く間/またたくま brief moment; blink of an eye (time span)
+重み付けK近傍法/おもみづけ
 
 
 «end of jp2ru,en,mgl»
