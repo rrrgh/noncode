@@ -381,13 +381,18 @@ Even languages like java, while not directly interfacing with cpu registers, are
 More advanced users should be introduced to different types of registers. My favorite is the circular register. It fascinates me how it is efficient because of the way it maintains space due to the consideration of the common locality of functions and arguments.
 
 cb: callback
+http://callbackhell.com/
 
-ECMAScript 6
+ECMAScript 6+
 WeakMap
 WeakSet
 
 DSO: Digital Sampling Oscilloscope
 ØMQ: ZeroMQ Distributed Messaging
+
+Bitcoin on Fedora with Electrum
+Electron | Build cross platform desktop apps with JavaScript, HTML ...
+https://electron.atom.io
 
 String interpolation
 
@@ -4621,6 +4626,8 @@ kinematics 運動力学  うんどうりきがく
 愛宕 Japanese cruiser Atago、Japanese gunboat Atago
 俯瞰 ふかん bird's-eye view, having an overhead view
 鳥瞰図 ちょうかんず bird’s‐eye view
+謳う/うたう take a firm stand、insist, extol, sing the praises of
+遡る/さかのぼる (溯る、逆上る、泝る とも書く) to go upstream, to go back (in time, to origin); to date back to; to trace back to; to make retroactive? retrospective
 
 
 
