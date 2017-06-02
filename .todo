@@ -1284,3 +1284,12 @@ sudo docker search wordpress
 sudo docker run hello-world
 
 MW presales consultant
+
+https://www.youtube.com/watch?v=zp4EKdDZTiY
+Four step to host on bluemix:
+1. Create bluemix account 
+2. Download cloud foundry command line interface
+3. Create manifest file
+4. Use cf push to host your project
+https://console.ng.bluemix.net/docs/starters/install_cli.html
+
