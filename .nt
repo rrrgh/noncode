@@ -394,6 +394,9 @@ Bitcoin on Fedora with Electrum
 Electron | Build cross platform desktop apps with JavaScript, HTML ...
 https://electron.atom.io
 
+Build Determinism/Reproducible Builds: Given identical inputs of source code and N-V-R's of dependencies in the buildroot, the binary output packaged must be identical when built by anyone.
+https://fedoraproject.org/wiki/BITCOIN
+
 String interpolation
 
 SlideGrubber
