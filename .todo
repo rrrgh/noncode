@@ -1306,6 +1306,12 @@ win10_Pro_1703_15063.250_rs2_x86-x64_zhCN_PIP.zip
 
 docomo sp mode passwd:0000
 
-I'm very sorry for late reply. Any time this afternoon is good for talk. Attached you'll find my CV. Thank you.
+The void removeIf(Collection<T> coll, Predicate<T> pred) described in the slides is not a real method.  It is a "method that the API designers could have created in JDK 7 and earlier and didn't because nobody would have used it".   The "real" method that was introduced in JDK 8 for collections is default boolean removeIf(Predicate<? super E> filter).  I've updated the slides with a warning that "this is not a real API" and change the name to something less similar to the new method added in JDK 8 to avoid this confusion next time we use this material. 
+
+Enterprise Service Bus
+
+ストアドプロシジャ
+
+nyukan ０３－５７９６－７２５２
 
 
