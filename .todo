@@ -1333,3 +1333,4 @@ phone bookmark https://gist.github.com/TSiege/cbb0507082bb18ff7e4b
 Art of Computer Programming 6
 https://www.youtube.com/results\?search_query\=Н.Нацагням
 フィージビリティチェック
+sudo systemctl status bluetooth.service;echo 0;sudo systemctl stop bluetooth.service;echo 0;sudo systemctl disable bluetooth.service;echo 0;sudo systemctl status bluetooth.service;echo 0
