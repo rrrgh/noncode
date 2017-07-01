@@ -382,6 +382,19 @@ Every programmer should understand what a register is, and how it is used. Some 
 Even languages like java, while not directly interfacing with cpu registers, are using a form or registers behind the scene.
 More advanced users should be introduced to different types of registers. My favorite is the circular register. It fascinates me how it is efficient because of the way it maintains space due to the consideration of the common locality of functions and arguments.
 
+Bitcoin Q&A: How is fungibility tied to privacy?
+@aantonop:What technologies are you talking about that will hide recipient and sender? I'm familiar with maxwells CT, but that only hides amounts.
+>>zk-SNARKs for shielded addresses.
+One more question... I'm not exactly a few of zk-SNARKS for their lack of current supply, as of now....and the trusted setup requirements. They show too little about the economy in question. If there was a bug, it'd be very difficult to know and could be exploited for a long time.  That's besides the point, onto the question. In a more general sense +aantonop @aantonop, how could zk-SNARKS or CT actually provide hard fungibility? Assuming the technologies work well in practice without bugs, any bitcoin addresses with known or suspected identities attached by surveillance will then be scrutinized for using anonymizing technology.
+What do you think about the idea of adding "noise" to the Blockchain? We need a system that allows for Satoshi to move his coins, or ridiculous number of Bitcoin days being destroyed and have either A) nobody have any clue it happened B) nobody able to prove it's even likely it happened.
+
+example for fungibility:
+Fungible:
+You lend your crisp new dollar bill to your buddy. Later in the day he returns a crumpled dollar bill with a different serial number. All okay!
+Not Fungible:
+You drop your white 2nd grader at elementary school. Later in the day the teacher returns an Asian 2nd grader. Not okay!
+https://www.youtube.com/watch?v=VuI-8EwqIS8
+
 In Java, all non-primitive types (objects and arrays) are passed by reference implicitly, and all primitive types are passed by value (copied). In C++, objects will be passed by value (copied) if you do not use a reference or pointer type.
 
 cb: callback
