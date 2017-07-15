@@ -382,6 +382,8 @@ Every programmer should understand what a register is, and how it is used. Some 
 Even languages like java, while not directly interfacing with cpu registers, are using a form or registers behind the scene.
 More advanced users should be introduced to different types of registers. My favorite is the circular register. It fascinates me how it is efficient because of the way it maintains space due to the consideration of the common locality of functions and arguments.
 
+SIMD: Single Instruction, Multiple Data
+
 average vs median:
 Average is the total sum of a set of numbers divided by the number of elements in the set; median is the midpoint number in a set where half of the numbers are above and half are below.
 
@@ -4770,6 +4772,9 @@ RC建物 reinforced concrete building
 校正 こうせい correction
 フィージビリティチェック
 染髪 せんぱつ hair dyeing
+金髪 きんぱつ blond、blonde
+途切れる/とぎれる pause, intermit
+断捨離 だんしゃり decluttering; clearing out past accumulation; minimalism; getting rid of the clutter and living with the bare minimum of things
 重んじる/おもんじる value、treasure、appreciate
 尚良い/なおよい still better; even better
 酒気帯び運転/しゅきおびうんてん drunk driving; driving under the influence (of alcohol); DUI
@@ -4861,6 +4866,9 @@ RC建物 reinforced concrete building
 総務 そうむ general affair; director in charge of general affair
 耕す/たがやす cultivate, plough, plow
 田畑を耕す (たはた) cultivate the land
+企業から面接日時の連絡などあった場合は早めの返答をお願いします。
+また、やむを得ず、応募の取り消しや選考後の面接の辞退を希望される方は、必ず企業までご連絡ください。
+飾る/かざる decorate, ornament
 
 
 «end of jp2ru,en,mgl»
