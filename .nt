@@ -388,6 +388,8 @@ More advanced users should be introduced to different types of registers. My fav
 
 SIMD: Single Instruction, Multiple Data
 
+Stream Insertion (<<) and Extraction (>>) Operators
+
 average vs median:
 Average is the total sum of a set of numbers divided by the number of elements in the set; median is the midpoint number in a set where half of the numbers are above and half are below.
 
