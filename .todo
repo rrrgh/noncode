@@ -1372,3 +1372,4 @@ CP Server Line Inc.
 ※
 Python OpenWeatherMap
 nohup google-chrome-stable --ssl-version-min=tls1.1 https://www.youtube.com/watch\?v\=ENDaJi08jCU https://mail.google.com &> /dev/null & disown
+bitflyer
