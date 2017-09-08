@@ -1370,9 +1370,9 @@ webhook
 http://suumo.jp/ python
 
 CP Server Line Inc.
+
 ✗ unicode value
 ※
-Python OpenWeatherMap
 
 nohup google-chrome-stable --ssl-version-min=tls1.1 https://www.youtube.com/watch\?v\=ENDaJi08jCU https://mail.google.com http://python-future.org/automatic_conversion.html &> /dev/null & disown
 
@@ -1385,4 +1385,13 @@ Polymorphism (duck-typing)
 python3 parse macro enabled excel .xlsm
 
 NIC yellow LED blink but green LED don't
+
+download file from codeproject without logging in
+
+selenium close ads
+https://github.com/line/line-bot-sdk-python
+first tab
+
+@bisqwit: troubleshoot debug fix persistent hang up software
+
 
