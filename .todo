@@ -1399,5 +1399,32 @@ journalctl -o verbose -u sysupdate.service
 systemd service: Failed to determine supplementary groups: Operation not permitted
 sudo: effective uid is not 0, is /usr/bin/sudo on a file system with the 'nosuid' option set or an NFS file system without root privileges?
 
+-- The process /mnt/0/gthb/xrcs/sysupdate.sh could not be executed and failed.
+-- The error number returned by this process is 13.
+Sep 22 06:25:16 localhost.localdomain systemd[1]: sysupdate.service: Main process exited, code=exited, status=203/EXEC
+Sep 22 06:25:16 localhost.localdomain systemd[1]: sysupdate.service: Unit entered failed state.
+Sep 22 06:25:16 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=sys
+Sep 22 06:25:16 localhost.localdomain systemd[1]: sysupdate.service: Failed with result 'exit-code'.
+Sep 22 06:25:19 localhost.localdomain dbus-daemon[850]: [system] Activating service name='org.fedoraproject.Setroubleshootd' requested by ':1.19' (uid
+Sep 22 06:25:20 localhost.localdomain dbus-daemon[850]: [system] Successfully activated service 'org.fedoraproject.Setroubleshootd'
+Sep 22 06:25:31 localhost.localdomain setroubleshoot[2779]: Plugin Exception catchall_labels
+Sep 22 06:25:31 localhost.localdomain setroubleshoot[2779]: SELinux is preventing (pdate.sh) from execute_no_trans access on the file /mnt/0/gthb/xrcs
+Sep 22 06:25:31 localhost.localdomain python3[2779]: SELinux is preventing (pdate.sh) from execute_no_trans access on the file /mnt/0/gthb/xrcs/sysupd
+
+                                                     *****  Plugin catchall (100. confidence) suggests   **************************
+
+                                                     If you believe that (pdate.sh) should be allowed execute_no_trans access on the sysupdate.sh file
+                                                     Then you should report this as a bug.
+                                                     You can generate a local policy module to allow this access.
+                                                     Do
+                                                     allow this access for now by executing:
+                                                     # ausearch -c '(pdate.sh)' --raw | audit2allow -M my-pdatesh
+                                                     # semodule -X 300 -i my-pdatesh.pp
+
 vim effective efficient abbreviations mappings dictionaries
 
+/var/log/audit/audit.log
+How can we ensure that permission of 640 is kept during log rotation of /var/log/audit/audit.log?
+https://access.redhat.com/solutions/905243
+
+AVC
