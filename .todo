@@ -1420,6 +1420,8 @@ Sep 22 06:25:31 localhost.localdomain python3[2779]: SELinux is preventing (pdat
                                                      allow this access for now by executing:
                                                      # ausearch -c '(pdate.sh)' --raw | audit2allow -M my-pdatesh
                                                      # semodule -X 300 -i my-pdatesh.pp
+related
+https://wiki.gentoo.org/wiki/SELinux/Tutorials/How_does_a_process_get_into_a_certain_context
 
 vim effective efficient abbreviations mappings dictionaries
 
@@ -1427,4 +1429,8 @@ vim effective efficient abbreviations mappings dictionaries
 How can we ensure that permission of 640 is kept during log rotation of /var/log/audit/audit.log?
 https://access.redhat.com/solutions/905243
 
-AVC
+linux AVC
+
+setfacl execute_no_trans access /mnt/0/gthb/xrcs/sysupdate.sh
+ls -lZ /mnt/0/gthb/xrcs/sysupdate.sh
+
