@@ -1434,3 +1434,7 @@ linux AVC
 setfacl execute_no_trans access /mnt/0/gthb/xrcs/sysupdate.sh
 ls -lZ /mnt/0/gthb/xrcs/sysupdate.sh
 
+https://unix.stackexchange.com/questions/193687/how-do-i-troubleshoot-these-selinux-avc-errors
+run audit2why already on the audit lines? It describes the reason for SELinux denying the actions. In that case httpd wants to run ps but is not allowed to (I guess nagios is the initiator of that). Anyway, I do not think that is the reason for your troubles. What about resources (mem/io)?
+
+fedora26 auditd
