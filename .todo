@@ -1395,6 +1395,7 @@ excel sum(index(h$, match('val',g$)))
 
 systemctl --user list-timers -all
 journalctl -o verbose -u sysupdate.service
+journalctl -o verbose -u sysupdate.timer
 
 systemd service: Failed to determine supplementary groups: Operation not permitted
 sudo: effective uid is not 0, is /usr/bin/sudo on a file system with the 'nosuid' option set or an NFS file system without root privileges?
@@ -1438,3 +1439,12 @@ https://unix.stackexchange.com/questions/193687/how-do-i-troubleshoot-these-seli
 run audit2why already on the audit lines? It describes the reason for SELinux denying the actions. In that case httpd wants to run ps but is not allowed to (I guess nagios is the initiator of that). Anyway, I do not think that is the reason for your troubles. What about resources (mem/io)?
 
 fedora26 auditd
+sealert -l 29fe5e08-ed51-4bda-9974-b6a6d2807af8
+setools-console-4.1.0-5.fc26.x86_64 Policy analysis command-line tools for SELinux
+sesearch -A -s pdate.sh -t /mnt/0/gthb/xrcs/sysupdate.sh -p execute
+
+Batmunkh Tsendajush
+
+python3 send email configparser fail when config contain attachment with cyrillic filename
+
+c++1z high performance source code line counter
