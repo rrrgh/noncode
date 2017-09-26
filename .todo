@@ -1445,7 +1445,6 @@ sesearch -A -s pdate.sh -t /mnt/0/gthb/xrcs/sysupdate.sh -p execute
 
 Batmunkh Tsendajush
 
-python3 send email configparser fail when config contain attachment with cyrillic filename
-
 c++1z high performance source code line counter
 differece of SVN branch and tag
+python3 encrypt password in config file
