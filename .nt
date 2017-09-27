@@ -676,7 +676,15 @@ Gauss(x)
 Access Vector Cache (AVC)
 SELinux
 
-
+`;' `{}' `\'
+-exec command ;
+Execute  command;  true  if 0 status is returned.  All following arguments to find are taken to be arguments to the command until an
+argument consisting of `;' is encountered.  The string `{}' is replaced by the current  file  name  being  processed  everywhere  it
+occurs  in  the  arguments to the command, not just in arguments where it is alone, as in some versions of find.  Both of these con‐
+structions might need to be escaped (with a `\') or quoted to protect them from expansion by the shell.  See  the  EXAMPLES  section
+for  examples  of the use of the -exec option.  The specified command is run once for each matched file.  The command is executed in
+the starting directory.   There are unavoidable security problems surrounding use of the -exec action; you should use  the  -execdir
+option instead.
 
 «end of EECS ICT»
 
