@@ -1464,10 +1464,5 @@ linux most reliable way to check when system shutdown
 
 find /mnt/0 ~ -xdev -type f -iname dllst -exec rm -f {} \;
 
-kindergartner
-https://www.youtube.com/watch?v=fKxNE0sHaO4#t=26m21s
 openweather hohhot pm2.5
-https://www.youtube.com/watch?v=nUjWcZ_wb1k#t=1h9m53s
-https://www.youtube.com/watch?v=65fY8YNejTg
-
 
