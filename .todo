@@ -1466,3 +1466,6 @@ find /mnt/0 ~ -xdev -type f -iname dllst -exec rm -f {} \;
 
 openweather hohhot pm2.5
 
+programming loop unroll
+optimized c++
+c++14 matrix multiplication
