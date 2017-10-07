@@ -1453,10 +1453,6 @@ top developer programmer at work
 how to manage difficult people
 shell script single instance singleton contention
 
-webシステムオンライン閉塞
-課題
-排他
-
 https://audacity.wonderhowto.com/how-to/remove-noise-from-vinyl-transfer-mp3s-using-audacity-296687/
 linux most reliable way to check when system shutdown
 
@@ -1464,24 +1460,26 @@ linux most reliable way to check when system shutdown
 
 find /mnt/0 ~ -xdev -type f -iname dllst -exec rm -f {} \;
 
-openweather hohhot pm2.5
-
 programming loop unroll
 optimized c++
 c++14 matrix multiplication
 
-unicode symbol for elevator remember extrance/exit direction left or right?
+conscientious: unicode symbol for elevator remember extrance/exit direction left or right?
+which foot touched ground first everyday when you wake up?
 
+webシステムオンライン閉塞
+課題
+排他
 茶殻（がら）
 tobacco poil
 タバコ吸殻
 仰られる
 紛らわしい
 割愛
+plenary
 
 https://www.e-nextlevel.jp/req-payment/form/
 merge alias grep and .zshrc
-plenary
 http port 81 8080
 
 
