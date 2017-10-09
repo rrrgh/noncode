@@ -687,6 +687,9 @@ for  examples  of the use of the -exec option.  The specified command is run onc
 the starting directory.   There are unavoidable security problems surrounding use of the -exec action; you should use  the  -execdir
 option instead.
 
+https://github.com/rg3/youtube-dl/blob/master/README.md#readme
+--embed-thumbnail: Embed thumbnail in the audio as cover art
+
 «end of EECS ICT»
 
 name idea:
