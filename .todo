@@ -1199,8 +1199,6 @@ CVC Code Credit Card
 
 プログラミングコンテスト攻略のためのアルゴリズムとデータ構造 /こうりゃく
 
-install fedora 25 from LAN
-
 linux source code of pstree
 
 finance most important function
@@ -1228,8 +1226,6 @@ mutual funds index funds
 linux rsync
 
 youku PC客户端架构
-
-fedora 25 google chrome longin keyring
 
 determine video file resolution in linux
 http://www.thechessdrum.net/chessacademy/index.html
@@ -1259,13 +1255,13 @@ send receive wechat message from node js app
 
 dl+ duplicate filter using built-in datastructure?
 linux shell data structure
+shell script single instance singleton contention
 
 comparative analysis of programming languages pdf
 
 mortgage loan formula
 徹底マスターJavaScriptの教科書
 build tool Gulp
-unicode code point \uXXXX hex
 
 sudo systemctl start docker
 sudo systemctl enable docker
@@ -1293,8 +1289,6 @@ java program performance tuning performance analysis
 win10 Pro 1703 15063 rs2 x64 activated TeamOS
 http://www.emtrek.org/
 
-docomo sp mode passwd:0000
-
 The void removeIf(Collection<T> coll, Predicate<T> pred) described in the slides is not a real method.  It is a "method that the API designers could have created in JDK 7 and earlier and didn't because nobody would have used it".   The "real" method that was introduced in JDK 8 for collections is default boolean removeIf(Predicate<? super E> filter).  I've updated the slides with a warning that "this is not a real API" and change the name to something less similar to the new method added in JDK 8 to avoid this confusion next time we use this material. 
 
 Enterprise Service Bus
@@ -1309,8 +1303,6 @@ alias gcc gdb g++ javac java
 
 phone bookmark https://gist.github.com/TSiege/cbb0507082bb18ff7e4b
 
-Art of Computer Programming 6
-
 https://www.youtube.com/results?search_query=Н.Нацагням
 
 ActiveX
@@ -1323,9 +1315,6 @@ https://www.google.com/webmasters/tools/removals?pli=1
 best knot to tie several objects together
 
 freelance software developer how to get first client
-
-※
-submit online form by accessing parameterized url
 
 Burning And Itching Eye Symptoms
 
@@ -1365,6 +1354,9 @@ webhook
 http://suumo.jp/ python
 
 CP Server Line Inc.
+
+unicode code point \uXXXX hex
+c++14 c++17 print all unicode characters
 
 ✗ unicode value
 ※
@@ -1412,16 +1404,13 @@ Sep 22 06:25:31 localhost.localdomain setroubleshoot[2779]: Plugin Exception cat
 Sep 22 06:25:31 localhost.localdomain setroubleshoot[2779]: SELinux is preventing (pdate.sh) from execute_no_trans access on the file /mnt/0/gthb/xrcs
 Sep 22 06:25:31 localhost.localdomain python3[2779]: SELinux is preventing (pdate.sh) from execute_no_trans access on the file /mnt/0/gthb/xrcs/sysupd
 
-                                                     *****  Plugin catchall (100. confidence) suggests   **************************
+*****  Plugin catchall (100. confidence) suggests   **************************
+If you believe that (pdate.sh) should be allowed execute_no_trans access on the sysupdate.sh file
+Then you should report this as a bug.
+You can generate a local policy module to allow this access.
+Do allow this access for now by executing: # ausearch -c '(pdate.sh)' --raw | audit2allow -M my-pdatesh
+                                           # semodule -X 300 -i my-pdatesh.pp
 
-                                                     If you believe that (pdate.sh) should be allowed execute_no_trans access on the sysupdate.sh file
-                                                     Then you should report this as a bug.
-                                                     You can generate a local policy module to allow this access.
-                                                     Do
-                                                     allow this access for now by executing:
-                                                     # ausearch -c '(pdate.sh)' --raw | audit2allow -M my-pdatesh
-                                                     # semodule -X 300 -i my-pdatesh.pp
-related
 https://wiki.gentoo.org/wiki/SELinux/Tutorials/How_does_a_process_get_into_a_certain_context
 
 vim effective efficient abbreviations mappings dictionaries
@@ -1443,17 +1432,15 @@ sealert -l 29fe5e08-ed51-4bda-9974-b6a6d2807af8
 setools-console-4.1.0-5.fc26.x86_64 Policy analysis command-line tools for SELinux
 sesearch -A -s pdate.sh -t /mnt/0/gthb/xrcs/sysupdate.sh -p execute
 
-Batmunkh Tsendajush
-
 c++1z high performance source code line counter
 differece of SVN branch and tag
 python3 encrypt password in config file
-車寄せ　エレベータ
 top developer programmer at work
+
 how to manage difficult people
-shell script single instance singleton contention
 
 https://audacity.wonderhowto.com/how-to/remove-noise-from-vinyl-transfer-mp3s-using-audacity-296687/
+
 linux most reliable way to check when system shutdown
 
 (echo $(date);wget -i url;utv;echo $(date)) &> /mnt/0/workspace/dl.log &
@@ -1476,19 +1463,15 @@ tobacco poil
 仰られる
 紛らわしい
 割愛
+車寄せ　エレベータ
 plenary
 
-https://www.e-nextlevel.jp/req-payment/form/
-merge alias grep and .zshrc
 http port 81 8080
-
-c++14 c++17 print all unicode characters
 
 compensation & benefits:
 Company stocks
 More vacation leave
 More sick leave
-Early performance review
 Travel privileges
 Training allowance or career development stipend
 Early performance review
