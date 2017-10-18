@@ -1442,8 +1442,7 @@ https://audacity.wonderhowto.com/how-to/remove-noise-from-vinyl-transfer-mp3s-us
 
 linux most reliable way to check when system shutdown
 
-(echo $(date);wget -i url;utv;echo $(date)) &> /mnt/0/workspace/dl.log &
-
+(echo $(date);wget -i url;utv;echo $(date)) 2> /mnt/0/workspace/dl.log ; s0 &
 find /mnt/0 ~ -xdev -type f -iname dllst -exec rm -f {} \;
 
 programming loop unroll
@@ -1502,8 +1501,12 @@ GCP free VM
 google cloud
 
 shell single instance invocation
+bash zsh script remove nonconsecutive duplicate lines of file
+https://stackoverflow.com/questions/11532157/unix-removing-duplicate-lines-without-sorting
 
 python selenium programmatically click close button of ads banners
 
 subscribe Petr Mitrichev, hackerrank, Topcoder
+
+wget log
 
