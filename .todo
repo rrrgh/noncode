@@ -1501,7 +1501,7 @@ GCP free VM
 google cloud
 
 shell single instance invocation
-bash zsh script remove nonconsecutive duplicate lines of file
+shell script remove duplicate inputs from stdin
 https://stackoverflow.com/questions/11532157/unix-removing-duplicate-lines-without-sorting
 
 python selenium programmatically click close button of ads banners
@@ -1509,4 +1509,6 @@ python selenium programmatically click close button of ads banners
 subscribe Petr Mitrichev, hackerrank, Topcoder
 
 wget log
+
+debug vs trace
 
