@@ -12,19 +12,13 @@ mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /system
 cd /system/app
 ls
 rm example.apk
-
 mount -o remount,ro -t yaffs2 /dev/block/mtdblock3 /system
 exit
-
 Ggl pic: гироскоп
-
 Pattern-Oriented Software Architectures: Programming Mobile Services for Android Handheld Systems Course
-
 Concurrent Java Network Programming in Android
-
 git repo with various exercises
 https://github.com/dnuffer/dpcode
-
 js site:
 http://www.javascriptkit.com/cutpastejava.shtml
 http://www.dynamicdrive.com/
@@ -32,20 +26,14 @@ http://jstherightway.org/
 https://github.com/rwaldron/idiomatic.js
 https://sivers.org/srs
 http://www.javascriptsource.com/
-
 TextExpander
 7-Minute Workout
-
 Have a list of productive things you can do when bored, so you don't have to reach for the electron fix and avoid the websites, TV or games that are habit-forming for you.
-
 Spend 80% of your time on the work that moves the needle, and only 20% on the smaller stuff.
-
 https://www.youtube.com/watch?v=Xb9kjoW1Gas
 Hacking With Python #8 - Basic SSH botNet
-
 higher-order function Scala
 tail recursion
-
 m-w.com:
 aftermarket
 recap
@@ -58,52 +46,35 @@ frivolous
 prosaic
 brain-trust
 corollary
-
 Möbius strip math
-
 Smart Answers to Tough Interview Questions
-
 best way to validate large prime number
-
 android bkmrk:
 http://getbusylivingblog.com/gbl-028-lessons-from-earning-100k-in-profit-in-five-months/
 http://www.therenegadewriter.com/2014/04/06/mini-habits-stephen-guise/
 http://getbusylivingblog.com/
 http://www.success.com/article/tiny-habits
-
 https://class.coursera.org/reactive-001/lecture (Principles of Reactive Programming)
-
 http://www.hackintel.com/2014/10/malware-transmitting-data-by-radio-signals.html
-
 http://blog.biicode.com/software-design-proposal/
-
 rHM26ODThnU  EMP, read comment!
 https://photomath.net/ Android app available early 2015
 Ground Fault Interrupters
 https://www.youtube.com/watch?v=NOCElcMcFik
-
 best sorting algorithm
 http://newtechnobuzzz.blogspot.in/2014/07/why-quicksort-is-better-than-mergesort.html
-
 best material for fuse
 http://opensource.com/life/14/11/talk-kyle-simpson-javascript-expert
 http://www.wired.co.uk/news/archive/2010-02/12/scientists-explore-use-of--in-cancer-treatments
 https://www.linkedin.com/today/post/article/20140626135132-11228988-an-unusual-life-lesson
 http://www.linkedin.com/today/post/article/20140805002649-50578967-how-successful-people-stay-calm
 http://hackaday.com/2014/11/18/harmonic-analyzer-mechanical-fourier-computer/
-
 git config --global http.sslverify false, and you'll be able to use self-signed repos
-
 http://en.lichess.org/K7mKVKPg/black
-
 "My System" by Aron Nimzowitsch
-
 real time call voice changer android
-
 What electronic device needs to be factory calibrated to the earth's magnetosphere?
-
 https://www.youtube.com/watch?v=8FcVwbjMKmY -> AirCrack-ng WPA Crack
-
 /home/r/.config/google-chrome/Default
 /home/r/.config/chromium/Default
 r@шб:~/.config/chromium/Default$ file Top\ Sites
@@ -114,103 +85,64 @@ r@шб:~/.config/chromium/Default$ file Top\ Sites-journal
 Top Sites-journal: data
 r@шб:~/.config/chromium/Default$ less Top\ Sites-journal 
 "Top\ Sites-journal" may be a binary file.  See it anyway? 
-
 https://github.com/Farata/EnterpriseWebBook
 https://github.com/Farata/EnterpriseWebBook_sources
-
 best front-end framework for enterprise website
 best front-end framework for enterprise web development
-
 best framework and languages for building ecommerce website
-
 RESTful web services
-
 http://nodeframework.com/
 https://github.com/curran/screencasts/tree/gh-pages/introToAngular
-
 ggl/utub: full stack website development
-
 Everything You Need To Know About A DDoS Attack
-
 dedicated server for enterprise website
-
 #en
 deductive vs inductive
-
 Underscore.js asm.js
 functional js
-
 var myFunc = myObj.myFunc;  @ http://learnxinyminutes.com/docs/javascript/ 
-
 Professional JavaScript for Web Developers, 3rd Edition - by Nicholas Zakas
 http://www.jackkinsella.ie/2011/12/05/janki-method.html
-
 linux firewall block entire domain
-
 https://github.com/jamesshore/lab13_angularjs
-
 http://boredzo.org/pointers/ (Everything you need to know about pointers in C)
 https://rogerdudler.github.io/git-guide/
-
 http://www.letscodejavascript.com/v3/blog/2015/01/angular_review
-
 i2p
 dark fiber
-
 entropy
 dogmail
 deepwebresearch.info THRU Tor
-
 Nikola Tesla Wardenclyffe Tower
-
 productive living
 MacGuyver
-
 https://www.youtube.com/watch?v=8xONZcBJh5A comment
-
 https://www.airpair.com/aws/posts/building-a-scalable-web-app-on-amazon-web-services-p1
-
 PWM signal
 analog and digital signal
-
 http://hyperphysics.phy-astr.gsu.edu/hbase/electric/hsehld.html
-
 linux c c++ program check for user input inside loop with no busy-waiting and periodic wakeups
 condition variables
 linux synchronization object
-
 Fast Lock-Free Queue for C++
 lockfree::queue - Boost
 Lock-Free Multi-Producer Multi-Consumer Queue on Ring Buffer
-
 http://www.linuxjournal.com/content/lock-free-multi-producer-multi-consumer-queue-ring-buffer
-
 linux program wait for keyboard input
-
 linux Non-blocking keyboard input ncurses function getch()
-
 http://www.1024cores.net/
-
 linux c c++ program filter Ctrl-C ESC key input
 linux c c++ read key input
 linux c c++ call bash command
-
 linux C read ESC Ctrl-D and line ended with \n
-
 linux C read single and multiple characters at the same time
-
 https://stackoverflow.com/questions/14214753/how-to-read-until-esc-button-is-pressed-from-cin-in-c
-
 How to make Android and iOS real time voice (Mic-In) distortion software? Does that require special hardware addon?
-
 fedora execute script at startup boot
 fedora execute script at shutdown
-
 floating point random number generator C++
-
 c++ cryptography
 http://darkk.net.ru/redsocks/
-
 Infinite Hotel Paradox - Jeff Dekofsky 
 1) A hotel with infinite rooms cannot be full, you cannot approach infinity.
 2) You cannot have an infinite number of guests occupying the rooms of such a hotel and still have guests left over. In such a case, you would have greater than infinity number of guests, and it's not possible to exceed infinity.
@@ -219,52 +151,37 @@ Infinite Hotel Paradox - Jeff Dekofsky
 5) You cannot run out of an infinite amount of money. To do so would mean the money is finite.
 6) This paradox disregards the concept of time. It would take an infinite amount of time to move an infinite amount of guests. The night is not infinitely long, the night manager wouldn't come anywhere close to completing the first task before his shift was over.
 7) Again, disregard to concept of time. Regardless of number, humans do not live infinitely long. He may get a few billion guests or so to their rooms before himself and the rest of the infinite number of guests die of old age. That infinite number of guests is now an infinite number of corpses.
-
 redsocks - transparent socks redirector
-
 安装保护隐私和增强安全性的扩展程序：
 firefox是HTTPSEverywhere和NoScript，chrome是HTTPSEverywhere和ScriptSafe，两者都可用disconnect和privacybadger还有ghostly再加上Adblock Plus
-
 micro-fiber kitchen towel
-
 save electricity bill
-
 Learning Java - Simple Contact Manager Program 
 https://www.youtube.com/watch?v=6j38Amo6qxw
-
 Building a Search Engine -- Season 2 episode 1 
 Alexander Putilin
 https://www.youtube.com/watch?v=L2DJhwANoUQ
-
 http://www.watchpeoplecode.com/
-
 Хүүхдийг багаас нь хөгжүүлье
 Ураг төрлөө нэрлэх ёс 
 http://xvvxed.blogspot.dk/2011/10/blog-post.html
-
 Do within 5 yrs:
 visitting MD: smelly green mucus in nostrils, Parasite Cleanse (Round Worm -> sinusitis), Nutritional Supplement, eye health (myopia, astigmatism), 
-
 IT test: Orbot (TOR) iOS, TOR Fedora, BeagleBone RaspberryPi Arduino, wifi router hack OpenWRT, Deep Web Dark Net (WikiLeak), 
-
 #mgl
 C++1z/Assembly program parse process print unicode mongol bichig
 mongol bichig Fedora 25+ LibreOffice 5.2+ gimp
 What are fonts?
 How to make fonts?
 What are required to edit and process traditional mongolian text in non-traditional-mongolian OS?
-
 write traditional mongolian characters (excerpt from poems? or Encrypted Message) in the style of Matrix falling characters, using C++ or C (LLVM preferably)
-
 traditional mongolian language pack for Mac OSX, iPhone, iPad, Android, Windows, Ubuntu, CentOS, Fedora, etc.
 TeX/LaTeX support for traditional mongolian language type setting.
-
 buy:
 	Interesting math Zanimatelnaya arifmetika (Russian) Hardcover – 2010 by Perelman Yakov Isidorovich
 	best japanese stainless steel drinking cup
 	best russian language textbook
 	Cuckoo(クック) 全自動発芽玄米高圧力炊飯器
-
 	驱虫药 回虫(かいちゅう) 条虫(じょうちゅう)  偽瓢虫(てんとうむしだまし) 無血虫(むけつちゅう)  血液寄生虫(けつえききせいちゅう)
 	駆除にはサントニン・マクニン・カイニンソウなどが用いられる
 	(Grand) Mongolian Dictionary, Mongolian Russian English Japanese Dictionary, 
@@ -274,159 +191,107 @@ buy:
 	
 	21st Century C, C Tips from the New School, 2nd Ed. By Ben Klemens
 	English-Russian, Russian-English Dictionary
-
 Even Faster Web Sites: Performance Best Practices for Web Developers
-
 Make It Stick: The Science of Successful Learning by Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel
-
 Style: Lessons in Clarity and Grace (12th Edition) by Joseph M. Williams (Author), Joseph Bizup (Author)
-
 en2jp:
 dry mouth
 dry lips
-
 how to buy gold bullion
 gold and silver investment
 BullionVault real time physical gold price ?
 paper gold v.s. physical gold
-
 bootstrap @ github
 nodejs @ github
 spin.atomicobject.com
-
 art of computer programming
 how to think like a computer scientist c++
 computer networking a top-down approach 6e pdf
-
 difference GPU CPU
 SSD -> boot drive (OSes !!!), HDD -> data
-
 Are higher voltages more energy efficient than lower voltages?
-
 Strategic Initiative: Russian literacy
-
 turn on, off and reboot computer without buttons and chassis
-
 computer terminology:
 external build, internal build
 thermal paste
 overclock
-
 chrome bkmrk:
 https://info.securityinabox.org/
-
 apache2 php mariadb
 AWS amazon web service
-
 utub watch:
 ecommerce startup
 https://www.youtube.com/watch?v=diyNAkifwnY
-
 tmux productive mouse-free programming
 vim tmux
 https://www.youtube.com/watch?v=5r6yzFEXajQ
-
 tmux shortcuts & cheatsheet
 https://gist.github.com/MohamedAlaa/2961058
-
 prototype ecommerce website
-
 http://www.gruntjs.com
-
 induction heat and food nutrition
 IH (induction heat) aluminum
 IH rice cooker recipe: beef slice, chopped carrot, tomato sauce, pasta, olive oil @Quick setting
-
 Learning PHP, MySQL & JavaScript: With jQuery, CSS & HTML5 Paperback – December 14, 2014
 by Robin Nixon (Author)
 ISBN-13: 978-1491918661 ISBN-10: 1491918667 Edition: 4th
-
 enterprise website development best practice
 large scale website maintenance best practice
-
 productivity tools:
 Selenium IDE
 Guard Watchr
 ImageMagick
 GraphViz
-
 watch:
 https://www.youtube.com/watch?v=nImhXmaM04o
-
 privacy: C:\Users\r\AppData\Local\Google\Chrome\User Data
-
 http://wpn-xm.org/
 http://stackoverflow.com/questions/16390905/how-to-replace-mysql-with-mariadb-in-wamp
-
 <?php print($_GET['varnm']) ?>
-
 php mariadb html5 dynamic website templates
-
 fedora apache httpd change document root
 add Linux User With Document Root Permissions
-
 llvm clang clang++ fedora
 fedora custom service script
-
 build website for startup (AWS, LXC, docker, SEO, )
-
 MySQL application password phpmyadmin/.Abbrv*5!
-
 How to remember series of random numbers?
 Russian technique to remember series of random numbers?
 How Russians remember series of random numbers?
-
 非正規が増える中...追い詰められる若者たち
 ブラック企業にどう向き合うか
 相次ぐ 若者の 過労死　ＮＨＫ ” 美しい日本 ” の醜いありのままの現実
 ブラック企業, 使い捨て, 過労死
-
 約２０万円のＦＸ収入
 会社ウェブサイトの作り
 WEB入門講座　2時間目『ホームページ制作の流れを知ろう
 アルバイト
-
 vim access system clipboard
-
 入力システムの切り替えは半角/全角キーでできますが、3種類を順々には替わってはくれません。
 http://ub.workdesign.jp/install/data982.html
-
 三菱東京UFJ銀行
-
 Jax Magazine: From database to RESTful web service to HTML5 in 10 minutes
 Best PHP, HTML5 and CSS Frameworks
 PHP HTML5 CSS jQuery Image Slider dynamic website github
-
 PHP Bootstrap HTML5 eCommerce website CMS from scratch
 best php framework for Bootstrap JS eCommerce website CMS
-
 fedora fcitx japanese chinese input
-
 Python for Security Professionals
-
 できる男 ビジネスマン
 魚の食べ方
-
 conversation skill
-
 電話マナー
 telephone etiquette
-
 high fat low carb diet
 well formulated ketogenic diet(70% fat, 20% protein, 10% carbohydrate(60g/day))
-
 iOS vpn anonymity system-wide proxy
-
 起業・独立・副業を志す者は必ず読むべき厳選本
-
 Direct Voice Rehabilitation
-
 http://gorka.eguileor.com/category/technology/linux/
-
 capital markets
 commission bond
 what are finance stock bond dividend
-
 産前産後休暇
 育児休暇
 待遇
@@ -438,78 +303,57 @@ what are finance stock bond dividend
 出張手当
 IT系各種資格手当
 会員制福利厚生施設あり
-
 胸膜炎（きょうまくえん）
-
 How to Lace & Tie Dress Shoes
-
 high performance website 
 http://stevesouders.com/
-
 math scale
-
 resume motive:
 http://www.chance.jobs/siboudouki/software.html
 http://mikumikuplay.com/it/3sentences_of_aspiring_motive/
 http://work-wave.com/?act=shibou_2
 http://tenshoku.mynavi.jp/knowhow/super_real/022
-
 JavaScript: The Good Parts
 cracking the c c++ and java interview (english) 2nd edition pdf
 Linux from Scratch
-
 japanese electricity outlet only two socket no neutral wire?
-
 喧嘩を売ってきたDQNを合気道で瞬殺
-
 mail -s "download finished at 10:25:59 2015-08-12 MSK,Среда, shutdown now" $USER -c uhaaral200510@gmail.com
 No configuration file found at .esmtprc or /etc/esmtprc
-
 L(λ)THW : Learn Lisp The Hard Way
-
 pdf:
 Clojure Programming
 Programming Clojure
-
 save money electricity water bill
 frugal thrifty living
  
 "What I don't understand is why the values in the before and after are the same?"
 The first question and sample code shows that time() has a resolution of 1 second, so the answer has to be that the two functions execute in less than 1 second. But occasionally it will (apparently illogically) inform 1 second if the two timer marks straddle a one second boundary.
-
 Survival Initiative: life-long project Uv'infrastr(C++14/17...+xyz eternal interactive server)
-
 java reflection
 c++14 call shell command
 c++14 regular expression
 c++14 automatic code generation
 Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14 pdf
-
 Rufus - Create bootable USB drives the easy way
-
 CPDD (Command Prompt Driven Development)
 Black Leather Cole Haan Lace-Up Boots
 Cole Haan Mens Black Leather Dress Boots Sherpa Lined Lace Up
-
 possible and reasonable to grow avocado indoor?
 JavaScript IDE
 feeling of bugs or small insects crawling on skin
 Javascript Combinator
-
 The Superlearner Myth: The Organic, Long-Term Approach to Effective Learning | Angelos Georgakis
-
 外　装／コンクリート打ち放し
 内　装／床フローリング　　　　　壁一部コンクリート打ち放し
 設　備／エレベーター・宅配ボックス　　　　　TVモニター付オートロック　　　　　防犯カメラ・冷暖房　　　　　浴室乾燥機・室内洗濯機置場　　　　　CATV(みなとケーブルTV・要別途契約)　　　　　BS(CATV経由・要別途契約)　　　　　CS(スカイTV・要別途契約)　　　　　床暖房＆床下収納(101・102のみ)
 賃貸条件／敷金　　　2ヶ月 礼金　　　0ヶ月 更新料　　新賃料の1ヶ月分　　　　　契約期間　2年間
-
 website(server) > WeChat/Line/Email/SMS message
 Kaboom lets you send self-destructing messages to social networks
 send message from website to social network apps
 how to obtain WeChat access token certificate
 website social media app integration
 russia china e-commerce
-
 memorize numbers
 best russian language app
 MEAN batch update
@@ -553,13 +397,11 @@ js prototype
 Profiling JavaScript Performance
 responsive website web application
 Programming JavaScript Applications
-
 Robust Web Architecture with Node, HTML5, and Modern JS Libraries
 By Eric Elliott
 Publisher: O'Reilly Media
 Final Release Date: June 2014
 Pages: 254
-
 software architect
 DevOps Toolchain
 Building a Twitter Bot Using Google Spreadsheets in Python
@@ -575,14 +417,10 @@ computer cache invalidation
 programming fundamentals
 Super Brain Yoga
 finite state machine, Representational State Transfer, and stateless network protocol
-
 abstract class can have instance variables. It cannot be instantiated means we cannot create an object of this class.
-
 Debit Card vs credit card
-
 video edit add text on video
 Lambdas Capture Lists and Stateful Closures
-
 ※
 眼帯（がんたい）
 （メイクアップエーシーシー） MakeupAcc立体型アイマスク 3D 眼帯 安眠 快眠 遮光 旅行 安眠グッズ 調整可能 軽量 柔らか おしゃれ 男女兼用 (ブラック/黒) [並行輸入品]
@@ -597,66 +435,44 @@ Critical Thinking
 ネット販売
 日本代购
 支付宝
-
 best web hosting
-
 http://www.rcgus.com/xlxsss/352613.html
-
-マイナンバーカード
 署名用電子証明書
 利用者証明用電子証明書
-
 fedora firewall
 横形ＯＡ用抜け止め接地タップ
 コンセント接地端子
 How to implement Paypal Payment Gateway
-
 linux create new partition in existing system
-
 https://www.youtube.com/playlist?list=PLPW-etRInDisaDUprk7XxlGpmerwkjb2o
 https://www.youtube.com/user/DrewOnCue
 https://www.youtube.com/watch?v=8exmqFsF4hU
-
 chess sicilian defense french defense
 chess best opening for white
-
 both eye itching near tear duct and tear
-
 bare knuckle selling
-
 Universal Mini Tripod Holder with Mobile Phone Holder and Bluetooth Remote Shutter for iPhone
-
 sudo less /var/spool/cron/crontabs/root
-
 train wheel inner rim outer rim
 おしりふき ウェットティッシュ トイレに流せるおしりふき 大判厚手タイプ 40枚入
-
 difference between normal group normal user and system group system user
-
 how economy works?
 prepare for economic collapse
 live off grid yurt
-
 xcode swift
 computer science harvard
 http://cs75.tv/2012/summer/
 ubuntu microsoft office
 HTTP Error 404
-
 Advice to Starting Online Business
-
 AWS ubuntu lamp
 ubuntu 16.04 lamp php 7
 linux invoke system command from c++14
-
 Premature Ejaculation
-
 Judyth Vary Baker
 anti cancer cookbook
 anti-estrogenic diet
-
 一番安いケータイプラン
-
 internet session cookie
 if not defined as shell alias check for shell functions
 Reverse Mortgage
@@ -667,11 +483,9 @@ advanced java tutorial
 autohotkey
 type plus minus minus plus in linux
 ±:Alt241 ∓:Alt2213 @win
-
 xpcc
 c++14 reflection
 c++ RTTI
-
 Magnetic Resonance Angiography (MRA)
 インバウンド営業
 https://jobs.gaijinpot.com/
@@ -685,12 +499,9 @@ c++ will finally get executed return in try
 certified ethical hacking v9 download
 gcc g++ make
 http://getitmuft.blogspot.de/2016/02/ceh-v9-course-all-pdf-with-tools.html
-
 ubuntu 16.04 following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF
-
 java alternative to passing large objects
 Java how to clear/zero-out memory associated with an object
-
 #excel
 エクセルで財務
 excel finance
@@ -700,82 +511,58 @@ spreadsheet for small business
 spreadsheet receipt small business
 free excel accounting templates for small business
 https://people.highline.edu/mgirvin/excelisfun.htm
-
 pivot table Libreoffice Calc
 VLookup Libreoffice Calc
 libreoffice calc index function
 libreoffice sumx exchange rate
 excel libreoffice sumproduct exchange rate
 Excel for Accounting: Formulas, VLOOKUP & INDEX, PivotTables, Recorded Macros, Charts, Keyboards 
-
 excel automation c++
 c++1x read write excel spreadsheet libreoffice
-
 excel spreadsheet for business finance accounting
 excel trim apply trim() on range of cells
-
 =sum($A$!.A1)
 https://www.quora.com/What-Excel-skills-are-most-valuable-for-finance-and-accounting
-
 Flect is a Simple DIY Device for Shooting Reflection-less Photos Through Glass
-
 IRR LLC
-
 php responsive website
 https://www.youtube.com/watch?v=2R-qmsvtSaQ
-
 俄罗斯精简Win10
 Windows 10 professional x64 SP1 ru en zh-cn optimized activated iso lopatkin
 Windows 10 сборки
-
 Eyeglasses Prescription
 OS(ocular sinistra) L OD(dextra) R
-
 c++ directx game development
 c++ design pattern because c++
-
 c++ Fastest way of parsing a log file of huge size > 2gb
-
 qt tutorial
-
 http://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=大手町（東京）&eki2=大森（東京）
 http://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=地下鉄成増&eki2=神保町&eki3=新宿三丁目&via_on=1
 www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=成増&eki2=上板橋&eki3=&via_on=1&Dym=201609&Ddd=18&Dhh=7&Dmn1=4
-
 ffmpeg remove instrument sound but human sound
 increase bone density
 increase bone marrow density
 Microcontroller Engine Control Unit (ECU)
 P@s5w0rd
-
 GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
-
 #kali
 www.root-developers.com www.r00tsect0r.net
 blackwaterops.com
 golismero -t www.root-developers.com
-
 Armitage nmap kali linux
 hack any facebook account
 https://www.facebook.com/badma.ereegen
 hack gashuun
-
 major system
 loci method
-
 javascript summary codeproject.com
 https://codek.tv/
-
 makefile c/c++ separate output directory
-
 c c++ bit shift operator >>>
 c++ read write .sqlite linux
-
 linux system wide vpn
 ~/.i2p/router.config
-
 Linux Server Security Hack and Defend pdf
-
 shell script to detect working network connection && exit if network is off
 master lynx linux
 linux shell split string
@@ -789,263 +576,171 @@ http://www.tecmint.com/install-lamp-apache-php-7-and-mariadb-10-on-ubuntu-16-04/
 https://www.howtoforge.com/tutorial/install-apache-with-php-and-mysql-on-ubuntu-16-04-lamp/
 https://www.youtube.com/watch?v=bBaGWayHgOg
 https://www.howtoforge.com/apache_php_mysql_on_centos_7_lamp
-
 sjis2u8 () {
 iconv -f SHIFT-JIS -t UTF-8 
 }
 http://superuser.com/questions/1119290/what-does-do-in-linux-shell-strings
-
 http://stackoverflow.com/questions/4456442/multiplication-of-two-integers-using-bitwise-operators
 https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/bitshift.html
 http://stackoverflow.com/questions/3722004/how-to-perform-multiplication-using-bitwise-operators?noredirect=1
 https://www.securecoding.cert.org/confluence/display/c/INT14-C.+Avoid+performing+bitwise+and+arithmetic+operations+on+the+same+data
 http://www.geeksforgeeks.org/interesting-facts-bitwise-operators-c/
-
 https://www.rosettacode.org/wiki/Tokenize_a_string
-
 http://www.entnet.org/content/ears-and-altitude
-
 http://www.codejava.net/frameworks/struts/how-to-configure-struts-framework-in-webxml
-
 linux make Animated SVG
-
 https://www.cryptopp.com/
-
 Make: Getting Started with Raspberry Pi, 3rd edition pdf
-
 #web
 #1
 curl --data "birthyear=1905&press=%20OK%20"  http:/www.example.com/when.cgi
 https://haveibeenpwned.com/API/v2
 #2
-curl --data "birthyear=1905&press=%20OK%20"  http:/www.example.com/when.cgi
 http://doc.scrapy.org/en/latest/topics/spiders.html
-
 LMAO. (Internet slang) Laughing my ass (arse) off; used to indicate great amusement, usually exaggerated, at something (usually from an online source eg discussion group, or instant message).
 ワンセグやおサイフケータイが使えるSIMフリースマートフォン、富士通の「arrows M03」を紹介します。防水（IPX5/IPX8）や耐衝撃（MIL-STD-810G）、緊急災害速報に対応。
 ガラケー
-ワンセグ
-
 ffmpeg get image dimension
 urlencode decode - _ . @
 How to get full res image from amazon zoom window
 Urlencode decode from command line zsh
-
 нуль
-
 dependency injection java
 dependency injection javacreed.com
-
 DDoS attack
 OSQuery facebook
 defend against DDoS attack
-
 rotogenflux method pdf
-
 would-be parents supplement Iodine & baby in womb 40 week & child's deep breathing habit formation
-
 MQTT
 kali linux 2016.2 any website ssl vulnerability
-
 fx "https://www.youtube.com/watch?v=JEB-ctUom54&t=48m40s" "http://surfsecured.net/" "http://thehackernews.com/" "http://www.tecmint.com/increase-nginx-performance-enable-gzip-compression-module/"
 fx "https://www.youtube.com/watch?v=JEB-ctUom54&t=33m33s"
 fx "https://www.youtube.com/watch?v=zPHerhks2Vg&t=3m"
-
 reptyr Reparent a running program to a new terminal 
 impossibly fast c++ delegate
-
 fedora fcitx russian
 fedora 汉语拼音输入
-
 crime and punishment by Fyodor Dostoevsky
 Преступление и наказание, Ф. М. Достоевский - отзывы
-
 Principles essence of debugging
-
 copy-on-write (COW)
 how to properly create UT test case
 if you understand pointer, you understand c++
-
 欧米で仕事注意
-
 js c++ java php -> WeChat Line iMessage
 js c++ -> WeChat Line login, send and receive message
-
 use WeChat Line API to send message from js c++ java php
-
 #KrtkInfrs
 logging, timing, debugging info(function/method name, line number,etc.), reflection, serialization
 c++ 1x -> traditional mongolian libreoffice document -> pdf
 c++ 1x -> traditional mongolian latex document -> pdf
 libreoffice c++ api
-
 #linux distro
 rpm -q --whatprovides redhat-release || rpm -q --whatprovides centos-release || rpm -q --whatprovides cloudlinux-release || rpm -q --whatprovides sl-release
-
 uname -m
-
 git clone git://anongit.freedesktop.org/libreoffice/core
-
 Algorithms, 5th Edition by Robert Sedgewick and Kevin Wayne
-
 Crack the Coding Interview 6th edition pdf
-
 http://www.xe.com/currencyconverter/convert/?Amount=26.79&From=USD&To=JPY
 http://www.xe.com/currencyconverter/convert/?Amount=100&From=JPY&To=RUB
 http://www.xe.com/currencyconverter/convert/?Amount=100&From=JPY&To=CNY
 http://www.xe.com/currencyconverter/convert/?Amount=100&From=RUB&To=XAU
-
 https://en.wikipedia.org/wiki/Situation,_Task,_Action,_Result
 STAR Method for Behavioral Interviews
-
 latest javascript book 2017
-
 https://codility.com/c/feedback/HCBZQW-AYJ
-
 debug c/c++ network application
-
 fedora 25 SELinux AVC denial
-
 difference between hash table and hash map
 hash table and hash map c c++
 OpenOCD JTAG
-
 linux free antivirus scan email attachment
-
 fedora shortcut key to access system tray
 gnome access system task bar from keyboard
-
 testimonial of employment
 Борис
 BLACK SQUARE ■ BLACK SMALL SQUARE ▪
 https://www.youtube.com/watch?v=JEB-ctUom54&autoplay=0&t=33m10s
 https://www.youtube.com/watch?v=JEB-ctUom54&t=33m10s&autoplay=0
-
 Capture full web page screenshots in Firefox, Chrome, safari
 capture webpage from chrome firefox safari
-
 今後もお客様への一層のサービス向上に取り組んでまいりますので、何卒ご理解を賜りますよう、よろしくお願い申し上げます。
-
 7z extract only certain files
-
 Programming in Objective-C (6th Edition) (Developer's Library)
 best Objective C book
-
 beta brain wave
-
 best free QR code scanner for fedora
-
 Open Closed Principle (OCP) in C++
-
 DIY selfie stick
-
 DSLR theory and practice
-
 c++ vector implementation
 Cover letter
 outdent indent
-
 linux c++ game programming
 c++ OpenGL
-
 youtube-dl download video only without audio
 c++ vs swift vs objective-c
 mix c++, swift, objective-c
-
 app interoperability
-
 Linux how to check graphics card support OpenGL or not
-
 UK roundabout pedestrian
-
 send SMS Line WeChat Telegram WhatsApp message from c++ program
 c++ function method access stack trace
 c++ exception or error code
-
-Подмосковные Вечера
-
 find execute some command if not found
-
 core mechanisms of the Node.js platform and some of its most interesting features such as Event Loop, Streams and buffers, Process and global, Event emitters, Clusters, AsyncWrap, Domain and uncaughtException, and C++ addons
-
 learning python 6th edition pdf
-
 fedora 25 bitcoin blockchain
-
 python update range of csv file
 python strftime strptime
-
 python xrange
 functional programming map, reduce, filter, zip, list comprehension
 python generators
-
 g++ 4.8.3 csv read write Japanese utf-8 file
 <ext/random>
 Linux c++日本語csvファイル扱い
 linux g++ 4.8.3 read write Japanese utf-8 CSV file
 java 1.6 Linux 日本語csvファイル扱い
-
 vim search replace [] <--> {}, () <--> {} in one statement?
-
 generic types in Java are not covariant
 java regex Negative look ahead: Negative look ahead provides the possibility to exclude a pattern. With this you can say that a string should not be followed by another string.
 http://www.vogella.com/tutorials/JavaRegularExpressions/article.html
-
 java stopwatch class
 java copy object which has arralylist<string> member vairables
 java encoding utf-8 to shift-jis conversion
-
 what Common Lisp can do
 best common lisp book
 best chess tips techniques
-
 The Electrical Engineering Handbook
-
 Introduction to 64 Bit Assembly Programming for Linux and OS X: Third Edition by Ray Seyfarth – June 30, 2014
-
 bash zsh best way to count down
 bash zsh display countdown or stopwatch timer
-
 men dress well on tight budget
-
 cheatography quick reference, summary pdf gdb python javascript c++1x c++1z java
-
 Introduction to GDB Debugger on Windows 10 & Unix 2016 pdf
-
 gdb debug Java multithreaded application
-
-mongol bichig Fedora 25+ LibreOffice 5.2+ gimp
-
 Rule of 72
-
-tail recursion
-
 Java Spring REST Logback SLF4J
-
 c++ 14 unicode
 assmebly language unicode
-
 what => called in rust programming language
 linux c assembly
 modern c programming 2017
 what every software architect must know
 report generator xslt
 XSLT (Extensible Stylesheet Language Transformations)
-
 how to quickly familiarize oneself with new physical environment
 how to quickly familiarize oneself with new places
 linux difference between | and < and <<<
 speed up fedora 25
-
 Large Integer Fibonacci Numbers
-
 #todo
 https://www.easypost.com/docs/api/python.html
 python track trace post EMS
 program automation script to get post delivery information from postoffice webstie
 http://tracking.post.japanpost.jp/services/srv/search/
 https://trackings.post.japanpost.jp/services/srv/search/direct?searchKind=S004&locale=ja&reqCodeNo1=CD245144708JP
-
 http://www.xe.com/currencyconverter/convert/?Amount=500&From=JPY&To=CNY
 http://www.xe.com/currencyconverter/convert/?Amount=500&From=JPY&To=USD
 http://www.xe.com/currencyconverter/convert/?Amount=500&From=RUB&To=USD
@@ -1054,7 +749,6 @@ http://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=CNY
 http://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=RUB
 http://www.xe.com/currencyconverter/convert/?Amount=1&From=XBT&To=USD
 http://www.xe.com/currencyconverter/convert/?Amount=1&From=XBT&To=RUB
-
 #online dictionary CLI
 python lookup online dictionary and retrieve result from command line
 1.https://en.oxforddictionaries.com/definition/
@@ -1065,27 +759,19 @@ weblio.jp
 4.bolor-toli
 https://mongoltoli.mn/search.php?opt=1&word=дөлгөн#
 5.iciba.com
-
 Matrix Falling Rain Source Code C++ C
 linux x86 x86-64 assembly matrix code rain implementation
-
 libreoffice --headless --convert-to pdf
 soffice  --headless --convert-to pdf
 discrete Fourier transform (DFT)
-
 vim fold source code block
 java log source code line number
-
 fedora 25 view system services and auto start programs
 2017 build webservice from zero
-
 linux shell parse long options getopt getopts replacement
-
 disallow inline comments after code (no-inline-comments) -> gthb & ~/.zshrc ~/.zsh-func :%s/\([^#]*\)\s*\(?:#|//\)\(.*\)$/\1\r\2\3/
-
 throw exceptions vs return error code
 Error codes vs exceptions: critical code vs typical code
-
 #pdf
 clean code pdf
 Scala for the Impatient (2nd Edition): Cay S. Horstmann
@@ -1098,143 +784,95 @@ herb sutter exceptional c++ c++14 pdf
 practical c++ financial programming by carlos oliveira
 Discovering Modern C++: An Intensive Course for Scientists, Engineers, and Programmers (C++ In-Depth)
 boost.asio c++ network programming second edition pdf
-
 The Boost C++ Libraries 2nd Edition pdf
 From Mathematics to Generic Programming 1st Edition by Alexander A. Stepanov (Author), Daniel E. Rose (Author)
-
 Pro Python Best Practices: Debugging, Testing and Maintenance
-
 The Hitchhiker's Guide to Python: Best Practices for Development
-
 Python Data Science Handbook: Essential Tools for Working with Data
-
 Exploring Raspberry Pi: Interfacing to the Real World with Embedded Linux
 Derek Molloy
 ISBN: 978-1-119-18868-1
 720 pages
 June 2016
-
 programming pearls
-
 nodejs book pdf
 Node.js Design Patterns Second Edition Mario Casciaro, Luciano Mammino July 2016
 Express in Action: Writing, building, and testing Node.js applications 1st Edition by Evan Hahn
 building APIs with Node.js
 Building Bots with Node.js
-
 Winning Chess: How to Perfect Your Attacking Play (Batsford Chess) November 26, 2013 by Irving Chernev (Author), Fred Reinfeld (Author)
 Dynamic Decision Making in Chess by Boris Gelfand pdf
 Winning Chess Tactics, revised by Yasser Seirawan
-
 visualwize 5 pdf
-
 The Wisest Things Ever Said About Chess: With over 250 annotated positions by Andrew Soltis, Pavilion Books, Jan 8, 2013
 What it Takes to Become a Grandmaster by Andrew Soltis, Pavilion Books, May 12, 2016
-
 russian grammar notes pdf
 Oxford Russian Grammar & Verbs pdf
 Russian Punctuation And Related Symbols: A Guide For English Speakers” by Edward J. Vajda , Valentina Umanets
 Newspaper Russian: A Vocabulary of Administrative and Commercial Idiom
-
 C++ Windows Programming
 https://www.packtpub.com/application-development/c-windows-programming
-
 Raspberry Pi By Example Ashwin Pajankar, Arush Kakkar April 2016  9781785285066
-
 Building the Web of Things: With examples in Node.js and Raspberry Pi pdf
-
 Mastering Bitcoin 2nd edition pdf
-
 Algorithm design pdf
-
 2017 python book
 Automate it! - Recipes to upskill your business  Chetan Giridhar January 2017 ISBN 139781786460516
 Flask: Building Python Web Services  Gareth Dwyer, Shalabh Aggarwal, Jack Stouffer March 2017 ISBN 139781787288225
 Software Architecture with Python  Anand Balachandran Pillai April 2017 ISBN 139781786468529
 Artificial Intelligence with Python  Prateek Joshi January 2017 ISBN 139781786464392
 Python Deep Learning  Valentino Zocca et al. April 2017 ISBN 139781786464453
-
 The Stanford Method for Ultimate Sound Sleep by Seiji Nishino
-
 «#pdf»
-
 #update
 Autumn 2017
 C++ Concurrency in Action, Second Edition pdf
 https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition
-
 crash course in GNU Debugger
 debugging multiple processes and threads can be found in the advanced part of this tutorial (coming soon...
 https://cristos.vipserv.org/2015/03/a-crash-course-in-gnu-debugger-a-gdb-tutorial/
 https://cristos.vipserv.org/
-
 http://www.cs.yale.edu/homes/aspnes/classes/223/notes.pdf
 Notes on Data Structures and Programming Techniques (CPSC 223, Spring 2015) James Aspnes 2016-11-12T19:07:09-0500
-
 https://www.kevinsheppard.com/images/0/09/Python_introduction.pdf
 Introduction to Python for Econometrics, Statistics and Data Analysis
-
 https://www.packtpub.com/all?search=kali
 Kali Linux 2 Assuring Security by Penetration Testing - Third Edition Paperback – September 22, 2016
 Kali Linux 2: Windows Penetration Testing
-
 Effective Modern C++
-
 http://users.cs.fiu.edu/~weiss/
-
 assembly language mnemonics
-
 GDB Pocket Reference: Debugging Quickly & Painlessly with GDB pdf
 gdb print multiple variables at once? -> macro .gdbinit?
 gdb diff between clear and delete
-
 «end of update»
- 
 best way to get all numbers with same set of digits of given number
 best way to perform K-swap operations on an N-digit integer to get maximum possible number
 find all possible combinations of numbers to reach a given sum
-
 CVC Code Credit Card
-
 プログラミングコンテスト攻略のためのアルゴリズムとデータ構造 /こうりゃく
-
 linux source code of pstree
-
 finance most important function
 doubling time exponential function
 compound interest formula
-
 Amazon Standard identification number & python
-
 difference between machine learning and deep learning
-
 c++14 pthread
-
 umake ubuntu-make
-
 #best practice
 best practice python django flask REST API website
-
 nginx 502 Bad Gateway
-
 Traceback (most recent call last)
-
 McGraw Hill's SAT Subject Test Physics
-
 mutual funds index funds
 linux rsync
-
 youku PC客户端架构
-
 determine video file resolution in linux
 http://www.thechessdrum.net/chessacademy/index.html
 http://www.thechessdrum.net/65thSquare/65_janfeb04.html
-
 tips to effective verbal communication pdf
-
 ＭＳ ゴシック
 html2pdf: file:///home/r/Downloads/reduceFromFunctionaltoCpp17FoldExpression/meetingcpp2016/meetingcpp16.slides.html
-
 node js網站架設
 automatically check for MEAN component update download install shell script
 linux shell script automatically update node.js mongodb express angular
@@ -1244,34 +882,25 @@ Creating and Deploying a Responsive Node.js web site using the MEAN stack to Mic
 create and deploy ecommerce website node.js
 Robotics with Node.js and Arduino
 node.js express stream npm redis @ using node.js for everything
-
 build and deploy NodeJS web app to AWS
 build and deploy responsive RESTful node js web app to AWS
 drive UAZ фургон
 npm install express --save
 SPA routing express jade
 send receive wechat message from node js app
-
 dl+ duplicate filter using built-in datastructure?
 linux shell data structure
 shell script single instance singleton contention
-
 comparative analysis of programming languages pdf
-
 mortgage loan formula
 徹底マスターJavaScriptの教科書
 build tool Gulp
-
 sudo systemctl start docker
 sudo systemctl enable docker
-
 sudo docker search IMAGE
 sudo docker search wordpress
-
 sudo docker run hello-world
-
 MW presales consultant
-
 https://www.youtube.com/watch?v=zp4EKdDZTiY
 Four step to host on bluemix:
 1. Create bluemix account 
@@ -1279,118 +908,70 @@ Four step to host on bluemix:
 3. Create manifest file
 4. Use cf push to host your project
 https://console.ng.bluemix.net/docs/starters/install_cli.html
-
 javascript: window.open('https://www.youtube.com/channel/UCJWCJCWOxBYSi5DhCieLOLQ'); void 0;
 What do you like about Japan?:relatively safe, convenient to commute, good accessibility to internet, mild weather
-
 java program performance tuning performance analysis
-
 win10 Pro 1703 15063 rs2 x64 activated TeamOS
 http://www.emtrek.org/
-
 The void removeIf(Collection<T> coll, Predicate<T> pred) described in the slides is not a real method.  It is a "method that the API designers could have created in JDK 7 and earlier and didn't because nobody would have used it".   The "real" method that was introduced in JDK 8 for collections is default boolean removeIf(Predicate<? super E> filter).  I've updated the slides with a warning that "this is not a real API" and change the name to something less similar to the new method added in JDK 8 to avoid this confusion next time we use this material. 
-
 Enterprise Service Bus
-
-ストアドプロシジャ
-
 Introduction to Algorithms is a book by Thomas H. Cormen, Charles E. Leiserson, Ronald L. ... Its fame has led to the common use of the abbreviation CLRS (Cormen, Leiserson, Rivest, Stein)
-
 c++ 14 binary search
-
 alias gcc gdb g++ javac java
-
 phone bookmark https://gist.github.com/TSiege/cbb0507082bb18ff7e4b
-
 https://www.youtube.com/results?search_query=Н.Нацагням
-
 ActiveX
 Flash ActiveX plugin
-
 papers on improve working memory
-
 https://www.google.com/webmasters/tools/removals?pli=1
-
 best knot to tie several objects together
-
 freelance software developer how to get first client
-
 Burning And Itching Eye Symptoms
-
 test driven development
 GTest
 git workflows
 what's gist
-
 KDB/Q+
 FIX protocol
 Front Office (Sales & Trading)
-
 best way to implement hash map in c++
-
 & and # in url
-
 VLC snapshot with filename and timecodes /$N-$T
-
 扶養控除申告書
-
 c++14 reverse linked list
-
 галсток
 палеток
 пелток
 плесток
-
 geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\x1>\0\0\0\x13\0\0\x3~\0\0\x2\x87\0\0\x1H\0\0\0@\0\0\x3t\0\0\x2}\0\0\0\0\0\0)
-
 linux python parse reply send email evolution mutt
 linux python parse imap email
-
 embedded linux c++14 Qt
-
 webhook
-
 http://suumo.jp/ python
-
 CP Server Line Inc.
-
 unicode code point \uXXXX hex
 c++14 c++17 print all unicode characters
-
 ✗ unicode value
-※
-
 nohup google-chrome-stable --ssl-version-min=tls1.1 https://www.youtube.com/watch\?v\=ENDaJi08jCU https://mail.google.com http://python-future.org/automatic_conversion.html &> /dev/null & disown
-
 bitflyer
-
 restful webservice AWS, Bluemix, Heroku access URL to invoke python program
-
 Polymorphism (duck-typing)
-
 python3 parse macro enabled excel .xlsm
-
 download file from codeproject without logging in
-
 selenium close ads banners turn off youtube autoplay
 https://github.com/line/line-bot-sdk-python
 + first tab
-
 fedora26 update system after dnfdragora
 fedora26 syslog
-
 joel github pull request
 troubleshoot debug fix persistent hang up unresponsive software
-
 excel sum(index(h$, match('val',g$)))
-
 systemctl --user list-timers -all
 journalctl -o verbose -u sysupdate.service
 journalctl -o verbose -u sysupdate.timer
-
 systemd service: Failed to determine supplementary groups: Operation not permitted
 sudo: effective uid is not 0, is /usr/bin/sudo on a file system with the 'nosuid' option set or an NFS file system without root privileges?
-
 -- The process /mnt/0/gthb/xrcs/sysupdate.sh could not be executed and failed.
 -- The error number returned by this process is 13.
 Sep 22 06:25:16 localhost.localdomain systemd[1]: sysupdate.service: Main process exited, code=exited, status=203/EXEC
@@ -1402,62 +983,44 @@ Sep 22 06:25:20 localhost.localdomain dbus-daemon[850]: [system] Successfully ac
 Sep 22 06:25:31 localhost.localdomain setroubleshoot[2779]: Plugin Exception catchall_labels
 Sep 22 06:25:31 localhost.localdomain setroubleshoot[2779]: SELinux is preventing (pdate.sh) from execute_no_trans access on the file /mnt/0/gthb/xrcs
 Sep 22 06:25:31 localhost.localdomain python3[2779]: SELinux is preventing (pdate.sh) from execute_no_trans access on the file /mnt/0/gthb/xrcs/sysupd
-
 *****  Plugin catchall (100. confidence) suggests   **************************
 If you believe that (pdate.sh) should be allowed execute_no_trans access on the sysupdate.sh file
 Then you should report this as a bug.
 You can generate a local policy module to allow this access.
 Do allow this access for now by executing: # ausearch -c '(pdate.sh)' --raw | audit2allow -M my-pdatesh
                                            # semodule -X 300 -i my-pdatesh.pp
-
 https://wiki.gentoo.org/wiki/SELinux/Tutorials/How_does_a_process_get_into_a_certain_context
-
 vim effective efficient abbreviations mappings dictionaries
-
 /var/log/audit/audit.log
 How can we ensure that permission of 640 is kept during log rotation of /var/log/audit/audit.log?
 https://access.redhat.com/solutions/905243
-
 linux AVC
-
 setfacl execute_no_trans access /mnt/0/gthb/xrcs/sysupdate.sh
 ls -lZ /mnt/0/gthb/xrcs/sysupdate.sh
-
 https://unix.stackexchange.com/questions/193687/how-do-i-troubleshoot-these-selinux-avc-errors
 run audit2why already on the audit lines? It describes the reason for SELinux denying the actions. In that case httpd wants to run ps but is not allowed to (I guess nagios is the initiator of that). Anyway, I do not think that is the reason for your troubles. What about resources (mem/io)?
-
 fedora26 auditd
 sealert -l 29fe5e08-ed51-4bda-9974-b6a6d2807af8
 setools-console-4.1.0-5.fc26.x86_64 Policy analysis command-line tools for SELinux
 sesearch -A -s pdate.sh -t /mnt/0/gthb/xrcs/sysupdate.sh -p execute
-
 c++1z high performance source code line counter
 differece of SVN branch and tag
 python3 encrypt password in config file
 top developer programmer at work
-
 how to manage difficult people
-
 https://audacity.wonderhowto.com/how-to/remove-noise-from-vinyl-transfer-mp3s-using-audacity-296687/
-
 linux most reliable way to check when system shutdown
-
 (echo $(date);wget -i url;utv;echo $(date)) 2> /mnt/0/workspace/dl.log ; s0 &
 find /mnt/0 ~ -xdev -type f -iname dllst -exec rm -f {} \;
-
 programming loop unroll
 optimized c++
 c++14 matrix multiplication
-
 conscientious: unicode symbol for elevator remember extrance/exit direction left or right?
 which foot touched ground first everyday when you wake up?
-
 webシステムオンライン閉塞
 課題
 排他
-
 http port 81 8080
-
 compensation & benefits:
 Company stocks
 More vacation leave
@@ -1473,40 +1036,26 @@ Training certifications
 Child care
 Gym memberships
 Expense account
-
 http://www.salary.com/get-salary-increase-with-1-email/slide/5/
 How many vacation and sick days would I be eligible for?
 Are they separate or on one pool?
-
 Thank you for getting in touch! I’m very excited for the opportunity to work at [Company Name] as [a/an/the] [Position Title].
-
 With my [2–3 qualifications/skills or summary of major past achievements], I am certain that I will achieve great results for [Company Name]. Before I sign the offer, however, I would like to discuss base salary. According to my research, the average salary for comparable positions in the [work location] area is in the [average salary] range. I would like to discuss the possibility of moving the offer closer to [proposed salary].
-
 Again, I am thrilled to have been offered this position. I look forward to speaking with you again soon.
 Sincerely,
-
 Doxygen -->> DoxyPress
-
 senior c++ developer
 How close do you think we can get?
 http://www.careercast.com/career-news/how-to-answer-how-much-money-do-you-want
-
 py c++14/17 http://users.cs.fiu.edu/~weiss/
-
 华为 腾讯 阿里巴巴 百度 c++笔试题
-
 excel count number of japanese characters
-
 GCP free VM
 google cloud
-
 shell single instance invocation
 shell script remove duplicate inputs from stdin
 https://stackoverflow.com/questions/11532157/unix-removing-duplicate-lines-without-sorting
-
 python selenium programmatically click close button of ads banners
-
 subscribe Petr Mitrichev, hackerrank, Topcoder
-
 wget log
-
+Schwartzian transform c++14 c++17
