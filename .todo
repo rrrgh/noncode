@@ -1055,4 +1055,4 @@ wget log
 Schwartzian transform c++14 c++17
 0/1 Knapsack problem
 c++1z mutable
-c++1z formal argument sanitizations
+c++1z input sanitizations
