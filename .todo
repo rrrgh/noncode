@@ -1056,3 +1056,13 @@ Schwartzian transform c++14 c++17
 0/1 Knapsack problem
 c++1z mutable
 c++1z input sanitizations
+c++ macro: known a,b but #define makro t=a,a=b,b=t ?
+c++ web scrape
+c++ web scrape code complete, clean code new versions
+7z source code
+std::swap implementation details
+c++14 c++17 mortgage formula
+c++14 c++17 calculus integral
+windows SEH structured exception handling
+sysinternals source code
+c++17 code to cp *pdf from cppcon2017 dir to /tmp
