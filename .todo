@@ -1017,7 +1017,6 @@ With my [2–3 qualifications/skills or summary of major past achievements], I a
 Again, I am thrilled to have been offered this position. I look forward to speaking with you again soon.
 Sincerely,
 Doxygen -->> DoxyPress
-senior c++ developer
 How close do you think we can get?
 http://www.careercast.com/career-news/how-to-answer-how-much-money-do-you-want
 py c++14/17 http://users.cs.fiu.edu/~weiss/
@@ -1028,16 +1027,15 @@ wget log
 Schwartzian transform c++14 c++17
 0/1 Knapsack problem
 c++1z mutable
-c++1z input sanitizations
 c++ macro: known a,b but #define makro t=a,a=b,b=t ?
 c++ web scrape
 c++ web scrape code complete, clean code new versions
-7z source code
 std::swap implementation details
 c++14 c++17 mortgage formula
 c++14 c++17 calculus integral
 windows SEH structured exception handling
 sysinternals source code
+7z source code
 c++17 code to cp *pdf from cppcon2017 dir to /tmp
 sew coin pouch
 latex traditional vertical mongolian
@@ -1049,3 +1047,4 @@ Clean C++: Sustainable Software Development Patterns and Best Practices with C++
 win10 with win7 mode optimized ru cn jp iso
 sudoku books pdf
 c++ socket faster than that of Python and Java?
+c++1z input sanitizations:⓪ trim \s at both ends ① filter out duplicate entries; Boost::Asio socket programming; create and edit excel; csv; 
