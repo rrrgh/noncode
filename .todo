@@ -1050,3 +1050,4 @@ c++ socket faster than that of Python and Java?
 c++1z input sanitizations:⓪ trim \s at both ends ① filter out duplicate entries; Boost::Asio socket programming; create and edit excel; csv; 
 tips tricks for saving water fee
 Setup C++ Development Environment In Fedora27
+Do shell loop variables(indexes) need to be declared local?
