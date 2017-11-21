@@ -1051,3 +1051,5 @@ c++1z input sanitizations:⓪ trim \s at both ends ① filter out duplicate entr
 tips tricks for saving water fee
 Setup C++ Development Environment In Fedora27
 Do shell loop variables(indexes) need to be declared local?
+linux sort and keep a unique duplicate which has the highest value
+remove duplicates preserve order but keeping only the last occurrence in linux file
