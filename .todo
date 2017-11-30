@@ -14,7 +14,6 @@ ls
 rm example.apk
 mount -o remount,ro -t yaffs2 /dev/block/mtdblock3 /system
 exit
-
 Pattern-Oriented Software Architectures: Programming Mobile Services for Android Handheld Systems Course
 Concurrent Java Network Programming in Android
 git repo with various exercises
@@ -34,7 +33,6 @@ https://www.youtube.com/watch?v=Xb9kjoW1Gas
 Hacking With Python #8 - Basic SSH botNet
 higher-order function Scala
 tail recursion
-
 m-w.com:
 aftermarket
 recap
@@ -46,7 +44,6 @@ frivolous
 prosaic
 brain-trust
 corollary
-
 best way to validate large prime number
 android bkmrk:
 http://getbusylivingblog.com/gbl-028-lessons-from-earning-100k-in-profit-in-five-months/
@@ -57,7 +54,6 @@ https://class.coursera.org/reactive-001/lecture (Principles of Reactive Programm
 http://www.hackintel.com/2014/10/malware-transmitting-data-by-radio-signals.html
 http://blog.biicode.com/software-design-proposal/
 rHM26ODThnU  EMP, read comment!
-
 Ground Fault Interrupters
 https://www.youtube.com/watch?v=NOCElcMcFik
 best sorting algorithm
@@ -157,7 +153,6 @@ http://www.watchpeoplecode.com/
 Хүүхдийг багаас нь хөгжүүлье
 Ураг төрлөө нэрлэх ёс 
 http://xvvxed.blogspot.dk/2011/10/blog-post.html
-
 #mgl
 C++1z/Assembly program parse process print unicode mongol bichig
 What are fonts?
@@ -320,12 +315,10 @@ JavaScript IDE
 feeling of bugs or small insects crawling on skin
 Javascript Combinator
 Superlearner Myth: The Organic, Long-Term Approach to Effective Learning | Angelos Georgakis
-
 外　装／コンクリート打ち放し
 内　装／床フローリング　　　　　壁一部コンクリート打ち放し
 設　備／エレベーター・宅配ボックス　　　　　TVモニター付オートロック　　　　　防犯カメラ・冷暖房　　　　　浴室乾燥機・室内洗濯機置場　　　　　CATV(みなとケーブルTV・要別途契約)　　　　　BS(CATV経由・要別途契約)　　　　　CS(スカイTV・要別途契約)　　　　　床暖房＆床下収納(101・102のみ)
 賃貸条件／敷金　　　2ヶ月 礼金　　　0ヶ月 更新料　　新賃料の1ヶ月分　　　　　契約期間　2年間
-
 website(server) > WeChat/Line/Email/SMS message
 Kaboom lets you send self-destructing messages to social networks
 send message from website to social network apps
@@ -487,10 +480,8 @@ https://www.youtube.com/watch?v=2R-qmsvtSaQ
 俄罗斯精简Win10
 Windows 10 professional x64 SP1 ru en zh-cn optimized activated iso lopatkin
 Windows 10 сборки
-
 Eyeglasses Prescription
 OS(ocular sinistra) L OD(dextra) R
-
 c++ directx game development
 c++ design pattern because c++
 c++ Fastest way of parsing a log file of huge size > 2gb
@@ -499,10 +490,8 @@ http://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=大手町（東京）&eki2=�
 http://www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=地下鉄成増&eki2=神保町&eki3=新宿三丁目&via_on=1
 www.jorudan.co.jp/norikae/cgi/nori.cgi?eki1=成増&eki2=上板橋&eki3=&via_on=1&Dym=201609&Ddd=18&Dhh=7&Dmn1=4
 ffmpeg remove instrument sound but human sound
-
 increase bone density
 increase bone marrow density
-
 Microcontroller Engine Control Unit (ECU)
 GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
 #kali
@@ -1013,10 +1002,10 @@ Setup C++ Development Environment In Fedora27
 Do shell loop variables(indexes) need to be declared local?
 linux sort and keep a unique duplicate which has the highest value
 remove duplicates preserve order but keeping only the last occurrence in linux file
-
 #learn
 DIY selfie stick
 DSLR tutorial
 DSLR explained
 DSLR theory and practice
-
+swift 4 REPL fedora
+best free app to learn Russian
