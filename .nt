@@ -709,6 +709,7 @@ https://github.com/rg3/youtube-dl/blob/master/README.md#readme
 
 EPUB, AZW3, PDF (true), PDF (conv)
 
+Memory maps, handling interrupts, Nested Vector interrupt controller(NVIC), Writing IRQ handlers, handling system exceptions
 
 «end of EECS ICT»
 
