@@ -714,6 +714,9 @@ EPUB, AZW3, PDF (true), PDF (conv)
 
 Memory maps, handling interrupts, Nested Vector interrupt controller(NVIC), Writing IRQ handlers, handling system exceptions
 
+C++:
+GUI multiple selection and disjoint selection: STL rotate() and stable_partition() (Going Native 2013: C++ Seasoning)
+
 «end of EECS ICT»
 
 name idea:
