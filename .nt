@@ -4175,6 +4175,8 @@ Black's pieces are placed equal-and-opposite to White's pieces. For example, if 
 Each bishop can take one of four positions; for each position of two bishops, the queen can be placed on six different squares; and then the two knights can assume five or four possible positions, respectively. This leaves three open squares which the king and rooks must occupy per setup stipulations, without choice. This means there are 4×4×6×5×4 = 1920 possible starting positions if the two knights were different in some way. The two knights are indistinguishable during play (if swapped, there would be no difference), however, so the number of distinguishable possible positions is half of 1920, or 1920÷2 = 960. (Half of the 960 positions are left–right mirror images of the other half; however, Chess960 castling rules preserve left–right asymmetry in play.)
 https://en.wikipedia.org/wiki/Chess960
 
+2,3,4,6-player circular chess
+
 «end of chess»
 
 Thoughts:
